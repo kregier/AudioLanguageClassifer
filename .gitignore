@@ -1,0 +1,28 @@
+# Core latex auxiliary files
+*.aux
+*.log
+*.synctex.gz
+
+# Beamer aux files
+*.nav
+*.out
+*.snm
+*.toc
+
+# Other latex file types
+*.fls
+*.lof
+*.lot
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.lb
+*.synctex
+*.pdfsync
+*.pre
+*.vrb
+
+# Ignore jupyter notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
