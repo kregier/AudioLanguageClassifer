@@ -26,3 +26,7 @@
 # Ignore jupyter notebook checkpoints
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+
+# ignore .py~ files
+*.py~
+*.py.un~
