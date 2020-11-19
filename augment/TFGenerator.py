@@ -1,5 +1,21 @@
 # Create a tensorflow dataset generator
 # Adapted from https://biswajitsahoo1111.github.io/post/efficiently-reading-multiple-files-in-tensorflow-2/
+import numpy as np
+import librosa
+import re
+import tensorflow as tf
+import tensorflow_hub as hub
+
+from keras.layers import Dense
+from keras.models import Sequential
+
+# Load VGGish model
+# Link to the model on TFHub
+hub_url = 'https://tfhub.dev/google/vggish/1'
+
+# Load the model as a Keras model
+vggish_model = hub.KerasLayer(hub_url)
+vggish_model.trainable = False
 
 def tf_data_generator(file_list, batch_size=32):
     """ Create a dataset generator. 
@@ -11,6 +27,7 @@ def tf_data_generator(file_list, batch_size=32):
 
     Arguments:
     file_list - list of filenames to iterate
+    vggish_model  - pass the instantiated model to the function
     batch_size - how many files to process at a time
     """
     i = 0
@@ -38,8 +55,8 @@ def tf_data_generator(file_list, batch_size=32):
                     if re.match(pattern.numpy(), label_classes[j].numpy()):
                         labels.append(j)
 
-      data = np.asarray(data)
-      labels = np.asarray(labels)
+            data = np.asarray(data)
+            labels = np.asarray(labels)
 
-      yield data, labels
-      i += 1
+            yield data, labels
+            i += 1
