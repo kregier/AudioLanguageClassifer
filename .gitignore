@@ -30,3 +30,4 @@
 # ignore .py~ files
 *.py~
 *.py.un~
+.*~
