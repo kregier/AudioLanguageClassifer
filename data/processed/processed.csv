@@ -1,0 +1,2135 @@
+speakerid,age,age_onset,birthplace,filename,native_language,sex,country,file_missing?
+1,27.0,9.0,"virginia, south africa",afrikaans1,afrikaans,female,south africa,False
+2,40.0,5.0,"pretoria, south africa",afrikaans2,afrikaans,male,south africa,False
+3,25.0,15.0,"diekabo, ivory coast",agni1,agni,male,ivory coast,False
+4,19.0,6.0,"prishtina, kosovo",albanian1,albanian,male,kosovo,False
+5,33.0,15.0,"tirana, albania",albanian2,albanian,male,albania,False
+6,20.0,5.0,"addis ababa, ethiopia",amharic1,amharic,female,ethiopia,False
+7,23.0,7.0,"arba minch, ethiopia",amharic2,amharic,male,ethiopia,False
+8,27.0,8.0,"addis ababa, ethiopia",amharic3,amharic,male,ethiopia,False
+9,20.0,7.0,"addis ababa, ethiopia",amharic4,amharic,male,ethiopia,False
+10,31.0,7.0,"addis ababa, ethiopia",amharic5,amharic,male,ethiopia,False
+11,38.0,12.0,"riyadh, saudi arabia",arabic1,arabic,female,saudi arabia,False
+12,26.0,5.0,"cairo, egypt",arabic10,arabic,male,egypt,False
+13,30.0,14.0,"monastir, tunisia",arabic11,arabic,female,tunisia,False
+14,32.0,11.0,"baghdad, iraq",arabic12,arabic,male,iraq,False
+15,25.0,15.0,"zabbougha, lebanon",arabic13,arabic,male,lebanon,False
+16,18.0,2.5,"damascus, syria",arabic2,arabic,male,syria,False
+17,24.0,9.0,"doha, qatar",arabic3,arabic,male,qatar,False
+18,19.0,6.0,"sharjah, united arab emirates",arabic4,arabic,male,united arab emirates,False
+19,19.0,15.0,"casablanca, morocco",arabic5,arabic,female,morocco,False
+20,21.0,14.5,"sanaa, yemen",arabic6,arabic,male,yemen,False
+21,18.0,15.0,"casablanca, morocco",arabic7,arabic,female,morocco,False
+22,21.0,17.0,"casablanca, morocco",arabic8,arabic,male,morocco,False
+23,28.0,4.0,"jerusalem, israel",arabic9,arabic,female,israel,False
+24,19.0,9.0,"yerevan, armenia",armenian1,armenian,female,armenia,False
+25,24.0,14.0,"naxcivan, azerbaijan",azerbaijani1,azerbaijani,male,azerbaijan,False
+26,40.0,30.0,"douala, cameroon",bafang1,bafang,male,cameroon,False
+27,31.0,29.0,"conakry, guinea",baga1,baga,male,guinea,False
+28,43.0,40.0,"jianchuan, yunnan, china",bai1,bai,female,china,False
+29,15.5,12.0,"bamako, mali",bambara1,bambara,female,mali,False
+30,26.0,18.0,"bamako, mali",bambara2,bambara,female,mali,False
+31,31.0,15.0,"foumban, cameroon",bamun1,bamun,female,cameroon,False
+32,69.0,34.0,"vizcaya, spain",basque1,basque,female,spain,False
+33,50.0,19.0,"guernica, spain",basque2,basque,male,spain,False
+34,23.0,16.0,"dhaka, bangladesh",bengali1,bengali,male,bangladesh,False
+35,25.0,2.0,"lusaka, zambia",bengali2,bengali,female,zambia,False
+36,19.0,5.0,"dhaka, bangladesh",bengali3,bengali,female,bangladesh,False
+37,24.0,6.0,"chittagong, bangladesh",bengali4,bengali,male,bangladesh,False
+38,39.0,37.0,"doboj, bosnia and herzegovina",bosnian1,bosnian,male,bosnia and herzegovina,False
+39,21.0,10.0,"sarajevo, bosnia and herzegovina",bosnian2,bosnian,male,bosnia and herzegovina,False
+40,25.0,16.0,"plovdiv, bulgaria",bulgarian1,bulgarian,female,bulgaria,False
+41,53.0,42.0,"sofia, bulgaria",bulgarian2,bulgarian,female,bulgaria,False
+42,27.0,10.0,"sofia, bulgaria",bulgarian3,bulgarian,male,bulgaria,False
+43,22.0,20.0,"plovdiv, bulgaria",bulgarian4,bulgarian,male,bulgaria,False
+44,23.0,14.0,"sofia, bulgaria",bulgarian5,bulgarian,male,bulgaria,False
+45,22.0,12.0,"hong kong, china",cantonese1,cantonese,female,china,False
+46,20.0,13.0,"hong kong, china",cantonese2,cantonese,male,china,False
+47,22.0,6.0,"hong kong, china",cantonese3,cantonese,male,china,False
+48,29.0,13.0,"fuzhou, fujian, china",cantonese4,cantonese,female,china,False
+49,18.0,14.0,"hong kong, china",cantonese5,cantonese,male,china,False
+50,32.0,6.0,"saipan, saipan, northern mariana islands",carolinian1,carolinian,female,northern mariana islands,False
+51,39.0,13.0,"tarragona, spain",catalan1,catalan,male,spain,False
+52,18.0,1.0,"saipan, saipan, northern mariana islands",chamorro1,chamorro,male,northern mariana islands,False
+53,27.0,10.5,"prague, czech republic",czech1,czech,female,czech republic,False
+54,45.0,11.0,"horsens, denmark",danish1,danish,female,denmark,False
+55,37.0,8.0,"haslev, denmark",danish2,danish,female,denmark,False
+56,25.0,13.0,"kabul, zoroastrian, afghanistan",dari1,dari,female,afghanistan,False
+57,38.0,13.0,"nijmegen, netherlands",dutch1,dutch,male,netherlands,False
+58,41.0,14.0,"amsterdam, netherlands",dutch2,dutch,male,netherlands,False
+59,35.0,3.0,"okene, nigeria",ebira1,ebira,male,nigeria,False
+60,25.0,6.0,"benin city, nigeria",edo1,edo,male,nigeria,False
+61,42.0,0.0,"pittsburgh, pennsylvania, usa",english1,english,male,usa,False
+62,35.0,0.0,"davenport, iowa, usa",english10,english,female,usa,False
+63,23.0,0.0,"miami, florida, usa",english100,english,female,usa,False
+64,18.0,0.0,"toronto, ontario, canada",english101,english,female,canada,False
+65,22.0,0.0,"torrington, connecticut, usa",english102,english,male,usa,False
+66,21.0,0.0,"staten island, new york, usa",english103,english,male,usa,False
+67,18.0,0.0,"youngstown, ohio, usa",english104,english,female,usa,False
+68,35.0,0.0,"staffordshire, uk",english11,english,female,uk,False
+69,71.0,0.0,"leicester, uk",english12,english,female,uk,False
+70,69.0,0.0,"henley on thames, oxfordshire, uk",english13,english,male,uk,False
+71,40.0,0.0,"belfast, northern ireland, uk",english14,english,male,uk,False
+72,7.0,0.0,"norton, virginia, usa",english15,english,female,usa,False
+73,21.0,0.0,"wise, virginia, usa",english16,english,male,usa,False
+74,79.0,0.0,"darwin va, virginia, usa",english17,english,male,usa,False
+75,39.0,0.0,"dickenson county, virginia, usa",english18,english,female,usa,False
+76,53.0,0.0,"louisville, kentucky, usa",english19,english,male,usa,False
+77,30.0,0.0,"birmingham, uk",english2,english,female,uk,False
+78,27.0,0.0,"mt. holly, north carolina, usa",english20,english,female,usa,False
+79,37.0,0.0,"boston, massachusetts, usa",english21,english,female,usa,False
+80,25.0,0.0,"panama city, panama",english22,english,female,panama,False
+81,43.0,0.0,"englewood, tennessee, usa",english23,english,male,usa,False
+82,37.0,0.0,"glasgow, scotland, uk",english24,english,male,uk,False
+83,57.0,0.0,"atlanta, georgia, usa",english25,english,male,usa,False
+84,71.0,0.0,"smith island, maryland, usa",english26,english,male,usa,False
+85,37.0,0.0,"smith island, maryland, usa",english27,english,female,usa,False
+86,54.0,0.0,"toronto, ontario, canada",english28,english,male,canada,False
+87,54.0,0.0,"lindsay, ontario, canada",english29,english,female,canada,False
+88,26.0,0.0,"brisbane, australia",english3,english,female,australia,False
+89,30.0,0.0,"st. mary's, ontario, canada",english30,english,female,canada,False
+90,31.0,0.0,"st. augustine, trinidad",english31,english,female,trinidad,False
+91,50.0,0.0,"fresno, california, usa",english32,english,female,usa,False
+92,21.0,0.0,"san diego, california, usa",english33,english,male,usa,False
+93,18.0,0.0,"ronkonkoma, new york, usa",english34,english,female,usa,False
+94,60.0,0.0,"milwaukee, wisconsin, usa",english35,english,female,usa,False
+95,60.0,0.0,"arcadia, wisconsin, usa",english36,english,male,usa,False
+96,28.0,0.0,"yole, india",english37,english,female,india,False
+97,27.0,0.0,"littlehampton, uk",english38,english,male,uk,False
+98,59.0,0.0,"new orleans, louisiana, usa",english39,english,female,usa,False
+99,53.0,0.0,"saint anne's bay, jamaica",english4,english,female,jamaica,False
+100,53.0,0.0,"dudley, uk",english40,english,male,uk,False
+101,44.0,0.0,"wellington, new zealand",english41,english,male,new zealand,False
+102,65.0,0.0,"nigel, south africa",english42,english,male,south africa,False
+103,47.0,0.0,"vancouver, british columbia, canada",english43,english,male,canada,False
+104,63.0,0.0,"winston salem, north carolina, usa",english44,english,female,usa,False
+105,52.0,0.0,"pine bluff, arkansas, usa",english45,english,male,usa,False
+106,73.0,0.0,"creswell, north carolina, usa",english46,english,male,usa,False
+107,76.0,0.0,"plantersville, arkansas, usa",english47,english,female,usa,False
+108,26.0,0.0,"port moresby, national capital district, papua new guinea",english48,english,male,papua new guinea,False
+109,43.0,0.0,"castro valley, california, usa",english49,english,male,usa,False
+110,62.0,0.0,"fairfax, virginia, usa",english5,english,male,usa,False
+111,29.0,0.0,"baltic, south dakota, usa",english50,english,female,usa,False
+112,67.0,0.0,"detroit, michigan, usa",english51,english,male,usa,False
+113,20.0,0.0,"calgary, alberta, canada",english52,english,male,canada,False
+114,63.0,0.0,"syracuse, new york, usa",english53,english,male,usa,False
+115,40.0,0.0,"new albany, indiana, usa",english54,english,female,usa,False
+116,53.0,0.0,"st. louis, missouri, usa",english55,english,female,usa,False
+117,20.0,0.0,"londonderry, northern ireland, uk",english56,english,male,uk,False
+118,34.0,0.0,"birmingham 1, uk",english57,english,male,uk,False
+119,46.0,0.0,"southhampton, uk",english58,english,female,uk,False
+120,30.0,0.0,"columbus, ohio, usa",english59,english,male,usa,False
+121,45.0,0.0,"brooklyn, new york, usa",english6,english,female,usa,False
+122,18.0,0.0,"chesapeake, virginia, usa",english60,english,male,usa,False
+123,19.0,0.0,"toronto, ontario, canada",english61,english,male,canada,False
+124,30.0,0.0,"west jordan, utah, usa",english62,english,male,usa,False
+125,21.0,0.0,"lewisville, texas, usa",english63,english,male,usa,False
+126,25.0,0.0,"montreal, quebec, canada",english64,english,female,canada,False
+127,47.0,0.0,"lewistown, pennsylvania, usa",english65,english,male,usa,False
+128,19.0,0.0,"baltimore, maryland, usa",english66,english,male,usa,False
+129,37.0,0.0,"princeton, indiana, usa",english67,english,male,usa,False
+130,52.0,0.0,"new york, new york, usa",english68,english,male,usa,False
+131,23.0,0.0,"adelaide, australia",english69,english,male,australia,False
+132,52.0,0.0,"macon, mississippi, usa",english7,english,male,usa,False
+133,21.0,0.0,"beaumont, texas, usa",english70,english,male,usa,False
+134,20.0,0.0,"west covina, california, usa",english71,english,male,usa,False
+135,31.0,0.0,"kilkenny, ireland",english72,english,male,ireland,False
+136,24.0,0.0,"darwin, australia",english73,english,male,australia,False
+137,21.0,0.0,"wichita, kansas, usa",english74,english,male,usa,False
+138,32.0,0.0,"idaho falls, idaho, usa",english75,english,male,usa,False
+139,18.0,0.0,"boston, massachusetts, usa",english76,english,female,usa,False
+140,26.0,0.0,"melbourne, australia",english77,english,male,australia,False
+141,20.0,0.0,"caribou, maine, usa",english78,english,female,usa,False
+142,73.0,0.0,"boston, massachusetts, usa",english79,english,male,usa,False
+143,21.0,0.0,"perth, australia",english8,english,female,australia,False
+144,34.0,0.0,"glasgow, scotland, uk",english80,english,male,uk,False
+145,30.0,0.0,"st. paul, minnesota, usa",english81,english,male,usa,False
+146,50.0,0.0,"chicago, illinois, usa",english82,english,female,usa,False
+147,42.0,0.0,"winnfield, louisiana, usa",english83,english,female,usa,False
+148,45.0,0.0,"sydney, australia",english84,english,male,australia,False
+149,31.0,0.0,"strabane, northern ireland, uk",english85,english,male,uk,False
+150,50.0,0.0,"charleston, south carolina, usa",english86,english,male,usa,False
+151,18.0,0.0,"tamworth, australia",english87,english,female,australia,False
+152,18.0,0.0,"grand rapids, michigan, usa",english88,english,male,usa,False
+153,18.0,0.0,"kingston ma, massachusetts, usa",english89,english,male,usa,False
+154,48.0,0.0,"carthage, texas, usa",english9,english,female,usa,False
+155,53.0,0.0,"pittsburgh, pennsylvania, usa",english90,english,male,usa,False
+156,23.0,0.0,"kingston, jamaica",english91,english,male,jamaica,False
+157,22.0,0.0,"wisconsin rapids, wisconsin, usa",english92,english,female,usa,False
+158,22.0,0.0,"mamou, louisiana, usa",english93,english,female,usa,False
+159,55.0,0.0,"pensacola, florida, usa",english94,english,female,usa,False
+160,18.0,0.0,"mishawaka, indiana, usa",english95,english,male,usa,False
+161,31.0,0.0,"point pleasant, new jersey, usa",english96,english,male,usa,False
+162,42.0,0.0,"wilmington nc, north carolina, usa",english97,english,male,usa,False
+163,22.0,0.0,"spokane, washington, usa",english98,english,male,usa,False
+164,52.0,0.0,"pittsburgh, pennsylvania, usa",english99,english,female,usa,False
+165,25.0,9.0,"accra, ghana",ewe1,ewe,male,ghana,False
+166,20.0,11.0,"malabo, equatorial guinea",fang1,fang,female,equatorial guinea,False
+167,32.0,6.0,"ajumako, ghana",fanti1,fanti,male,ghana,False
+168,22.0,13.0,"tehran, iran",farsi1,farsi,male,iran,False
+169,34.0,18.0,"esfahan, iran",farsi2,farsi,female,iran,False
+170,28.0,14.0,"esfahan, iran",farsi3,farsi,female,iran,False
+171,21.0,15.0,"mazandran, iran",farsi4,farsi,female,iran,False
+172,43.0,14.0,"tehran, iran",farsi5,farsi,male,iran,False
+173,27.0,9.0,"tehran, iran",farsi6,farsi,male,iran,False
+174,29.0,11.0,"tehran, iran",farsi7,farsi,male,iran,False
+175,29.0,11.0,"tehran, iran",farsi8,farsi,female,iran,False
+176,39.0,12.0,"tehran, iran",farsi9,farsi,male,iran,False
+177,22.0,9.0,"lahti, finland",finnish1,finnish,female,finland,False
+178,20.0,7.0,"helsinki, finland",finnish2,finnish,male,finland,False
+179,20.0,12.0,"st. laurent d'onay, france",french1,french,female,france,False
+180,19.0,14.0,"tunis, tunisia",french2,french,male,tunisia,False
+181,22.0,11.0,"nice, france",french3,french,female,france,False
+182,31.0,14.0,"abidjan, ivory coast",french4,french,female,ivory coast,False
+183,36.0,11.0,"douala, cameroon",french5,french,female,cameroon,False
+184,26.0,13.0,"booue, gabon",french6,french,female,gabon,False
+185,18.0,5.0,"rimouski, quebec, canada",french7,french,male,canada,False
+186,66.0,16.0,"ghent, belgium",french8,french,male,belgium,False
+187,62.0,13.0,"akkrum, friesland, netherlands",frisian1,frisian,male,netherlands,False
+188,30.0,28.0,"tbilisi, republic of georgia",georgian1,georgian,female,republic of georgia,False
+189,48.0,12.0,"dusseldorf, germany",german1,german,female,germany,False
+190,29.0,12.0,"bemberg, germany",german2,german,female,germany,False
+191,19.0,12.0,"meissen, germany",german3,german,female,germany,False
+192,19.0,11.0,"stuttgart, germany",german4,german,female,germany,False
+193,47.0,12.0,"halle, germany",german5,german,male,germany,False
+194,28.0,8.0,"vienna, austria",german6,german,male,austria,False
+195,19.0,9.0,"athens, greece",greek1,greek,male,greece,False
+196,26.0,9.0,"athens, greece",greek2,greek,female,greece,False
+197,37.0,15.0,"karprenici, greece",greek3,greek,female,greece,False
+198,20.0,15.0,"ahmedabad, india",gujarati1,gujarati,male,india,False
+199,22.0,8.0,"bombay, india",gujarati2,gujarati,male,india,False
+200,28.0,2.0,"limerick, ireland",gujarati3,gujarati,female,ireland,False
+201,44.0,12.0,"nairobi, kenya",gusii1,gusii,male,kenya,False
+202,23.0,10.0,"yehud, israel",hebrew1,hebrew,male,israel,False
+203,24.0,10.0,"jerusalem, israel",hebrew2,hebrew,male,israel,False
+204,33.0,8.0,"haifa, israel",hebrew3,hebrew,male,israel,False
+205,20.0,9.0,"haifa, israel",hebrew4,hebrew,female,israel,False
+206,23.0,10.0,"netanya, israel",hebrew5,hebrew,male,israel,False
+207,27.0,2.0,"nagpur, maharashtra, india",hindi1,hindi,male,india,False
+208,50.0,14.0,"taipei, taiwan",xiang1,xiang,female,taiwan,False
+209,22.5,20.0,"cegled, hungary",hungarian1,hungarian,female,hungary,False
+210,22.0,8.0,"clug, romania",hungarian2,hungarian,female,romania,False
+211,34.0,8.0,"brasov, romania",hungarian3,hungarian,male,romania,False
+212,23.0,12.0,"imo state, imo state, nigeria",igbo1,igbo,female,nigeria,False
+213,31.0,13.0,"jakarta, indonesia",indonesian1,indonesian,male,indonesia,False
+214,18.0,13.0,"jakarta, indonesia",indonesian2,indonesian,male,indonesia,False
+215,32.0,13.0,"jakarta, indonesia",indonesian3,indonesian,female,indonesia,False
+216,30.0,10.0,"jakarta, indonesia",indonesian4,indonesian,female,indonesia,False
+217,29.0,22.0,"carbonia, italy",italian1,italian,female,italy,False
+218,46.0,18.0,"caltanissetta, sicily, italy",italian2,italian,male,italy,False
+219,55.0,21.0,"florence, italy",italian3,italian,male,italy,False
+220,47.0,11.0,"cremona, italy",italian4,italian,female,italy,False
+221,25.0,12.0,"tokyo, japan",japanese1,japanese,female,japan,False
+222,27.0,12.0,"tokyo, japan",japanese2,japanese,female,japan,False
+223,49.0,12.0,"kofu, yamanashi prefecture, japan",japanese3,japanese,female,japan,False
+224,20.0,15.0,"tokyo, japan",japanese4,japanese,male,japan,False
+225,25.0,12.0,"chiba, japan",japanese5,japanese,female,japan,False
+226,30.0,10.0,"kawasaki, japan",japanese6,japanese,female,japan,False
+227,18.0,12.0,"osaka, japan",japanese7,japanese,male,japan,False
+228,26.0,5.0,"bangalore, india",kannada1,kannada,female,india,False
+229,18.0,9.0,"semey, kazakhstan",kazakh1,kazakh,male,kazakhstan,False
+230,21.0,16.0,"phnom penh, cambodia",khmer1,khmer,female,cambodia,False
+231,19.0,16.0,"phnom penh, cambodia",khmer2,khmer,male,cambodia,False
+232,46.0,25.0,"baling, kampongthum, cambodia",khmer3,khmer,male,cambodia,False
+233,32.0,28.0,"bishkek, kyrgyzstan",kirghiz1,kirghiz,female,kyrgyzstan,False
+234,22.0,6.0,"dar-es-salaam, tanzania",kiswahili1,kiswahili,male,tanzania,False
+235,28.0,16.0,"kigoma, tanzania",kiswahili2,kiswahili,male,tanzania,False
+236,29.0,6.0,"nairobi, kenya",kiswahili3,kiswahili,male,kenya,False
+237,36.0,34.0,"goma, north kivu, democratic republic of congo",kiswahili4,kiswahili,male,democratic republic of congo,False
+238,29.0,13.0,"ui jong bu, south korea",korean1,korean,male,south korea,False
+239,23.0,14.0,"taegu, south korea",korean2,korean,female,south korea,False
+240,19.0,17.0,"seoul, south korea",korean3,korean,female,south korea,False
+241,29.0,15.0,"seoul, south korea",korean4,korean,female,south korea,False
+242,50.0,12.0,"seoul, south korea",korean5,korean,female,south korea,False
+243,21.0,12.0,"sunchun, south korea",korean6,korean,female,south korea,False
+244,32.0,10.0,"seoul, south korea",korean7,korean,male,south korea,False
+245,46.0,5.0,"freetown, sierra leone",krio1,krio,female,sierra leone,False
+246,24.0,15.0,"arbil, iraq",kurdish1,kurdish,male,iraq,False
+247,30.0,13.0,"leworook, nusa tenggara, indonesia",lamaholot1,lamaholot,male,indonesia,False
+248,19.0,12.0,"savannakhet, laos",lao1,lao,female,laos,False
+249,25.0,21.0,"vientiane, laos, ",lao2,lao,female,laos,False
+250,24.0,13.0,"riga, latvia",latvian1,latvian,female,latvia,False
+251,27.0,24.0,"klaipeda, lithuania",lithuanian1,lithuanian,female,lithuania,False
+252,42.0,12.0,"siaya, kenya",luo1,luo,male,kenya,False
+253,19.0,11.0,"ohrid, macedonia",macedonian1,macedonian,male,macedonia,False
+254,28.0,3.0,"kuala lumpur, malaysia",malay1,malay,female,malaysia,False
+255,24.0,5.0,"kerala state, kerala state, india",malayalam1,malayalam,male,india,False
+256,26.0,13.0,"shanxi province, shanxi, china",mandarin1,mandarin,female,china,False
+257,38.0,14.0,"nanjing, china",mandarin2,mandarin,female,china,False
+258,43.0,10.0,"jilin city, jilin, china",mandarin3,mandarin,male,china,False
+259,24.0,6.0,"shanghai, china",mandarin4,mandarin,female,china,False
+260,31.0,12.0,"beijing, china",mandarin5,mandarin,female,china,False
+261,28.0,12.0,"le shan, sichuan, china",mandarin6,mandarin,female,china,False
+262,22.0,5.0,"berkeley, california, usa",mandarin7,mandarin,male,usa,False
+263,36.0,9.0,"freetown, sierra leone",mandingo1,mandingo,male,sierra leone,False
+264,21.0,3.0,"bombay, india",marathi1,marathi,female,india,False
+265,28.0,10.0,"madras, india",marathi2,marathi,male,india,False
+266,21.0,5.0,"port louis, mauritius",mauritian1,mauritian,male,mauritius,False
+267,18.0,15.0,"ulaanbaatar, mongolia",mongolian1,mongolian,female,mongolia,False
+268,22.0,17.0,"ulaanbaatar, mongolia",mongolian2,mongolian,male,mongolia,False
+269,29.0,12.0,"tenkodogo, burkina faso",moore1,moore,female,burkina faso,False
+270,21.0,6.0,"weno, chuuk, federated states of micronesia",mortlockese1,mortlockese,male,federated states of micronesia,False
+271,22.0,5.0,"katmandu, nepal",nepali1,nepali,female,nepal,False
+272,33.0,10.0,"drammen, norway",norwegian1,norwegian,female,norway,False
+273,55.0,12.0,"oslo, norway",norwegian2,norwegian,female,norway,False
+274,19.0,5.0,"volda, norway",norwegian3,norwegian,male,norway,False
+275,33.0,11.0,"wellga, ethiopia",oromo1,oromo,female,ethiopia,False
+276,18.0,3.0,"kolonia, pohnpei, federated states of micronesia",pohnpeian1,pohnpeian,male,federated states of micronesia,False
+277,26.0,23.0,"janow, poland",polish1,polish,female,poland,False
+278,26.0,25.0,"mielec, poland",polish2,polish,female,poland,False
+279,31.0,12.0,"nowy sacz, poland",polish3,polish,female,poland,False
+280,47.0,15.0,"krakow, poland",polish4,polish,female,poland,False
+281,37.0,16.0,"bahia, brazil",portuguese1,portuguese,female,brazil,False
+282,21.0,13.0,"novo hamburgo, rio grande do sul, brazil",portuguese10,portuguese,male,brazil,False
+283,18.0,10.0,"brasilia, brazil",portuguese2,portuguese,female,brazil,False
+284,18.0,15.0,"blumenau, brazil",portuguese3,portuguese,female,brazil,False
+285,20.0,15.0,"cabinda, angola",portuguese4,portuguese,male,angola,False
+286,31.0,13.0,"lubango, angola",portuguese5,portuguese,male,angola,False
+287,44.0,15.0,"sao paulo, brazil",portuguese6,portuguese,male,brazil,False
+288,40.0,11.0,"vitoria, brazil",portuguese7,portuguese,male,brazil,False
+289,26.0,7.0,"fortaleza, brazil",portuguese8,portuguese,male,brazil,False
+290,18.0,14.0,"sao paulo, brazil",portuguese9,portuguese,male,brazil,False
+291,34.0,10.0,"sargodha, pakistan",punjabi1,punjabi,male,pakistan,False
+292,26.0,10.0,"hoshiarpur, india",punjabi2,punjabi,male,india,False
+293,53.0,15.0,"cochabamba, bolivia",quechua1,quechua,female,bolivia,False
+294,32.0,27.0,"huanuco, provincia dos de mayo, peru",quechua2,quechua,female,peru,False
+295,24.0,12.0,"timisoara, romania",romanian1,romanian,male,romania,False
+296,62.0,14.0,"bucharest, romania",romanian2,romanian,male,romania,False
+297,50.0,32.0,"birtem, romania",romanian3,romanian,male,romania,False
+298,35.0,32.0,"bucharest, romania",romanian4,romanian,female,romania,False
+299,37.0,36.0,"nizhni novgorod, russia",russian1,russian,male,russia,False
+300,20.0,5.0,"moscow, russia",russian10,russian,female,russia,False
+301,54.0,13.0,"ola magadan, russia",russian11,russian,male,russia,False
+302,50.0,10.0,"izmail, ukraine",russian2,russian,female,ukraine,False
+303,35.0,6.0,"zaporizhzhya, ukraine",russian3,russian,female,ukraine,False
+304,68.0,38.0,"moscow, russia",russian4,russian,female,russia,False
+305,25.0,15.0,"khabarovsk, russia",russian5,russian,female,russia,False
+306,26.0,11.0,"moscow, russia",russian6,russian,female,russia,False
+307,54.0,13.0,"kiev, ukraine",russian7,russian,female,ukraine,False
+308,66.0,12.0,"moscow, russia",russian8,russian,male,russia,False
+309,23.0,7.0,"moscow, russia",russian9,russian,male,russia,False
+310,35.0,11.0,"zofingen, switzerland",sardinian1,sardinian,female,switzerland,False
+311,21.0,10.0,"ndjamena, chad",sarua1,sarua,male,chad,False
+312,41.0,6.0,"satawal island, yap state, federated states of micronesia",satawalese1,satawalese,male,federated states of micronesia,False
+313,30.0,6.0,"satawal island, yap state, federated states of micronesia",satawalese2,satawalese,female,federated states of micronesia,False
+314,47.0,47.0,"bosanska krupa, bosnia",serbian1,serbian,female,bosnia,False
+315,36.0,15.0,"zrenjanin, serbia, yugoslavia",serbian2,serbian,male,yugoslavia,False
+316,77.0,23.0,"fiumedinisi, sicily",sicilian1,sicilian,male,sicily,False
+319,25.0,14.0,"kosice, slovak republic",slovak1,slovak,female,slovak republic,False
+320,23.0,17.0,"piestany, slovak republic",slovak2,slovak,female,slovak republic,False
+321,51.0,16.0,"nitra, slovak republic",slovak3,slovak,female,slovak republic,False
+322,26.0,24.0,"mogadishu, somalia",somali1,somali,female,somalia,False
+323,24.0,17.0,"caracas, venezuela",spanish1,spanish,male,venezuela,False
+324,48.0,47.0,"san luis de la reina, el salvador",spanish10,spanish,male,el salvador,False
+325,49.0,28.0,"lima, peru",spanish11,spanish,female,peru,False
+326,25.0,8.0,"oviedo, spain",spanish12,spanish,male,spain,False
+327,29.0,11.0,"duitama, colombia",spanish13,spanish,female,colombia,False
+328,34.0,15.0,"pereira, colombia",spanish14,spanish,female,colombia,False
+329,54.0,4.0,"san juan, puerto rico",spanish15,spanish,male,puerto rico,False
+330,44.0,25.0,"buenos aires, argentina",spanish16,spanish,male,argentina,False
+331,22.0,9.0,"puebla, mexico",spanish17,spanish,female,mexico,False
+332,22.0,17.0,"la paz, bolivia",spanish18,spanish,male,bolivia,False
+333,25.0,17.0,"havana, cuba",spanish19,spanish,female,cuba,False
+334,20.0,12.0,"puerto la cruz, venezuela",spanish2,spanish,male,venezuela,False
+335,45.0,30.0,"managua, nicaragua",spanish20,spanish,male,nicaragua,False
+336,25.0,18.0,"santiago, chile",spanish21,spanish,male,chile,False
+337,32.0,11.0,"madrid, spain",spanish22,spanish,female,spain,False
+338,22.0,7.0,"santiago, chile",spanish23,spanish,male,chile,False
+339,27.0,5.0,"mexico city, mexico",spanish24,spanish,male,mexico,False
+340,26.0,21.0,"san jose, costa rica",spanish25,spanish,male,costa rica,False
+341,18.0,6.0,"burgos, spain",spanish26,spanish,male,spain,False
+342,34.0,14.0,"zaragoza, spain",spanish27,spanish,male,spain,False
+343,20.0,18.0,"san miguel, el salvador",spanish28,spanish,female,el salvador,False
+344,17.0,16.0,"bogota, colombia",spanish3,spanish,female,colombia,False
+345,21.0,17.0,"cabanas, el salvador",spanish4,spanish,female,el salvador,False
+346,52.0,13.0,"bogota, colombia",spanish5,spanish,female,colombia,False
+347,20.0,19.0,"lima, peru",spanish6,spanish,male,peru,False
+348,21.0,20.0,"bogota, colombia",spanish7,spanish,female,colombia,False
+349,21.0,12.0,"san salvador, el salvador",spanish8,spanish,male,el salvador,False
+350,20.0,17.0,"araure, venezuela",spanish9,spanish,male,venezuela,False
+351,56.0,11.0,"solna, sweden",swedish1,swedish,female,sweden,False
+352,20.0,10.0,"uppsala, sweden",swedish2,swedish,male,sweden,False
+353,24.0,10.0,"stockholm, sweden",swedish3,swedish,male,sweden,False
+354,22.0,10.0,"lulea, sweden",swedish4,swedish,male,sweden,False
+359,18.0,10.0,"manila, philippines",tagalog1,tagalog,male,philippines,False
+360,21.0,7.0,"urdaneta, luzon, philippines",tagalog2,tagalog,female,philippines,False
+361,19.0,1.0,"honiara, guadalcanal, solomon islands",tagalog3,tagalog,female,solomon islands,False
+362,21.0,7.0,"taishan, guangdong, china",taishan1,taishan,male,china,False
+363,36.0,13.0,"ping tung, taiwan",taiwanese1,taiwanese,female,taiwan,False
+364,24.0,17.0,"taipei, taiwan",taiwanese2,taiwanese,female,taiwan,False
+365,30.0,13.0,"tainan, taiwan",taiwanese3,taiwanese,female,taiwan,False
+366,45.0,21.0,"kao-hsiung, taiwan",taiwanese4,taiwanese,female,taiwan,False
+367,39.0,7.0,"colombo, sri lanka",tamil1,tamil,male,sri lanka,False
+368,29.0,10.0,"kargali, tatarstan, russia",tatar1,tatar,female,russia,False
+369,31.0,6.0,"kadapa, india",telugu1,telugu,male,india,False
+370,18.0,6.0,"guntur, andhra pradesh, india",telugu2,telugu,male,india,False
+371,25.0,10.0,"khon kaen, thailand",thai1,thai,female,thailand,False
+372,20.0,10.0,"chiang mai, thailand",thai2,thai,male,thailand,False
+373,22.0,4.0,"bangkok, thailand",thai3,thai,male,thailand,False
+374,26.0,13.0,"lhasa, tibet",tibetan1,tibetan,female,tibet,False
+375,41.0,35.0,"khamba, tibet",tibetan2,tibetan,female,tibet,False
+376,20.0,7.0,"mysore, india",tibetan3,tibetan,female,india,False
+377,25.0,17.0,"adigrat, ethiopia",tigrigna1,tigrigna,female,ethiopia,False
+378,23.0,20.0,"asmara, eritrea",tigrigna2,tigrigna,female,eritrea,False
+379,44.0,7.0,"asmara, eritrea",tigrigna3,tigrigna,male,eritrea,False
+381,27.0,26.0,"bingol, turkey",turkish1,turkish,female,turkey,False
+382,24.0,16.0,"ankara, turkey",turkish2,turkish,male,turkey,False
+383,27.0,12.0,"adana, turkey",turkish3,turkish,male,turkey,False
+384,20.0,14.0,"kayseri, turkey",turkish4,turkish,male,turkey,False
+385,30.0,11.0,"istanbul, turkey",turkish5,turkish,female,turkey,False
+386,19.0,14.0,"istanbul, turkey",turkish6,turkish,male,turkey,False
+387,19.0,13.0,"izmir, turkey",turkish7,turkish,male,turkey,False
+388,25.0,12.0,"kumasi, ghana",twi1,twi,female,ghana,False
+389,33.0,6.0,"ajumako, ghana",twi2,twi,male,ghana,False
+390,22.0,18.0,"karachi, pakistan",urdu1,urdu,male,pakistan,False
+391,48.0,6.0,"sialkot, pakistan",urdu2,urdu,female,pakistan,False
+392,46.0,45.0,"urumqi, xin jiang, china",uyghur1,uyghur,female,china,False
+393,39.0,39.0,"samarkand, uzbekistan",uzbek1,uzbek,female,uzbekistan,False
+394,35.0,28.0,"kabul, afghanistan",uzbek2,uzbek,female,afghanistan,False
+395,29.0,12.0,"can tho, vietnam",vietnamese1,vietnamese,male,vietnam,False
+396,29.0,25.0,"ho chi minh city, vietnam",vietnamese2,vietnamese,male,vietnam,False
+397,28.0,9.0,"vinh long, vietnam",vietnamese3,vietnamese,female,vietnam,False
+398,25.0,15.0,"hanoi, vietnam",vietnamese4,vietnamese,female,vietnam,False
+399,34.0,31.0,"cam ranh, vietnam",vietnamese5,vietnamese,male,vietnam,False
+400,41.0,12.0,"ho chi minh city, vietnam",vietnamese6,vietnamese,male,vietnam,False
+401,29.0,18.0,"hue, vietnam",vietnamese7,vietnamese,female,vietnam,False
+402,21.0,12.0,"dakar, senegal",wolof1,wolof,male,senegal,False
+403,37.0,11.0,"dakar, senegal",wolof2,wolof,male,senegal,False
+404,60.0,8.0,"st. etienne, france",yiddish1,yiddish,male,france,False
+405,78.0,6.0,"winnipeg, manitoba, canada",yiddish2,yiddish,female,canada,False
+406,24.0,14.0,"bulawayo, zimbabwe",zulu1,zulu,female,zimbabwe,False
+407,57.0,0.0,"windsor, ontario, canada",english105,english,male,canada,False
+408,39.0,0.0,"los angeles, california, usa",english106,english,female,usa,False
+409,30.0,4.0,"mosta, malta",maltese1,maltese,female,malta,False
+410,18.0,10.0,"maracaibo, zulia, venezuela",spanish29,spanish,male,venezuela,False
+411,33.0,9.0,"rishon, israel",hebrew6,hebrew,female,israel,False
+412,21.0,11.0,"lamentin, martinique",french9,french,male,martinique,False
+413,22.0,12.0,"bamako, mali",bambara3,bambara,male,mali,False
+414,20.0,20.0,"cotonou, benin",yoruba1,yoruba,male,benin,False
+415,39.0,33.0,"rumbek, boherat, sudan",dinka1,dinka,male,sudan,False
+416,19.0,0.0,"chicago, illinois, usa",english107,english,male,usa,False
+417,25.0,11.0,"chamiancy, vilejka, belarus",belarusan1,belarusan,male,belarus,False
+418,43.0,4.0,"pretoria, transvaal, south africa",afrikaans3,afrikaans,male,south africa,False
+419,21.0,0.0,"strabane, northern ireland, uk",english108,english,male,uk,False
+420,26.0,0.0,"concord, new hampshire, usa",english109,english,female,usa,False
+421,21.0,0.0,"great yarmouth, norfolk, uk",english110,english,male,uk,False
+422,21.0,11.0,"reykjavik, iceland",icelandic1,icelandic,male,iceland,False
+423,25.0,3.0,"karachi, sind, pakistan",urdu3,urdu,male,pakistan,False
+424,26.0,8.0,"karachi, pakistan",sindhi1,sindhi,male,pakistan,False
+426,21.0,0.0,"bombay, india",english111,english,male,india,False
+427,21.0,0.0,"st. thomas, us virgin islands",english112,english,male,us virgin islands,False
+428,47.0,11.0,"amman, jordan",arabic14,arabic,male,jordan,False
+429,35.0,4.0,"madras, tamil nadu, india",tamil2,tamil,female,india,False
+430,29.0,12.0,"jingmen, hubei, china",mandarin8,mandarin,male,china,False
+431,26.0,5.0,"freetown, sierra leone",krio2,krio,male,sierra leone,False
+432,38.0,14.0,"lamotrek island, federated states of micronesia",lamotrekese1,lamotrekese,male,federated states of micronesia,False
+433,34.0,14.0,"yap island, federated states of micronesia",yapese1,yapese,female,federated states of micronesia,False
+434,42.0,40.0,"baku, azerbaijan",azerbaijani2,azerbaijani,female,azerbaijan,False
+435,44.0,7.0,"tehran, iran",armenian2,armenian,female,iran,False
+436,35.0,5.0,"harbel, liberia",mende1,mende,male,liberia,False
+437,40.0,33.0,"qayrawan, tunisia",arabic15,arabic,male,tunisia,False
+438,38.0,6.0,"hyderabad, andhra pradesh, india",konkani1,konkani,female,india,False
+439,31.0,0.0,"wrexham, wales, uk",english113,english,male,uk,False
+440,52.0,25.0,"vicenza, veneto, italy",italian5,italian,male,italy,False
+441,18.0,5.0,"buenos aires, argentina",spanish30,spanish,male,argentina,False
+442,38.0,0.0,"birmingham 2, alabama, usa",english114,english,female,usa,False
+443,31.0,0.0,"st. albans, hertfordshire, uk",english115,english,male,uk,False
+444,56.0,0.0,"atlanta, georgia, usa",english116,english,male,usa,False
+445,60.0,0.0,"elmore, alabama, usa",english117,english,female,usa,False
+446,19.0,0.0,"akron, ohio, usa",english118,english,male,usa,False
+447,69.0,12.0,"ninh binh, vietnam",vietnamese8,vietnamese,male,vietnam,False
+448,23.0,7.0,"songkhla, thailand",thai4,thai,female,thailand,False
+449,31.0,7.0,"guayaquil, ecuador",spanish31,spanish,female,ecuador,False
+450,26.0,22.0,"santa cruz, bolivia",spanish32,spanish,male,bolivia,False
+451,38.0,12.0,"shanghai, china",mandarin9,mandarin,male,china,False
+452,39.0,13.0,"seoul, south korea",korean8,korean,female,south korea,False
+453,45.0,10.0,"tehran, iran",farsi10,farsi,female,iran,False
+454,18.0,13.0,"goteborg, sweden",swedish5,swedish,male,sweden,False
+455,32.0,0.0,"saskatoon, saskatchewan, canada",english119,english,female,canada,False
+456,65.0,0.0,"saskatoon, saskatchewan, canada",english120,english,male,canada,False
+457,37.0,15.0,"kuningan, indonesia",sundanese1,sundanese,female,indonesia,False
+458,44.0,35.0,"tirana, albania",albanian3,albanian,male,albania,False
+459,34.0,32.0,"vilnius, lithuania",lithuanian2,lithuanian,female,lithuania,False
+460,62.0,53.0,"st. petersburg, russia",russian12,russian,male,russia,False
+462,25.0,5.0,"hong kong, china",cantonese6,cantonese,male,china,False
+463,41.0,36.0,"akhmeta, republic of georgia",georgian2,georgian,female,republic of georgia,False
+464,19.0,16.0,"new orleans, louisiana, usa",kikongo1,kikongo,male,usa,False
+465,21.0,0.0,"waconia, minnesota, usa",english121,english,male,usa,False
+466,48.0,5.0,"nairobi, kenya",kikuyu1,kikuyu,male,kenya,False
+467,18.0,15.0,"caracas, venezuela",spanish33,spanish,male,venezuela,False
+468,20.0,0.0,"kuala lumpur, malaysia",english122,english,female,malaysia,False
+469,28.0,0.0,"riverside, california, usa",english123,english,female,usa,False
+470,48.0,7.0,"san fernando, la union, philippines",tagalog4,tagalog,female,philippines,False
+471,22.0,16.0,"meknes, morocco",arabic16,arabic,male,morocco,False
+472,26.0,10.0,"moscow, russia",russian13,russian,male,russia,False
+473,32.0,15.0,"naples, italy",italian6,italian,female,italy,False
+474,34.0,12.0,"taejon, south korea",korean9,korean,male,south korea,False
+475,35.0,5.0,"bargarh, orissa, india",oriya1,oriya,male,india,False
+476,28.0,11.0,"cartagena, spain",spanish34,spanish,male,spain,False
+477,81.0,16.0,"unije, croatia",croatian1,croatian,female,croatia,False
+478,37.0,17.0,"sivas, turkey",turkish8,turkish,male,turkey,False
+479,28.0,17.0,"mexico city, mexico",spanish35,spanish,male,mexico,False
+480,38.0,0.0,"brooklyn, new york, usa",english124,english,male,usa,False
+481,27.0,15.0,"tainan, taiwan",taiwanese5,taiwanese,male,taiwan,False
+482,22.0,9.0,"ozarow maz, poland",polish5,polish,male,poland,False
+483,34.0,13.0,"kwangju, south korea",korean10,korean,male,south korea,False
+484,33.0,5.0,"maseno, kenya",luo2,luo,female,kenya,False
+485,28.0,0.0,"st. george, queensland, australia",english125,english,male,australia,False
+486,25.0,12.0,"tokyo, japan",japanese8,japanese,male,japan,False
+487,34.0,0.0,"cincinnati, ohio, usa",english126,english,female,usa,False
+488,31.0,7.0,"kalamare, botswana",tswana1,tswana,male,botswana,False
+489,39.0,0.0,"new britain, connecticut, usa",english127,english,male,usa,False
+490,20.0,0.0,"miami, florida, usa",english128,english,female,usa,False
+491,19.0,3.0,"beijing, china",mandarin10,mandarin,male,china,False
+492,25.0,0.0,"blackpool, lancashire, uk",english129,english,male,uk,False
+494,31.0,4.0,"hong kong, china",cantonese7,cantonese,male,china,False
+495,40.0,7.0,"sao paulo, brazil",portuguese11,portuguese,female,brazil,False
+496,32.0,0.0,"port elizabeth, south africa",english130,english,male,south africa,False
+497,23.0,0.0,"west palm beach, florida, usa",english131,english,male,usa,False
+498,23.0,2.0,"hong kong, china",cantonese8,cantonese,female,china,False
+499,27.0,25.0,"montevideo, uruguay",spanish36,spanish,male,uruguay,False
+500,31.0,10.0,"bordeaux, france",french10,french,male,france,False
+501,20.0,11.0,"berlin, germany",german7,german,male,germany,False
+502,22.0,7.0,"hong kong, china",cantonese9,cantonese,male,china,False
+503,18.0,0.0,"toronto, ontario, canada",english132,english,female,canada,False
+504,36.0,0.0,"norwich, new york, usa",english133,english,female,usa,False
+505,25.0,3.0,"xiamen, fujian, china",cantonese10,cantonese,female,china,False
+506,22.0,0.0,"belfast, northern ireland, uk",english134,english,female,uk,False
+507,22.0,0.0,"orange beach, alabama, usa",english135,english,male,usa,False
+508,25.0,0.0,"calgary, alberta, canada",english136,english,male,canada,False
+509,26.0,0.0,"charleston, west virginia, usa",english137,english,male,usa,False
+510,25.0,0.0,"palmer, alaska, usa",english138,english,female,usa,False
+511,20.0,0.0,"providence, rhode island, usa",english139,english,male,usa,False
+512,35.0,15.0,"settat, morocco",arabic17,arabic,male,morocco,False
+513,36.0,12.0,"lisbon, portugal",portuguese12,portuguese,male,portugal,False
+514,31.0,11.0,"limoges, france",french11,french,male,france,False
+515,43.0,0.0,"quezon city, philippines",english140,english,male,philippines,False
+516,19.0,0.0,"york, uk",english141,english,male,uk,False
+517,19.0,0.0,"avon, new york, usa",english142,english,male,usa,False
+518,42.0,0.0,"minneapolis, minnesota, usa",english143,english,male,usa,False
+519,24.0,0.0,"barneys river, nova scotia, canada",english144,english,male,canada,False
+520,18.0,9.0,"santa maria, rio grande do sul, brazil",portuguese13,portuguese,male,brazil,False
+521,18.0,0.0,"bury st. edmunds, uk",english145,english,male,uk,False
+522,22.0,0.0,"blytheville, arkansas, usa",english146,english,male,usa,False
+523,40.0,0.0,"merced, california, usa",english147,english,female,usa,False
+524,19.0,9.0,"montreal, quebec, canada",french12,french,female,canada,False
+525,31.0,0.0,"sydney, australia",english148,english,male,australia,False
+526,18.0,0.0,"lawrenceville, georgia, usa",english149,english,male,usa,False
+527,31.0,0.0,"brownsville, kentucky, usa",english150,english,male,usa,False
+528,18.0,0.0,"baltimore, maryland, usa",english151,english,male,usa,False
+529,18.0,0.0,"adelaide, australia",english152,english,male,australia,False
+530,25.0,7.0,"belgrade, serbia",serbian3,serbian,male,serbia,False
+531,26.0,10.0,"chennai, india",tamil3,tamil,male,india,False
+532,25.0,11.0,"istanbul, turkey",turkish9,turkish,male,turkey,False
+533,35.0,0.0,"brisbane, australia",english153,english,male,australia,False
+534,28.0,0.0,"glace bay, nova scotia, canada",english154,english,male,canada,False
+535,35.0,0.0,"oakland, california, usa",english155,english,male,usa,False
+536,33.0,0.0,"dublin, ireland",english156,english,male,ireland,False
+537,19.0,6.0,"alkmaar, netherlands",dutch3,dutch,male,netherlands,False
+538,35.0,0.0,"fort worth, texas, usa",english157,english,male,usa,False
+539,18.0,6.0,"kuwait city, kuwait",arabic18,arabic,male,kuwait,False
+540,18.0,0.0,"washington, district of columbia, usa",english158,english,female,usa,False
+541,18.0,0.0,"ottawa, ontario, canada",english159,english,male,canada,False
+542,21.0,0.0,"redwood falls, minnesota, usa",english160,english,female,usa,False
+543,24.0,13.0,"yokohama, japan",japanese9,japanese,male,japan,False
+544,22.0,3.0,"hong kong, china",cantonese11,cantonese,female,china,False
+545,25.0,10.0,"bernburg, germany",german8,german,male,germany,False
+546,75.0,0.0,"wakefield, ohio, usa",english161,english,female,usa,False
+547,41.0,0.0,"fairview park, ohio, usa",english163,english,male,usa,False
+548,41.0,0.0,"delaware, ohio, usa",english162,english,female,usa,False
+549,38.0,0.0,"leeds, uk",english164,english,male,uk,False
+550,43.0,0.0,"detroit, michigan, usa",english165,english,female,usa,False
+551,18.0,0.0,"glenside, pennsylvania, usa",english166,english,male,usa,False
+552,43.0,0.0,"lakeview, michigan, usa",english167,english,male,usa,False
+553,24.0,8.0,"naples, italy",italian7,italian,male,italy,False
+554,40.0,0.0,"oceanside, california, usa",english168,english,male,usa,False
+555,18.0,0.0,"cleveland, mississippi, usa",english169,english,male,usa,False
+556,50.0,0.0,"belmont, mississippi, usa",english170,english,female,usa,False
+557,27.0,11.0,"ruse, bulgaria",bulgarian6,bulgarian,male,bulgaria,False
+558,25.0,8.0,"sao paulo, brazil",portuguese14,portuguese,male,brazil,False
+559,26.0,14.0,"seoul, south korea",korean11,korean,male,south korea,False
+560,60.0,45.0,"velky osek, czech republic",czech2,czech,male,czech republic,False
+561,35.0,10.0,"mostar, bosnia and herzegovina",croatian2,croatian,female,bosnia and herzegovina,False
+562,23.0,10.0,"lakselv, norway",norwegian4,norwegian,male,norway,False
+563,21.0,0.0,"st. louis, missouri, usa",english171,english,male,usa,False
+564,49.0,0.0,"kingston, jamaica",english172,english,male,jamaica,False
+565,21.0,1.0,"cebu, philippines",cebuano1,cebuano,female,philippines,False
+566,18.0,13.0,"stara zagora, bulgaria",bulgarian7,bulgarian,male,bulgaria,False
+567,19.0,0.0,"libertyville, illinois, usa",english173,english,male,usa,False
+568,30.0,0.0,"kuching, sarawak, malaysia",english174,english,female,malaysia,False
+569,59.0,8.0,"guangdong province, guangdong, china",teochew1,teochew,female,china,False
+570,37.0,7.0,"ioannina, greece",greek4,greek,male,greece,False
+571,31.0,1.0,"bethel, alaska, usa",yupik1,yupik,female,usa,False
+572,24.0,0.0,"seattle, washington, usa",english175,english,male,usa,False
+573,18.0,0.0,"elizabeth city, north carolina, usa",english176,english,female,usa,False
+574,23.0,0.0,"new orleans, louisiana, usa",english177,english,female,usa,False
+575,50.0,17.0,"tegucigalpa, honduras",spanish37,spanish,female,honduras,False
+576,53.0,13.0,"tegucigalpa, honduras",spanish38,spanish,male,honduras,False
+577,59.0,8.0,"erigavo, somalia",somali2,somali,male,somalia,False
+578,27.0,11.0,"ankara, turkey",turkish10,turkish,male,turkey,False
+579,47.0,5.0,"accra, ghana",ga1,ga,male,ghana,False
+580,52.0,15.0,"masaka, uganda",ganda1,ganda,female,uganda,False
+581,41.0,15.0,"bota, cameroon",ngemba1,ngemba,male,cameroon,False
+582,62.0,6.0,"ghazi, pakistan",hindko1,hindko,male,pakistan,False
+583,30.0,0.0,"wilkes-barre, pennsylvania, usa",english178,english,male,usa,False
+584,57.0,0.0,"huron, south dakota, usa",english179,english,male,usa,False
+585,20.0,0.0,"newport, rhode island, usa",english180,english,male,usa,False
+586,68.0,0.0,"new eagle, pennsylvania, usa",english181,english,male,usa,False
+587,31.0,3.0,"hyderabad, india",hindi2,hindi,male,india,False
+588,52.0,14.0,"asmara, eritrea",tigrigna4,tigrigna,female,eritrea,False
+589,43.0,10.0,"bari, italy",italian8,italian,male,italy,False
+590,50.0,0.0,"troy, new york, usa",english182,english,male,usa,False
+591,26.0,7.0,"tallinn, estonia",estonian1,estonian,male,estonia,False
+592,29.0,5.0,"trivandrum, kerala, india",malayalam2,malayalam,female,india,False
+593,42.0,5.0,"jalandhar, india",hindi3,hindi,male,india,False
+594,26.0,5.0,"szeged, hungary",hungarian4,hungarian,male,hungary,False
+595,55.0,0.0,"corriverton, guyana",english183,english,female,guyana,False
+596,22.0,8.0,"kaunas, lithuania",lithuanian3,lithuanian,female,lithuania,False
+597,18.0,0.0,"hillsboro, oregon, usa",english184,english,female,usa,False
+598,24.0,21.0,"mataro, catalonia, spain",catalan2,catalan,male,spain,False
+599,30.0,5.0,"bulawayo, zimbabwe",shona1,shona,female,zimbabwe,False
+600,50.0,10.0,"borama, somalia",somali3,somali,female,somalia,False
+601,37.0,32.0,"tata, morocco",amazigh1,amazigh,male,morocco,False
+602,20.0,4.0,"macau, china",cantonese12,cantonese,female,china,False
+603,21.0,2.0,"freetown, sierra leone",mende2,mende,female,sierra leone,False
+604,38.0,0.0,"oxford, uk",english185,english,male,uk,False
+605,39.0,0.0,"gadsden, alabama, usa",english186,english,female,usa,False
+606,42.0,0.0,"algona, iowa, usa",english187,english,female,usa,False
+607,53.0,13.0,"kao-hsiung, taiwan",mandarin11,mandarin,female,taiwan,False
+608,31.0,31.0,"sokcho, south korea",korean12,korean,male,south korea,False
+609,33.0,18.0,"pskov, russia",russian14,russian,male,russia,False
+610,53.0,16.0,"ahmedabad, india",gujarati4,gujarati,female,india,False
+611,35.0,0.0,"edinburgh, scotland, uk",english188,english,male,uk,False
+612,25.0,10.0,"bangkok, thailand",thai5,thai,male,thailand,False
+614,20.0,3.0,"pamplona, spain",spanish39,spanish,male,spain,False
+615,54.0,9.0,"sao paulo, brazil",portuguese15,portuguese,male,brazil,False
+616,22.0,8.0,"wuppertal, germany",german9,german,male,germany,False
+617,19.0,0.0,"grand forks, north dakota, usa",english189,english,male,usa,False
+618,27.0,0.0,"oak park, illinois, usa",english190,english,male,usa,False
+619,18.0,8.0,"turin, italy",italian9,italian,male,italy,False
+620,26.0,7.0,"goteborg, sweden",swedish6,swedish,male,sweden,False
+621,51.0,25.0,"nicosia, cyprus",greek5,greek,male,cyprus,False
+622,40.0,5.0,"dhaka, bangladesh",bengali5,bengali,female,bangladesh,False
+623,23.0,1.0,"singapore, singapore",mandarin12,mandarin,male,singapore,False
+624,29.0,4.0,"jamshedpur, jharkhand, india",bengali6,bengali,male,india,False
+625,43.0,18.0,"khouribga, morocco",arabic19,arabic,male,morocco,False
+626,26.0,8.0,"torun, poland",polish6,polish,female,poland,False
+627,48.0,12.0,"palermo, italy",italian10,italian,male,italy,False
+628,19.0,12.0,"bordeaux, france",french13,french,male,france,False
+629,23.0,14.0,"paris, france",french14,french,female,france,False
+630,21.0,11.0,"sollentuna, sweden",swedish7,swedish,female,sweden,False
+631,19.0,0.0,"las cruces, new mexico, usa",english191,english,male,usa,False
+632,25.0,15.0,"porto alegre, brazil",portuguese16,portuguese,male,brazil,False
+633,32.0,12.0,"sens, france",french15,french,male,france,False
+634,24.0,23.0,"kocaeli, turkey",turkish11,turkish,female,turkey,False
+635,24.0,10.0,"darmstadt, germany",german10,german,male,germany,False
+636,27.0,0.0,"east lansing, michigan, usa",english192,english,female,usa,False
+637,32.0,0.0,"honolulu, hawaii, usa",english193,english,male,usa,False
+638,19.0,0.0,"manchester, england, uk",english194,english,male,uk,False
+639,21.0,0.0,"delavan, wisconsin, usa",english195,english,female,usa,False
+640,20.0,11.0,"frankfurt, germany",german11,german,female,germany,False
+641,30.0,18.0,"cagliari, italy",italian11,italian,male,italy,False
+642,55.0,12.0,"kabul, afghanistan",dari2,dari,male,afghanistan,False
+643,36.0,12.0,"chtaura, beqa valley, lebanon",arabic20,arabic,male,lebanon,False
+644,20.0,6.0,"cartago, costa rica",spanish40,spanish,male,costa rica,False
+645,25.0,6.0,"slovenj gradec, slovenia",slovenian1,slovenian,female,slovenia,False
+646,40.0,8.0,"tashkent, uzbekistan",uzbek3,uzbek,male,uzbekistan,False
+647,34.0,12.0,"ayaguz, kazakhstan",russian15,russian,female,kazakhstan,False
+648,35.0,11.0,"minsk, belarus",russian16,russian,male,belarus,False
+649,26.0,17.0,"kyiv, ukraine",ukrainian1,ukrainian,male,ukraine,False
+650,43.0,12.0,"minsk, belarus",belarusan2,belarusan,female,belarus,False
+651,29.0,14.0,"feldkirch, austria",german12,german,female,austria,False
+652,54.0,13.0,"eschen, liechtenstein",german13,german,female,liechtenstein,False
+653,35.0,14.0,"nachod, czech republic",czech3,czech,male,czech republic,False
+654,50.0,0.0,"suva, fiji",english196,english,female,fiji,False
+655,35.0,5.0,"savusavu, vanua levu, fiji",fijian1,fijian,male,fiji,False
+656,39.0,6.0,"suva, fiji",fijian2,fijian,female,fiji,False
+657,48.0,6.0,"suva, fiji",fijian3,fijian,female,fiji,False
+658,19.0,7.0,"montreal, quebec, canada",french16,french,female,canada,False
+659,43.0,5.0,"vatukoula, fiji",rotuman1,rotuman,female,fiji,False
+660,52.0,7.0,"rotuma, rotuma, fiji",rotuman2,rotuman,male,fiji,False
+661,44.0,10.0,"split, croatia",croatian3,croatian,female,croatia,False
+662,22.0,0.0,"iowa city, iowa, usa",english197,english,male,usa,False
+663,56.0,0.0,"washington, district of columbia, usa",english198,english,male,usa,False
+664,25.0,0.0,"bay shore, new york, usa",english199,english,male,usa,False
+665,43.0,12.0,"akranes, iceland",icelandic2,icelandic,female,iceland,False
+667,22.0,0.0,"berkeley, california, usa",english200,english,female,usa,False
+668,26.0,0.0,"warren, michigan, usa",english201,english,female,usa,False
+669,50.0,10.0,"hawler, kurdistan, iraq",kurdish2,kurdish,male,iraq,False
+670,46.0,30.0,"beirut, lebanon",arabic21,arabic,female,lebanon,False
+671,37.0,18.0,"pskov, russia",russian17,russian,male,russia,False
+672,25.0,20.0,"giresun, turkey",turkish12,turkish,male,turkey,False
+673,19.0,0.0,"crisfield, maryland, usa",english202,english,male,usa,False
+674,63.0,0.0,"boston, massachusetts, usa",english203,english,female,usa,False
+675,30.0,10.0,"vienna, austria",german14,german,female,austria,False
+676,35.0,11.0,"innsbruck, austria",german15,german,male,austria,False
+677,42.0,5.0,"tarlac city, philippines",tagalog5,tagalog,female,philippines,False
+678,53.0,0.0,"chicago, illinois, usa",english204,english,male,usa,False
+679,45.0,0.0,"blue earth, minnesota, usa",english205,english,female,usa,False
+680,35.0,0.0,"hucknall, nottinghamshire, england, uk",english206,english,female,uk,False
+681,38.0,14.0,"bellinzona, switzerland",italian12,italian,female,switzerland,False
+683,39.0,14.0,"fribourg, switzerland",french17,french,male,switzerland,False
+684,23.0,0.0,"wilkes-barre, pennsylvania, usa",english207,english,female,usa,False
+685,29.0,13.0,"nantou, taiwan",mandarin13,mandarin,male,taiwan,False
+686,18.0,3.0,"istanbul, turkey",turkish13,turkish,female,turkey,False
+687,54.0,10.0,"erding, bavaria, germany",bavarian1,bavarian,female,germany,False
+688,47.0,12.0,"bucharest, romania",romanian5,romanian,female,romania,False
+689,35.0,12.0,"bucharest, romania",romanian6,romanian,male,romania,False
+690,47.0,12.0,"bucharest, romania",romanian8,romanian,male,romania,False
+691,28.0,10.0,"bacau, romania",romanian9,romanian,female,romania,False
+692,27.0,11.0,"bucharest, romania",romanian10,romanian,female,romania,False
+693,39.0,14.0,"buzau, romania",romanian11,romanian,male,romania,False
+694,33.0,11.0,"bucharest, romania",romanian7,romanian,male,romania,False
+695,46.0,0.0,"washington, dc, usa",english208,english,male,usa,False
+696,47.0,12.0,"kabul, kandahar, afghanistan",pashto1,pashto,female,afghanistan,False
+697,41.0,9.0,"oslo, norway",norwegian5,norwegian,female,norway,False
+698,27.0,11.0,"sukhothai, thailand",thai6,thai,male,thailand,False
+699,20.0,7.0,"helsinki, finland",finnish3,finnish,female,finland,False
+700,30.0,9.0,"helsinki, finland",finnish4,finnish,female,finland,False
+701,22.0,10.0,"helsinki, finland",swedish8,swedish,female,finland,False
+702,28.0,0.0,"saint johns, antigua and barbuda",english209,english,female,antigua and barbuda,False
+703,52.0,6.0,"maseru, lesotho",sesotho1,sesotho,female,lesotho,False
+704,27.0,15.0,"velika plana, serbia",serbian4,serbian,male,serbia,False
+705,23.0,0.0,"trenton, nova scotia, canada",english210,english,female,canada,False
+706,25.0,6.0,"bonao, dominican republic",spanish41,spanish,male,dominican republic,False
+707,29.0,5.0,"katmandu, nepal",newari1,newari,male,nepal,False
+708,39.0,12.0,"chittagong, bangladesh",chittagonian1,chittagonian,male,bangladesh,False
+709,54.0,5.0,"noakhali, bangladesh",bengali8,bengali,male,bangladesh,False
+710,49.0,6.0,"mymensingh, bangladesh",bengali7,bengali,male,bangladesh,False
+711,54.0,17.0,"sylhet, bangladesh",sylheti1,sylheti,male,bangladesh,False
+712,80.0,18.0,"bogota, colombia",spanish42,spanish,female,colombia,False
+713,29.0,6.0,"tbilisi, republic of georgia",georgian3,georgian,male,republic of georgia,False
+714,43.0,16.0,"santiago-dr, dominican republic",spanish43,spanish,male,dominican republic,False
+715,47.0,12.0,"santiago-dr, dominican republic",spanish45,spanish,female,dominican republic,False
+716,37.0,4.0,"la romana, dominican republic",spanish44,spanish,female,dominican republic,False
+717,33.0,14.0,"santo domingo, dominican republic",spanish46,spanish,male,dominican republic,False
+718,25.0,12.0,"santo domingo, dominican republic",spanish47,spanish,female,dominican republic,False
+719,49.0,20.0,"dalian, liaoning, china",mandarin14,mandarin,male,china,False
+720,30.0,0.0,"worcester, massachusetts, usa",english211,english,male,usa,False
+721,28.0,12.0,"tbilisi, republic of georgia",georgian4,georgian,male,republic of georgia,False
+722,35.0,6.0,"belgrade, serbia",serbian5,serbian,male,serbia,False
+723,33.0,12.0,"kraljevo, serbia",serbian6,serbian,male,serbia,False
+724,31.0,7.0,"belgrade, serbia",serbian7,serbian,female,serbia,False
+725,31.0,9.0,"kragujevac, serbia",serbian9,serbian,female,serbia,False
+726,44.0,20.0,"kraljevo, serbia",serbian8,serbian,male,serbia,False
+727,25.0,7.0,"belgrade, serbia",serbian10,serbian,male,serbia,False
+728,20.0,6.0,"przemet, poland",polish7,polish,male,poland,False
+729,24.0,0.0,"spartanburg, south carolina, usa",english212,english,male,usa,False
+730,21.0,3.0,"hong kong, china",cantonese13,cantonese,female,china,False
+731,21.0,6.0,"bilbao, spain",spanish48,spanish,male,spain,False
+732,31.0,6.0,"tandil, argentina",spanish49,spanish,male,argentina,False
+733,20.0,8.0,"enna, italy",italian13,italian,male,italy,False
+734,38.0,0.0,"dodge city, kansas, usa",english213,english,male,usa,False
+735,23.0,6.0,"istanbul, turkey",turkish14,turkish,female,turkey,False
+736,18.0,10.0,"ankara, turkey",turkish15,turkish,male,turkey,False
+737,26.0,0.0,"myrtle beach, south carolina, usa",english214,english,male,usa,False
+738,20.0,0.0,"lemington spa, warwickshire, uk",english215,english,male,uk,False
+739,48.0,0.0,"chicago, illinois, usa",english216,english,female,usa,False
+740,66.0,0.0,"harrow, middlesex, uk",english217,english,male,uk,False
+741,22.0,6.0,"washington, dc, usa",french18,french,male,usa,False
+742,19.0,3.0,"hong kong, china",cantonese14,cantonese,female,china,False
+743,18.0,10.0,"bilzen, flanders, belgium",dutch4,dutch,male,belgium,False
+744,26.0,14.0,"belgrade, serbia",serbian11,serbian,male,serbia,False
+745,25.0,12.0,"kars, turkey",turkish16,turkish,male,turkey,False
+746,28.0,11.0,"tainan, taiwan",mandarin15,mandarin,female,taiwan,False
+747,27.0,0.0,"abingdon, virginia, usa",english218,english,female,usa,False
+748,38.0,0.0,"oakland, california, usa",english219,english,female,usa,False
+749,18.0,0.0,"anaheim, california, usa",english220,english,female,usa,False
+750,32.0,10.0,"taipei, taiwan",mandarin16,mandarin,male,taiwan,False
+751,19.0,6.0,"moga, punjab, india",punjabi3,punjabi,male,india,False
+752,27.0,15.0,"santo domingo, dominican republic",spanish50,spanish,male,dominican republic,False
+753,20.0,6.0,"caguas, puerto rico",spanish51,spanish,male,puerto rico,False
+754,45.0,0.0,"london, uk",english221,english,male,uk,False
+755,39.0,12.0,"grenoble, france",french19,french,male,france,False
+756,40.0,2.0,"ibadan, oyo, nigeria",yoruba2,yoruba,female,nigeria,False
+757,37.0,14.0,"katmandu, nepal",nepali2,nepali,female,nepal,False
+758,35.0,11.0,"yangon, myanmar",burmese1,burmese,female,myanmar,False
+759,50.0,12.0,"pusan, south korea",korean13,korean,female,south korea,False
+760,65.0,14.0,"kafanchan, nigeria",igbo2,igbo,male,nigeria,False
+761,20.0,8.0,"cosenza, italy",italian14,italian,male,italy,False
+762,38.0,10.0,"ulaanbaatar, mongolia",mongolian3,mongolian,male,mongolia,False
+763,31.0,6.0,"ankara, turkey",turkish17,turkish,male,turkey,False
+764,18.0,0.0,"auburn, indiana, usa",english222,english,female,usa,False
+765,28.0,14.0,"bhilwara, rajisthan, india",hindi4,hindi,female,india,False
+766,46.0,5.0,"lagos, nigeria",yoruba3,yoruba,female,nigeria,False
+767,18.0,0.0,"erie, pennsylvania, usa",english223,english,male,usa,False
+768,20.0,0.0,"bridgetown, barbados",english224,english,male,barbados,False
+769,20.0,11.0,"otwock, poland",polish8,polish,male,poland,False
+770,54.0,13.0,"rotterdam, netherlands",dutch5,dutch,female,netherlands,False
+771,50.0,0.0,"dundee, scotland, uk",english225,english,male,uk,False
+772,38.0,0.0,"walton-on-thames, surrey, uk",english226,english,male,uk,False
+773,42.0,0.0,"camberley, surrey, uk",english227,english,female,uk,False
+774,59.0,0.0,"glasgow, scotland, uk",english228,english,female,uk,False
+775,25.0,0.0,"burlington, vermont, usa",english229,english,male,usa,False
+776,35.0,0.0,"launceston, tasmania, australia",english230,english,male,australia,False
+777,29.0,21.0,"popayan, cauca, colombia",spanish52,spanish,female,colombia,False
+778,53.0,12.0,"dakar, senegal",pulaar1,pulaar,female,senegal,False
+779,44.0,13.0,"rufisque, senegal",pulaar2,pulaar,male,senegal,False
+780,39.0,18.0,"fatick, senegal",serer1,serer,male,senegal,False
+781,52.0,14.0,"khombole, senegal",wolof3,wolof,female,senegal,False
+782,56.0,12.0,"dagana, senegal",wolof4,wolof,female,senegal,False
+783,30.0,13.0,"saint louis, senegal",wolof5,wolof,female,senegal,False
+784,34.0,16.0,"ziguinchor, senegal",jola1,jola,male,senegal,False
+785,35.0,15.0,"tambacounda, senegal",xasonga1,xasonga,female,senegal,False
+786,53.0,30.0,"dakar, senegal",pulaar3,pulaar,male,senegal,False
+787,26.0,14.0,"goudiri, senegal",bambara4,bambara,male,senegal,False
+789,23.0,12.0,"ziguinchor, senegal",mandinka1,mandinka,male,senegal,False
+790,27.0,15.0,"goudomp, senegal",mankanya1,mankanya,male,senegal,False
+791,22.0,0.0,"tampa, florida, usa",english231,english,male,usa,False
+792,26.0,26.0,"kabul, kandahar, afghanistan",pashto2,pashto,female,afghanistan,False
+793,26.0,0.0,"edmonton, alberta, canada",english233,english,female,canada,False
+794,49.0,0.0,"bloomington, indiana, usa",english234,english,male,usa,False
+795,52.0,0.0,"richmond, virginia, usa",english235,english,female,usa,False
+796,26.0,13.0,"wuhan, hubei, china",mandarin17,mandarin,male,china,False
+797,33.0,6.0,"bogota, colombia",spanish53,spanish,male,colombia,False
+798,32.0,0.0,"metairie, louisiana, usa",english232,english,female,usa,False
+799,44.0,0.0,"st. charles, illinois, usa",english236,english,male,usa,False
+800,25.0,18.0,"vina del mar, chile",spanish54,spanish,male,chile,False
+801,22.0,0.0,"jeffersonville, ohio, usa",english237,english,female,usa,False
+802,21.0,0.0,"vancouver, british  columbia, canada",english238,english,female,canada,False
+803,19.0,0.0,"fort kobbe, panama",english239,english,male,panama,False
+804,23.0,12.0,"alma, quebec, canada",french20,french,male,canada,False
+805,20.0,4.0,"quezon city, philippines",tagalog6,tagalog,male,philippines,False
+806,18.0,15.0,"salinas, brazil",portuguese17,portuguese,male,brazil,False
+807,36.0,4.0,"dharan, nepal",nepali3,nepali,male,nepal,False
+808,25.0,12.0,"sarajevo, bosnia and herzegovina",bosnian3,bosnian,female,bosnia and herzegovina,False
+809,33.0,12.0,"sulaymaniyah, iraq",kurdish3,kurdish,female,iraq,False
+810,36.0,9.0,"tandil, argentina",spanish55,spanish,male,argentina,False
+811,20.0,9.0,"amiens, france",french21,french,male,france,False
+812,50.0,12.0,"almada, portugal",portuguese18,portuguese,female,portugal,False
+813,62.0,12.0,"igoumenitsa, greece",greek6,greek,female,greece,False
+814,36.0,20.0,"reykjavik, iceland",icelandic3,icelandic,female,iceland,False
+815,26.0,0.0,"guelph, ontario, canada",english240,english,male,canada,False
+816,23.0,12.0,"klaipeda, lithuania",lithuanian4,lithuanian,female,lithuania,False
+817,52.0,0.0,"wanganui, new zealand",english241,english,female,new zealand,False
+818,77.0,0.0,"laurel, mississippi, usa",english242,english,female,usa,False
+819,24.0,7.0,"tervuren, belgium",vlaams1,vlaams,male,belgium,False
+820,27.0,0.0,"fredericton, new brunswick, canada",english243,english,male,canada,False
+821,23.0,0.0,"san francisco, california, usa",english244,english,male,usa,False
+822,78.0,16.0,"ghent, belgium",french22,french,female,belgium,False
+823,76.0,16.0,"ghent, belgium",french23,french,female,belgium,False
+824,25.0,0.0,"pittsburgh, pennsylvania, usa",english245,english,male,usa,False
+825,32.0,0.0,"los angeles, california, usa",english246,english,male,usa,False
+826,34.0,32.0,"kashgar, china",uyghur2,uyghur,female,china,False
+827,26.0,12.0,"hakodate, japan",japanese10,japanese,female,japan,False
+828,33.0,13.0,"tai chung, taiwan",taiwanese6,taiwanese,female,taiwan,False
+829,32.0,4.0,"florianopolis, brazil",portuguese19,portuguese,male,brazil,False
+830,25.0,5.0,"pokhara, nepal",nepali4,nepali,male,nepal,False
+831,23.0,13.0,"komsomolsk-on-amur, russia",russian18,russian,male,russia,False
+832,47.0,13.0,"mostaganem, algeria",french24,french,male,algeria,False
+833,21.0,10.0,"campinas, brazil",portuguese20,portuguese,male,brazil,False
+834,40.0,17.0,"zhezkazgan, kazakhstan",russian19,russian,male,kazakhstan,False
+835,33.0,0.0,"prince rupert, british columbia, canada",english247,english,male,canada,False
+836,33.0,3.0,"moga, india",punjabi4,punjabi,female,india,False
+837,31.0,2.0,"bombay, india",marathi3,marathi,male,india,False
+838,22.0,8.0,"monterrey, mexico",spanish56,spanish,male,mexico,False
+839,48.0,15.0,"forli, italy",italian15,italian,male,italy,False
+840,18.0,0.0,"philadelphia, pennsylvania, usa",english248,english,female,usa,False
+841,23.0,15.0,"ostroleka, poland",polish9,polish,female,poland,False
+842,30.0,15.0,"wolanow, poland",polish10,polish,female,poland,False
+843,56.0,10.0,"warsaw, poland",polish11,polish,female,poland,False
+844,53.0,44.0,"akhtyrka, ukraine",ukrainian2,ukrainian,female,ukraine,False
+845,64.0,10.0,"hubballi, karnataka, india",hindi5,hindi,female,india,False
+846,29.0,27.0,"budapest, hungary",hungarian5,hungarian,female,hungary,False
+847,46.0,10.0,"brussels, belgium",dutch6,dutch,female,belgium,False
+848,31.0,8.0,"sofia, bulgaria",bulgarian8,bulgarian,female,bulgaria,False
+849,54.0,12.0,"yerevan, armenia",armenian3,armenian,female,armenia,False
+850,29.0,0.0,"boston, massachusetts, usa",english249,english,female,usa,False
+851,46.0,12.0,"lagos, nigeria",yoruba4,yoruba,male,nigeria,False
+852,19.0,0.0,"chester, england, uk",english250,english,male,uk,False
+854,29.0,4.0,"kuwait city, kuwait",urdu4,urdu,male,kuwait,False
+855,21.0,0.0,"mt. kisco, new york, usa",english251,english,male,usa,False
+856,25.0,0.0,"san jose ca, california, usa",english252,english,female,usa,False
+857,21.0,0.0,"dublin, ireland",english253,english,male,ireland,False
+858,39.0,0.0,"eugene, oregon, usa",english254,english,male,usa,False
+859,24.0,0.0,"oamaru, new zealand",english255,english,female,new zealand,False
+860,20.0,12.0,"st. louis fr, france",french25,french,male,france,False
+861,23.0,0.0,"laurinburg, north carolina, usa",english256,english,male,usa,False
+862,31.0,12.0,"qingyuan, guangdong, china",cantonese15,cantonese,female,china,False
+863,24.0,0.0,"san diego, california, usa",english257,english,male,usa,False
+864,55.0,12.0,"odessa, ukraine",ukrainian3,ukrainian,female,ukraine,False
+865,38.0,12.0,"chisinau, moldova",romanian12,romanian,female,moldova,False
+866,27.0,4.0,"new delhi, india",hindi6,hindi,female,india,False
+867,60.0,5.0,"allahabad, utter pardesh, india",hindi7,hindi,female,india,False
+868,33.0,28.0,"mitrovice, kosovo",albanian4,albanian,male,kosovo,False
+869,24.0,0.0,"kilkenny, ireland",english258,english,male,ireland,False
+870,23.0,0.0,"singapore, singapore",english259,english,male,singapore,False
+871,18.0,0.0,"phoenix, arizona, usa",english260,english,female,usa,False
+872,29.0,13.0,"taoyuan, taiwan",mandarin18,mandarin,female,taiwan,False
+873,30.0,5.0,"victoria, british columbia, canada",finnish5,finnish,male,canada,False
+874,29.0,3.0,"hong kong, china",cantonese16,cantonese,female,china,False
+875,59.0,0.0,"forestville, maryland, usa",english261,english,female,usa,False
+876,60.0,0.0,"naylor, maryland, usa",english262,english,male,usa,False
+877,56.0,4.0,"tanga, tanzania",kiswahili5,kiswahili,female,tanzania,False
+878,26.0,3.0,"hong kong, china",cantonese17,cantonese,female,china,False
+879,57.0,15.0,"prague, czech republic",czech4,czech,female,czech republic,False
+880,38.0,14.0,"budapest, hungary",hungarian6,hungarian,female,hungary,False
+881,31.0,11.0,"bremen, germany",german16,german,female,germany,False
+882,53.0,10.0,"frankfurt, germany",german17,german,female,germany,False
+883,40.0,20.0,"warsaw, poland",polish12,polish,male,poland,False
+884,21.0,0.0,"oak forest, illinois, usa",english263,english,male,usa,False
+885,19.0,3.0,"hong kong, china",cantonese18,cantonese,male,china,False
+886,33.0,11.0,"montevideo, uruguay",spanish57,spanish,male,uruguay,False
+887,32.0,8.0,"dar-es-salaam, tanzania",kiswahili6,kiswahili,female,tanzania,False
+888,24.0,15.0,"stip, macedonia",macedonian2,macedonian,male,macedonia,False
+889,21.0,0.0,"freemont, california, usa",english264,english,male,usa,False
+890,31.0,0.0,"vancouver wa, washington, usa",english265,english,male,usa,False
+891,23.0,17.0,"sao paulo, brazil",portuguese21,portuguese,male,brazil,False
+892,22.0,8.0,"kota kinabalu, malaysia",korean14,korean,female,malaysia,False
+893,29.0,6.0,"bad aussee, austria",german18,german,male,austria,False
+894,25.0,11.0,"vranje, serbia",serbian12,serbian,female,serbia,False
+895,68.0,10.0,"amsterdam, netherlands",dutch7,dutch,male,netherlands,False
+896,35.0,12.0,"alphen aan de ryn, netherlands",dutch8,dutch,female,netherlands,False
+897,68.0,12.0,"almelo, netherlands",dutch9,dutch,female,netherlands,False
+898,26.0,10.0,"phrae, thailand",thai7,thai,female,thailand,False
+899,18.0,0.0,"san diego, california, usa",english266,english,male,usa,False
+900,66.0,0.0,"leeds, uk",english267,english,male,uk,False
+901,67.0,0.0,"leeds, uk",english268,english,female,uk,False
+902,22.0,0.0,"adelaide, australia",english269,english,female,australia,False
+903,29.0,0.0,"cape town, south africa",english270,english,male,south africa,False
+904,32.0,0.0,"cape town, south africa",english271,english,female,south africa,False
+905,20.0,0.0,"dallas, texas, usa",english272,english,male,usa,False
+906,31.0,18.0,"bogota, colombia",spanish58,spanish,male,colombia,False
+907,46.0,0.0,"blue bell, pennsylvania, usa",english273,english,male,usa,False
+908,31.0,5.0,"mayaguez, puerto rico",spanish59,spanish,female,puerto rico,False
+909,25.0,0.0,"sydney, australia",english274,english,female,australia,False
+910,19.0,8.0,"imphal, india",hindi8,hindi,male,india,False
+911,28.0,17.0,"kostanai, kazakhstan",russian20,russian,female,kazakhstan,False
+912,20.0,0.0,"clifton, new jersey, usa",english275,english,female,usa,False
+913,39.0,12.0,"essen, belgium",dutch10,dutch,male,belgium,False
+914,45.0,7.0,"singapore, singapore",hainanese1,hainanese,male,singapore,False
+915,18.0,9.0,"santiago-dr, dominican republic",spanish60,spanish,female,dominican republic,False
+916,27.0,13.0,"qinzhou, guangxi, china",mandarin19,mandarin,male,china,False
+917,27.0,11.0,"montreal, quebec, canada",french26,french,female,canada,False
+918,50.0,0.0,"chattanooga, tennessee, usa",english276,english,female,usa,False
+919,48.0,0.0,"hudson, new york, usa",english277,english,female,usa,False
+920,23.0,10.0,"abu dhabi, united arab emirates",arabic22,arabic,female,united arab emirates,False
+921,18.0,0.0,"augusta, georgia, usa",english278,english,female,usa,False
+922,30.0,0.0,"singapore, singapore",english279,english,female,singapore,False
+923,31.0,10.0,"ruse, bulgaria",bulgarian9,bulgarian,female,bulgaria,False
+924,67.0,39.0,"azuaga, spain",spanish61,spanish,male,spain,False
+925,63.0,19.0,"buenos aires, argentina",spanish62,spanish,female,argentina,False
+926,27.0,9.0,"stuttgart, germany",turkish18,turkish,male,germany,False
+927,42.0,13.0,"al mahalla, egypt",arabic23,arabic,male,egypt,False
+928,19.0,11.0,"offenbach, germany",german19,german,female,germany,False
+929,41.0,14.0,"brugge, belgium",dutch11,dutch,male,belgium,False
+930,46.0,12.0,"babadag, romanian",romanian13,romanian,male,romanian,False
+931,40.0,12.0,"ping tong, taiwan",mandarin20,mandarin,female,taiwan,False
+932,38.0,12.0,"algiers, algeria",french27,french,female,algeria,False
+933,43.0,17.0,"luanda, angola",portuguese22,portuguese,female,angola,False
+934,52.0,5.0,"dar-es-salaam, tanzania",kiswahili7,kiswahili,female,tanzania,False
+935,19.0,0.0,"ramsey, isle of man",english280,english,female,isle of man,False
+936,41.0,16.0,"chur, switzerland",german20,german,male,switzerland,False
+937,23.0,0.0,"ramsey mn, minnesota, usa",english281,english,male,usa,False
+938,29.0,10.0,"curitiba, brazil",portuguese23,portuguese,female,brazil,False
+939,20.0,0.0,"tampa, florida, usa",english282,english,male,usa,False
+940,18.0,8.0,"kiev, ukraine",ukrainian4,ukrainian,male,ukraine,False
+941,52.0,12.0,"jerusalem, israel",hebrew7,hebrew,male,israel,False
+942,40.0,14.0,"mantua, italy",italian16,italian,male,italy,False
+943,20.0,11.0,"travnik, bosnia and herzegovina",bosnian4,bosnian,male,bosnia and herzegovina,False
+944,25.0,6.0,"travnik, bosnia and herzegovina",bosnian5,bosnian,female,bosnia and herzegovina,False
+945,25.0,11.0,"teslic, bosnia and herzegovina",serbian13,serbian,female,bosnia and herzegovina,False
+946,31.0,11.0,"vlore, albania",albanian5,albanian,male,albania,False
+947,27.0,12.0,"tbilisi, republic of georgia",armenian4,armenian,female,republic of georgia,False
+948,24.0,11.0,"stip, macedonia",macedonian3,macedonian,male,macedonia,False
+949,21.0,11.0,"stip, macedonia",macedonian4,macedonian,male,macedonia,False
+950,38.0,11.0,"rijeka, croatia",croatian4,croatian,male,croatia,False
+951,18.0,0.0,"pelham, new york, usa",english283,english,male,usa,False
+952,33.0,0.0,"gainesville, florida, usa",english284,english,male,usa,False
+953,23.0,12.0,"karachi, pakistan",urdu5,urdu,male,pakistan,False
+954,46.0,10.0,"moscow, russia",russian21,russian,female,russia,False
+955,18.0,10.0,"kiev, ukraine",ukrainian5,ukrainian,male,ukraine,False
+956,36.0,10.0,"oosterbeek, netherlands",dutch12,dutch,male,netherlands,False
+957,35.0,11.0,"port-au-prince, haiti",french28,french,female,haiti,False
+958,22.0,14.0,"gryfino, western pomerania, poland",polish13,polish,male,poland,False
+959,32.0,10.0,"la coruna, spain",spanish63,spanish,female,spain,False
+960,22.0,11.0,"santos, brazil",portuguese24,portuguese,female,brazil,False
+961,50.0,0.0,"melbourne, australia",english285,english,male,australia,False
+962,28.0,12.0,"medellin, colombia",spanish64,spanish,male,colombia,False
+963,36.0,7.0,"kandahar, afghanistan",pashto3,pashto,female,afghanistan,False
+964,70.0,11.0,"riga, latvia",latvian2,latvian,female,latvia,False
+965,21.0,15.0,"dobrich, bulgaria",bulgarian10,bulgarian,female,bulgaria,False
+966,24.0,16.0,"dobrich, bulgaria",bulgarian11,bulgarian,male,bulgaria,False
+968,20.0,12.0,"kabul, afghanistan",dari3,dari,male,afghanistan,False
+969,23.0,21.0,"segou, mali",bambara5,bambara,female,mali,False
+970,40.0,7.0,"cairo, egypt",arabic24,arabic,male,egypt,False
+971,25.0,18.0,"istanbul, turkey",turkish19,turkish,male,turkey,False
+972,20.0,18.0,"rio de janeiro, brazil",portuguese25,portuguese,female,brazil,False
+973,25.0,13.0,"costesti, moldova",romanian14,romanian,female,moldova,False
+974,38.0,4.0,"accra, ghana",ga2,ga,female,ghana,False
+975,37.0,5.0,"accra, ghana",ewe2,ewe,female,ghana,False
+976,60.0,5.0,"accra, ghana",ga3,ga,female,ghana,False
+977,21.0,0.0,"beaumont, texas, usa",english286,english,female,usa,False
+978,36.0,9.0,"hosanna, ethiopia",kambaata1,kambaata,male,ethiopia,False
+979,41.0,5.0,"accra, ghana",akan1,akan,male,ghana,False
+980,27.0,8.0,"bucharest, romania",romanian15,romanian,female,romania,False
+981,27.0,0.0,"singapore, singapore",english287,english,female,singapore,False
+982,26.0,0.0,"st. louis, missouri, usa",english288,english,female,usa,False
+983,19.0,0.0,"fairfax, virginia, usa",english289,english,female,usa,False
+984,38.0,9.0,"chengdu, sichuan, china",mandarin21,mandarin,female,china,False
+985,31.0,4.0,"addis ababa, ethiopia",amharic6,amharic,female,ethiopia,False
+986,20.0,0.0,"duluth, georgia, usa",english290,english,male,usa,False
+987,61.0,12.0,"kolkata, india",bengali9,bengali,female,india,False
+988,26.0,20.0,"podgorica, montenegro",serbian14,serbian,female,montenegro,False
+989,38.0,13.0,"addis ababa, ethiopia",amharic7,amharic,male,ethiopia,False
+990,30.0,12.0,"addis ababa, ethiopia",amharic8,amharic,female,ethiopia,False
+991,40.0,12.0,"addis ababa, ethiopia",amharic9,amharic,male,ethiopia,False
+992,38.0,6.0,"douala, cameroon",bafang2,bafang,male,cameroon,False
+994,30.0,11.0,"riga, latvia",russian22,russian,male,latvia,False
+995,28.0,14.0,"turin, italy",italian17,italian,male,italy,False
+996,25.0,9.0,"bucharest, romania",romanian16,romanian,female,romania,False
+997,21.0,15.0,"yerevan, armenia",armenian5,armenian,female,armenia,False
+998,29.0,19.0,"gonder, ethiopia",amharic10,amharic,female,ethiopia,False
+999,54.0,15.0,"mango, togo",moba1,moba,male,togo,False
+1000,39.0,13.0,"lautem, timor-leste",fataluku1,fataluku,male,timor-leste,False
+1002,51.0,7.0,"durame, ethiopia",kambaata2,kambaata,male,ethiopia,False
+1003,33.0,10.0,"zwolle, netherlands",dutch13,dutch,female,netherlands,False
+1004,35.0,12.0,"zwolle, netherlands",dutch14,dutch,female,netherlands,False
+1005,42.0,40.0,"pusan, south korea",korean15,korean,male,south korea,False
+1006,30.0,13.0,"nonsan, south korea",korean16,korean,female,south korea,False
+1007,21.0,8.0,"cheju-do, south korea",korean17,korean,male,south korea,False
+1008,24.0,18.0,"conakry, guinea",susu1,susu,male,guinea,False
+1009,18.0,3.0,"dhaka, bangladesh",bengali10,bengali,female,bangladesh,False
+1010,18.0,6.0,"peshawar, pakistan",pashto4,pashto,female,pakistan,False
+1011,38.0,5.0,"ramun, israel (occupied territory)",arabic25,arabic,male,israel (occupied territory),False
+1012,43.0,14.0,"amman, jordan",arabic26,arabic,female,jordan,False
+1013,70.0,10.0,"jerusalem, israel",arabic27,arabic,male,israel,False
+1014,24.0,3.0,"bangalore, india",urdu6,urdu,female,india,False
+1015,32.0,4.0,"kabul, afghanistan",farsi11,farsi,female,afghanistan,False
+1016,28.0,3.0,"bombay, india",gujarati5,gujarati,female,india,False
+1017,31.0,4.0,"durgapur, west bengal, india",hindi9,hindi,male,india,False
+1018,34.0,3.5,"durgapur, west bengal, india",bengali11,bengali,male,india,False
+1019,39.0,11.0,"haikou, hainan, china",mandarin22,mandarin,female,china,False
+1020,42.0,7.0,"mulanje, malawi",chichewa1,chichewa,male,malawi,False
+1021,54.0,10.0,"cannes, france",french29,french,female,france,False
+1022,51.0,12.0,"hosanna, ethiopia",hadiyya1,hadiyya,male,ethiopia,False
+1023,37.0,12.0,"kinshasa, democratic republic of congo",french30,french,male,democratic republic of congo,False
+1024,19.0,15.0,"ulaanbaatar, mongolia",mongolian4,mongolian,male,mongolia,False
+1025,29.0,22.0,"zenica, bosnia and herzegovina",bosnian6,bosnian,female,bosnia and herzegovina,False
+1026,18.0,0.0,"belize city, belize",english291,english,male,belize,False
+1027,20.0,10.0,"uddevalla, sweden",swedish9,swedish,male,sweden,False
+1028,42.0,12.0,"malakal, sudan",shilluk1,shilluk,male,sudan,False
+1029,34.0,6.0,"khartoum, sudan",bari1,bari,male,sudan,False
+1030,36.0,7.0,"khartoum, sudan",bari2,bari,male,sudan,False
+1031,56.0,28.0,"kimulaza, uige, angola",kikongo2,kikongo,male,angola,False
+1032,30.0,11.0,"hosanna, ethiopia",hadiyya2,hadiyya,male,ethiopia,False
+1033,54.0,8.0,"hosanna, ethiopia",kambaata3,kambaata,male,ethiopia,False
+1034,49.0,7.0,"kano, nigeria",hausa1,hausa,male,nigeria,False
+1035,46.0,10.0,"bauchi, nigeria",hausa2,hausa,male,nigeria,False
+1036,47.0,6.0,"malumfashi, nigeria",hausa3,hausa,female,nigeria,False
+1038,45.0,16.0,"byumba, rwanda",rwanda1,rwanda,male,rwanda,False
+1039,62.0,10.0,"kano, nigeria",hausa4,hausa,male,nigeria,False
+1040,35.0,5.0,"lagos, nigeria",igbo3,igbo,male,nigeria,False
+1041,42.0,3.0,"nyeri, kenya",kiswahili8,kiswahili,female,kenya,False
+1042,33.0,10.0,"yabello, burana, ethiopia",oromo2,oromo,male,ethiopia,False
+1043,20.0,8.0,"grugliasco, italy",italian18,italian,male,italy,False
+1044,46.0,13.0,"kao-hsiung, taiwan",mandarin23,mandarin,female,taiwan,False
+1045,52.0,10.0,"berchtesgaden, germany",bavarian2,bavarian,female,germany,False
+1046,29.0,13.0,"toyama, japan",japanese11,japanese,female,japan,False
+1047,43.0,12.0,"maine, niger",hausa5,hausa,female,niger,False
+1048,48.0,6.0,"kano, nigeria",hausa6,hausa,male,nigeria,False
+1049,48.0,6.0,"kaduna, nigeria",kanuri1,kanuri,female,nigeria,False
+1050,52.0,7.0,"sokoto, nigeria",hausa7,hausa,male,nigeria,False
+1051,38.0,0.0,"kansas city, missouri, usa",english292,english,male,usa,False
+1052,22.0,0.0,"billings, montana, usa",english293,english,female,usa,False
+1053,20.0,4.0,"ljubljana, slovenia",slovenian2,slovenian,male,slovenia,False
+1054,29.0,7.0,"jakarta, indonesia",indonesian5,indonesian,male,indonesia,False
+1055,37.0,25.0,"bangkok, thailand",thai8,thai,male,thailand,False
+1056,22.0,11.0,"priluki, ukraine",ukrainian6,ukrainian,female,ukraine,False
+1057,21.0,5.0,"zaporizhzhya, ukraine",russian23,russian,female,ukraine,False
+1058,24.0,10.0,"gornji vakuf, bosnia and herzegovina",bosnian7,bosnian,female,bosnia and herzegovina,False
+1059,24.0,21.0,"tbilisi, republic of georgia",georgian5,georgian,male,republic of georgia,False
+1060,19.0,0.0,"naracoorte, australia",english294,english,female,australia,False
+1061,23.0,5.0,"islamabad, pakistan",urdu7,urdu,male,pakistan,False
+1062,28.0,15.0,"paris, france",french31,french,male,france,False
+1063,26.0,11.0,"tomislavgrad, bosnia and herzegovina",croatian5,croatian,female,bosnia and herzegovina,False
+1064,20.0,10.0,"villach, austria",german21,german,female,austria,False
+1065,19.0,9.0,"lidkoping, sweden",swedish10,swedish,female,sweden,False
+1066,26.0,16.0,"klando, czech republic",czech5,czech,female,czech republic,False
+1067,25.0,0.0,"airdrie, alberta, canada",english295,english,male,canada,False
+1068,23.0,4.0,"quezon city, philippines",filipino1,filipino,male,philippines,False
+1069,32.0,12.0,"barranquilla, colombia",spanish65,spanish,male,colombia,False
+1070,18.0,0.0,"edmonton, alberta, canada",english296,english,female,canada,False
+1071,19.0,0.0,"lindenhurst, new york, usa",english297,english,male,usa,False
+1072,22.0,0.0,"lismore, new south wales, australia",english298,english,male,australia,False
+1073,33.0,19.0,"sochi, russia",russian24,russian,female,russia,False
+1074,28.0,7.0,"jerusalem, israel",hebrew8,hebrew,male,israel,False
+1075,59.0,0.0,"windsor, ontario, canada",english299,english,male,canada,False
+1076,18.0,0.0,"dublin, ireland",english300,english,male,ireland,False
+1077,30.0,12.0,"san salvador, el salvador",spanish66,spanish,male,el salvador,False
+1078,41.0,0.0,"toronto, ontario, canada",english301,english,male,canada,False
+1079,26.0,15.0,"tuzla, bosnia and herzegovina",serbian15,serbian,female,bosnia and herzegovina,False
+1080,60.0,16.0,"kabinda, democratic republic of congo",french32,french,male,democratic republic of congo,False
+1081,25.0,11.0,"prishtina, kosovo",albanian6,albanian,female,kosovo,False
+1082,24.0,15.0,"sarajevo, bosnia and herzegovina",bosnian8,bosnian,female,bosnia and herzegovina,False
+1083,23.0,14.0,"doboj, bosnia and herzegovina",croatian6,croatian,female,bosnia and herzegovina,False
+1084,32.0,6.0,"orissa, india",oriya2,oriya,male,india,False
+1085,22.0,0.0,"melbourne, australia",english302,english,male,australia,False
+1086,45.0,0.0,"anaheim, california, usa",english303,english,female,usa,False
+1087,31.0,16.0,"phnom penh, cambodia",khmer4,khmer,male,cambodia,False
+1088,20.0,0.0,"clare, ireland",english304,english,female,ireland,False
+1089,21.0,10.0,"shanghai, china",mandarin24,mandarin,female,china,False
+1090,51.0,9.0,"dilla, ethiopia",gedeo1,gedeo,male,ethiopia,False
+1091,18.0,8.0,"kiev, ukraine",ukrainian7,ukrainian,male,ukraine,False
+1092,21.0,12.0,"elsterwerda, germany",german22,german,female,germany,False
+1093,24.0,0.0,"london, uk",english306,english,female,uk,False
+1094,24.0,0.0,"la paz, bolivia",english305,english,female,bolivia,False
+1095,21.0,5.0,"freetown, sierra leone",krio3,krio,female,sierra leone,False
+1096,58.0,41.0,"orhei, moldova",russian25,russian,female,moldova,False
+1097,23.0,17.0,"chisinau, moldova",russian26,russian,female,moldova,False
+1098,30.0,9.0,"kirkuk, iraq",kurdish4,kurdish,male,iraq,False
+1099,55.0,48.0,"chisinau, moldova",romanian17,romanian,female,moldova,False
+1100,48.0,0.0,"alexandria, va, usa",english307,english,male,usa,False
+1101,34.0,0.0,"cardiff, wales, uk",english308,english,male,uk,False
+1102,18.0,4.0,"athens, greece",greek7,greek,male,greece,False
+1103,18.0,6.0,"bangkok, thailand",thai9,thai,female,thailand,False
+1104,44.0,12.0,"rehoboth, namibia",nama1,nama,male,namibia,False
+1105,44.0,0.0,"dunedin, new zealand",english309,english,female,new zealand,False
+1106,48.0,7.0,"freetown, sierra leone",krio4,krio,female,sierra leone,False
+1107,45.0,10.0,"asmara, eritrea",tigrigna5,tigrigna,male,eritrea,False
+1108,37.0,0.0,"oxford, uk",english310,english,female,uk,False
+1109,25.0,10.0,"campo grande, brazil",portuguese26,portuguese,female,brazil,False
+1110,38.0,0.0,"detroit, michigan, usa",english311,english,female,usa,False
+1111,48.0,14.0,"santa marta, colombia",spanish67,spanish,female,colombia,False
+1112,42.0,11.0,"kerman, iran",farsi12,farsi,male,iran,False
+1113,40.0,0.0,"edmonton, alberta, canada",english312,english,female,canada,False
+1114,19.0,11.0,"rome, italy",italian19,italian,male,italy,False
+1115,30.0,12.0,"al-ayn, united arab emirates",arabic28,arabic,male,united arab emirates,False
+1116,19.0,17.0,"doha, qatar",arabic29,arabic,male,qatar,False
+1117,25.0,7.0,"seoul, south korea",korean18,korean,male,south korea,False
+1118,21.0,14.0,"seoul, south korea",korean19,korean,female,south korea,False
+1119,28.0,0.0,"silver spring, maryland, usa",english313,english,male,usa,False
+1120,26.0,0.0,"memphis, tennessee, usa",english314,english,female,usa,False
+1121,25.0,0.0,"los angeles, california, usa",english315,english,male,usa,False
+1122,33.0,0.0,"sacramento, california, usa",english316,english,male,usa,False
+1123,32.0,15.0,"naples, italy",italian20,italian,male,italy,False
+1124,42.0,20.0,"trento, italy",italian21,italian,male,italy,False
+1125,28.0,13.0,"wuxi, jiangsu, china",mandarin25,mandarin,female,china,False
+1126,58.0,13.0,"inchon, south korea",korean20,korean,female,south korea,False
+1127,62.0,10.0,"montreal, quebec, canada",french33,french,male,canada,False
+1128,33.0,8.0,"sao paulo, brazil",portuguese27,portuguese,female,brazil,False
+1129,24.0,17.0,"addis ababa, ethiopia",amharic11,amharic,female,ethiopia,False
+1130,26.0,15.0,"addis ababa, ethiopia",amharic12,amharic,female,ethiopia,False
+1131,28.0,6.0,"addis ababa, ethiopia",amharic13,amharic,female,ethiopia,False
+1132,26.0,0.0,"burlington, vermont, usa",english317,english,male,usa,False
+1133,19.0,8.0,"riyadh, saudi arabia",arabic30,arabic,female,saudi arabia,False
+1134,20.0,14.0,"ho chi minh city, vietnam",vietnamese9,vietnamese,male,vietnam,False
+1135,23.0,9.0,"sofia, bulgaria",mongolian5,mongolian,male,bulgaria,False
+1136,30.0,7.0,"katsina, nigeria",hausa8,hausa,male,nigeria,False
+1137,46.0,0.0,"sarnia, ontario, canada",english318,english,male,canada,False
+1138,29.0,0.0,"grimsby, lincolnshire, uk",english319,english,male,uk,False
+1139,57.0,17.0,"budapest, hungary",hungarian7,hungarian,female,hungary,False
+1140,36.0,6.0,"freetown, sierra leone",krio5,krio,male,sierra leone,False
+1141,31.0,12.0,"emei, sichuan, china",mandarin26,mandarin,female,china,False
+1142,21.0,12.0,"ulsan, south korea",korean21,korean,male,south korea,False
+1143,29.0,5.0,"kutch, gujarat, india",gujarati6,gujarati,male,india,False
+1144,19.0,9.0,"kocaeli, turkey",turkish20,turkish,female,turkey,False
+1145,19.0,8.0,"inchon, south korea",korean22,korean,female,south korea,False
+1146,50.0,13.0,"tanga, tanzania",kiswahili9,kiswahili,male,tanzania,False
+1147,25.0,7.0,"mogadishu, somalia",somali4,somali,female,somalia,False
+1148,39.0,18.0,"mogadishu, somalia",somali5,somali,male,somalia,False
+1149,32.0,17.0,"hargeysa, somalia",somali6,somali,male,somalia,False
+1150,60.0,6.0,"accra, ghana",ga4,ga,male,ghana,False
+1151,58.0,15.0,"adigrat, ethiopia",tigrigna6,tigrigna,female,ethiopia,False
+1152,35.0,8.0,"dembi dollo, ethiopia",oromo3,oromo,female,ethiopia,False
+1153,41.0,6.0,"kisii, kenya",gusii2,gusii,male,kenya,False
+1154,18.0,15.0,"chengdu, sichuan, china",mandarin27,mandarin,male,china,False
+1155,50.0,7.0,"kerugoya, kenya",kikuyu2,kikuyu,male,kenya,False
+1156,45.0,5.0,"nairobi, kenya",kikuyu3,kikuyu,female,kenya,False
+1157,33.0,9.0,"belgrade, serbia",serbian16,serbian,male,serbia,False
+1158,37.0,30.0,"kinshasa, democratic republic of congo",lingala1,lingala,male,democratic republic of congo,False
+1159,26.0,8.0,"pretoria, south africa",afrikaans4,afrikaans,male,south africa,False
+1160,56.0,16.0,"abidjan, ivory coast",french34,french,male,ivory coast,False
+1161,52.0,5.0,"brooklyn, new york, usa",yiddish3,yiddish,male,usa,False
+1162,59.0,0.0,"maryland county, liberia",english320,english,female,liberia,False
+1163,52.0,0.0,"brooklyn, new york, usa",english321,english,male,usa,False
+1164,89.0,20.0,"vienna, austria",yiddish4,yiddish,female,austria,False
+1170,86.0,26.0,"vilnius, lithuania",yiddish5,yiddish,female,lithuania,False
+1171,97.0,35.0,"warsaw, poland",polish14,polish,male,poland,False
+1172,29.0,0.0,"yorkton, saskatchewan, canada",english322,english,male,canada,False
+1173,31.0,0.0,"regina, saskatchewan, canada",english323,english,female,canada,False
+1174,28.0,0.0,"st. marys, ontario, canada",english324,english,male,canada,False
+1175,23.0,6.0,"teramo, italy",italian22,italian,male,italy,False
+1176,32.0,0.0,"reading, pennsylvania, usa",english325,english,male,usa,False
+1177,34.0,14.0,"cuneo, italy",italian23,italian,female,italy,False
+1178,20.0,15.0,"bratislava, slovakia",slovak4,slovak,female,slovakia,False
+1180,32.0,11.0,"sulaymaniyah, iraq",kurdish5,kurdish,male,iraq,False
+1181,47.0,12.0,"baghdad, iraq",arabic31,arabic,female,iraq,False
+1182,30.0,9.0,"francistown, botswana",kalanga1,kalanga,male,botswana,False
+1183,32.0,6.0,"lobatse, botswana",tswana2,tswana,female,botswana,False
+1184,52.0,3.0,"uyo, akwa ibom, nigeria",ibibio1,ibibio,male,nigeria,False
+1185,45.0,4.0,"abak, akwa ibom, nigeria",ibibio2,ibibio,female,nigeria,False
+1186,51.0,11.0,"santiago, chile",catalan3,catalan,female,chile,False
+1187,36.0,10.0,"sao paulo, brazil",portuguese28,portuguese,female,brazil,False
+1188,53.0,0.0,"fairborn, ohio, usa",english326,english,male,usa,False
+1189,27.0,10.0,"toulouse, france",french35,french,male,france,False
+1190,26.0,12.0,"algiers, algeria",kabyle1,kabyle,female,algeria,False
+1191,21.0,14.0,"moscow, russia",russian27,russian,male,russia,False
+1192,57.0,18.0,"quang nam, vietnam",vietnamese10,vietnamese,female,vietnam,False
+1193,35.0,18.0,"eldoret, kenya",nandi1,nandi,male,kenya,False
+1194,22.0,5.0,"kuching, sarawak, malaysia",malay2,malay,male,malaysia,False
+1195,36.0,10.0,"espoo, finland",swedish11,swedish,female,finland,False
+1196,49.0,12.0,"seoul, south korea",korean23,korean,female,south korea,False
+1197,57.0,11.0,"sulaymaniyah, iraq",kurdish6,kurdish,female,iraq,False
+1198,25.0,11.0,"minsk, belarus",russian28,russian,female,belarus,False
+1199,29.0,26.0,"sukhbaatar, mongolia",mongolian6,mongolian,female,mongolia,False
+1200,52.0,7.0,"riverside, small malaita, solomon islands",sa'a1,sa'a,male,solomon islands,False
+1201,67.0,15.0,"quang nam, vietnam",vietnamese11,vietnamese,male,vietnam,False
+1202,19.0,10.5,"new delhi, india",hindi10,hindi,female,india,False
+1203,42.0,12.0,"baghdad, iraq",arabic32,arabic,male,iraq,False
+1204,28.0,11.0,"baghdad, iraq",arabic33,arabic,female,iraq,False
+1205,27.0,0.0,"dunedin, florida, usa",english327,english,male,usa,False
+1206,23.0,0.0,"hollywood, florida, usa",english328,english,female,usa,False
+1207,21.0,0.0,"boise, idaho, usa",english329,english,female,usa,False
+1208,18.0,0.0,"augusta, georgia, usa",english330,english,female,usa,False
+1209,28.0,0.0,"perth, australia",english331,english,female,australia,False
+1210,18.0,4.0,"istanbul, turkey",turkish21,turkish,female,turkey,False
+1211,29.0,10.0,"askim, norway",norwegian6,norwegian,male,norway,False
+1212,20.0,0.0,"baltimore, maryland, usa",english332,english,female,usa,False
+1214,32.0,0.0,"spokane, washington, usa",english333,english,female,usa,False
+1215,18.0,0.0,"derby, england, uk",english334,english,female,uk,False
+1216,6.0,0.0,"washington, district of columbia, usa",english335,english,male,usa,False
+1217,46.0,0.0,"baltimore, maryland, usa",english336,english,female,usa,False
+1218,84.0,0.0,"jersey city, new jersey, usa",english337,english,female,usa,False
+1219,53.0,0.0,"sydney, australia",english338,english,female,australia,False
+1220,54.0,0.0,"chicago, illinois, usa",english339,english,male,usa,False
+1221,19.0,9.0,"riihimaki, finland",finnish6,finnish,female,finland,False
+1222,19.0,0.0,"charleston, west virginia, usa",english340,english,male,usa,False
+1223,23.0,10.0,"nunspeet, netherlands",dutch15,dutch,male,netherlands,False
+1224,23.0,0.0,"new york, new york, usa",english341,english,female,usa,False
+1225,33.0,0.0,"kansas city, missouri, usa",english342,english,male,usa,False
+1226,23.0,0.0,"portland, maine, usa",english343,english,male,usa,False
+1227,27.0,14.0,"san fernando, chile",spanish68,spanish,male,chile,False
+1228,23.0,11.0,"armavir, russia",armenian6,armenian,male,russia,False
+1229,20.0,7.0,"caracas, venezuela",spanish69,spanish,female,venezuela,False
+1230,30.0,10.0,"bogota, colombia",spanish70,spanish,female,colombia,False
+1231,24.0,6.0,"rosario, argentina",spanish71,spanish,male,argentina,False
+1232,19.0,0.0,"lumberton, north carolina, usa",english344,english,female,usa,False
+1233,20.0,0.0,"kansas city, missouri, usa",english345,english,male,usa,False
+1234,22.0,6.0,"almaty, kazakhstan",kazakh2,kazakh,male,kazakhstan,False
+1235,60.0,0.0,"east hartford, connecticut, usa",english346,english,male,usa,False
+1236,22.0,0.0,"burnsville, minnesota, usa",english347,english,female,usa,False
+1237,20.0,0.0,"las pinas, philippines",english348,english,female,philippines,False
+1238,20.0,5.0,"miami, florida, usa",spanish72,spanish,female,usa,False
+1239,24.0,0.0,"warrenton, virginia, usa",english349,english,female,usa,False
+1240,19.0,15.0,"merida, venezuela",spanish73,spanish,male,venezuela,False
+1241,18.0,0.0,"polesworth, staffordshire, uk",english350,english,female,uk,False
+1242,37.0,0.0,"carthage, missouri, usa",english351,english,male,usa,False
+1243,25.0,0.0,"singapore, singapore",english352,english,male,singapore,False
+1244,28.0,11.0,"torshavn, faroe islands",faroese1,faroese,male,faroe islands,False
+1245,25.0,9.0,"ketrzyn, poland",polish15,polish,female,poland,False
+1246,18.0,0.0,"saskatoon, saskatchewan, canada",english353,english,male,canada,False
+1247,28.0,7.0,"hong kong, china",cantonese19,cantonese,female,china,False
+1248,20.0,7.0,"ostrava, czech republic",czech6,czech,male,czech republic,False
+1249,44.0,14.0,"zaragoza, spain",spanish74,spanish,male,spain,False
+1250,23.0,0.0,"christchurch, new zealand",english354,english,female,new zealand,False
+1251,41.0,5.0,"baghdad, iraq",chaldean1,chaldean,male,iraq,False
+1252,19.0,13.0,"yakutsk, russia",yakut1,yakut,female,russia,False
+1253,34.0,6.0,"kuwait city, kuwait",arabic34,arabic,female,kuwait,False
+1254,21.0,6.0,"chisinau, moldova",russian29,russian,male,moldova,False
+1255,24.0,11.0,"herdecke, germany",german23,german,male,germany,False
+1256,19.0,0.0,"los angeles, california, usa",english355,english,male,usa,False
+1257,23.0,0.0,"morden, manitoba, canada",english356,english,female,canada,False
+1258,24.0,0.0,"alto, georgia, usa",english357,english,male,usa,False
+1259,19.0,0.0,"fredericton, new brunswick, canada",english358,english,male,canada,False
+1260,23.0,12.0,"antwerp, belgium",dutch16,dutch,female,belgium,False
+1261,21.0,12.0,"wilrijk, belgium",dutch17,dutch,female,belgium,False
+1262,23.0,14.0,"antwerp, belgium",dutch18,dutch,male,belgium,False
+1263,22.0,11.0,"heist-op-den-berg, belgium",dutch19,dutch,female,belgium,False
+1264,21.0,13.0,"vlaams-brabant, belgium",dutch20,dutch,female,belgium,False
+1265,21.0,13.0,"diest, belgium",dutch21,dutch,female,belgium,False
+1266,23.0,13.0,"essen, belgium",dutch22,dutch,female,belgium,False
+1267,24.0,9.0,"klaipeda, lithuania",lithuanian5,lithuanian,female,lithuania,False
+1268,23.0,13.0,"antwerp, belgium",dutch23,dutch,male,belgium,False
+1269,23.0,14.0,"seoul, south korea",dutch24,dutch,female,south korea,False
+1270,23.0,13.0,"wilrijk, belgium",dutch25,dutch,female,belgium,False
+1271,23.0,13.0,"turnhout, belgium",dutch26,dutch,female,belgium,False
+1272,36.0,14.0,"bururi, burundi",rundi1,rundi,male,burundi,False
+1273,28.0,5.0,"lima, peru",spanish75,spanish,female,peru,False
+1274,21.0,13.0,"antwerp, belgium",dutch27,dutch,female,belgium,False
+1275,22.0,8.0,"antwerp, belgium",dutch28,dutch,male,belgium,False
+1276,32.0,0.0,"sackville, new brunswick, canada",english359,english,male,canada,False
+1277,19.0,0.0,"erie, pennsylvania, usa",english360,english,female,usa,False
+1278,19.0,8.0,"koszalin, poland",polish16,polish,male,poland,False
+1279,18.0,12.0,"stavropol, russia",russian30,russian,male,russia,False
+1280,20.0,0.0,"burnsville, minnesota, usa",english361,english,female,usa,False
+1281,21.0,0.0,"cork, ireland",english362,english,male,ireland,False
+1282,23.0,6.0,"istanbul, turkey",turkish22,turkish,male,turkey,False
+1283,29.0,10.0,"belgrade, serbia",serbian17,serbian,female,serbia,False
+1284,28.0,8.0,"vitoria, brazil",portuguese29,portuguese,male,brazil,False
+1285,26.0,24.0,"juiz de fora, brazil",portuguese30,portuguese,female,brazil,False
+1286,29.0,16.0,"belo horizonte, brazil",portuguese31,portuguese,male,brazil,False
+1287,20.0,0.0,"castle donington, uk",english363,english,male,uk,False
+1288,28.0,0.0,"sydney, australia",english364,english,female,australia,False
+1289,47.0,5.0,"sarajevo, bosnia and herzegovina",bosnian9,bosnian,male,bosnia and herzegovina,False
+1290,27.0,10.0,"la paz, bolivia",spanish76,spanish,male,bolivia,False
+1291,37.0,11.0,"adana, turkey",turkish23,turkish,female,turkey,False
+1292,52.0,0.0,"oxford, uk",english365,english,male,uk,False
+1293,25.0,0.0,"bournesmouth, uk",english366,english,female,uk,False
+1294,25.0,0.0,"birkenhead, uk",english367,english,female,uk,False
+1295,43.0,0.0,"strattford-on-avon, uk",english368,english,male,uk,False
+1296,54.0,12.0,"luxembourg, luxembourg",luxembourgeois1,luxembourgeois,female,luxembourg,False
+1297,27.0,0.0,"mcminnville, oregon, usa",english369,english,male,usa,False
+1298,86.0,86.0,"pinkoc, hungary",hungarian8,hungarian,female,hungary,False
+1299,62.0,11.0,"baghdad, iraq",chaldean2,chaldean,female,iraq,False
+1300,29.0,7.0,"ede, netherlands",dutch29,dutch,male,netherlands,False
+1301,45.0,13.0,"jalisco, mexico",spanish77,spanish,male,mexico,False
+1302,22.0,0.0,"pondicherry, india",english370,english,male,india,False
+1303,27.0,0.0,"colorado springs, colorado, usa",english371,english,female,usa,False
+1304,32.0,10.0,"reims, france",french36,french,female,france,False
+1305,29.0,12.0,"volta redonda, brazil",portuguese32,portuguese,male,brazil,False
+1306,42.0,14.0,"strasbourg, france",french37,french,male,france,False
+1307,80.0,0.0,"christiansburg, virginia, usa",english372,english,male,usa,False
+1308,22.0,0.0,"russellville, kentucky, usa",english373,english,male,usa,False
+1309,20.0,8.0,"jakarta, indonesia",indonesian6,indonesian,male,indonesia,False
+1310,36.0,0.0,"milford haven, wales, uk",english374,english,male,uk,False
+1311,21.0,4.0,"tallinn, estonia",russian31,russian,male,estonia,False
+1312,28.0,0.0,"manchester, connecticut, usa",english375,english,male,usa,False
+1313,27.0,12.0,"viljandi, estonia",estonian2,estonian,male,estonia,False
+1314,31.0,14.0,"kiev, ukraine",russian32,russian,female,ukraine,False
+1315,46.0,0.0,"pasadena, california, usa",english376,english,male,usa,False
+1316,38.0,28.0,"brasilia, brazil",portuguese33,portuguese,male,brazil,False
+1317,24.0,17.0,"karaganda, kazakhstan",russian33,russian,female,kazakhstan,False
+1318,29.0,13.0,"sanandaj, iran",kurdish7,kurdish,male,iran,False
+1319,32.0,0.0,"trenton, michigan, usa",english377,english,female,usa,False
+1320,38.0,0.0,"silver spring, maryland, usa",english378,english,female,usa,False
+1321,43.0,0.0,"summit, new jersey, usa",english379,english,male,usa,False
+1322,40.0,3.5,"wiesbaden, germany",italian25,italian,male,germany,False
+1323,34.0,0.0,"roanoke, virginia, usa",english380,english,female,usa,False
+1324,85.0,0.0,"pike county, kentucky, usa",english381,english,male,usa,False
+1325,34.0,0.0,"arlington, virginia, usa",english382,english,male,usa,False
+1326,32.0,0.0,"washington, district of columbia, usa",english383,english,female,usa,False
+1327,57.0,0.0,"williamson, west virginia, usa",english384,english,male,usa,False
+1328,77.0,0.0,"mcveigh, kentucky, usa",english385,english,female,usa,False
+1329,31.0,12.0,"istanbul, turkey",turkish24,turkish,male,turkey,False
+1330,56.0,0.0,"los angeles, california, usa",english386,english,female,usa,False
+1331,21.0,0.0,"lancaster, california, usa",english387,english,female,usa,False
+1332,70.0,0.0,"bluefield, west virginia, usa",english388,english,female,usa,False
+1333,71.0,0.0,"aldie, virginia, usa",english389,english,female,usa,False
+1334,74.0,0.0,"milwaukee, wisconsin, usa",english390,english,male,usa,False
+1335,84.0,0.0,"milton, florida, usa",english391,english,female,usa,False
+1336,62.0,0.0,"warrenton, virginia, usa",english392,english,male,usa,False
+1337,58.0,0.0,"washington, district of columbia, usa",english393,english,female,usa,False
+1338,55.0,5.0,"lima, peru",spanish78,spanish,female,peru,False
+1339,82.0,0.0,"aiken, south carolina, usa",english394,english,female,usa,False
+1340,39.0,0.0,"alexandria, virginia, usa",english395,english,male,usa,False
+1341,48.0,0.0,"orange, virginia, usa",english396,english,female,usa,False
+1342,76.0,0.0,"wadesboro, north carolina, usa",english397,english,female,usa,False
+1343,83.0,0.0,"salisbury, north carolina, usa",english398,english,female,usa,False
+1344,70.0,22.0,"lamas, peru",spanish79,spanish,female,peru,False
+1345,80.0,0.0,"la grange, georgia, usa",english399,english,female,usa,False
+1346,77.0,75.0,"bogota, colombia",spanish80,spanish,female,colombia,False
+1347,63.0,7.0,"san juan, puerto rico",spanish81,spanish,female,puerto rico,False
+1348,59.0,0.0,"shanklin, isle of wight, uk",english400,english,female,uk,False
+1349,26.0,0.0,"lucerne, switzerland",english401,english,male,switzerland,False
+1350,26.0,0.0,"canberra, australia",english402,english,female,australia,False
+1351,29.0,0.0,"sydney, australia",english403,english,female,australia,False
+1352,29.0,0.0,"windsor, australia",english404,english,male,australia,False
+1353,32.0,0.0,"geelong, australia",english405,english,female,australia,False
+1354,44.0,20.0,"antananarivo, madagascar",malagasy1,malagasy,male,madagascar,False
+1355,52.0,22.0,"kandahar, afghanistan",pashto5,pashto,female,afghanistan,False
+1356,59.0,17.0,"kandahar, afghanistan",pashto6,pashto,male,afghanistan,False
+1357,42.0,20.0,"kabul, afghanistan",pashto7,pashto,female,afghanistan,False
+1358,24.0,0.0,"pensacola, florida, usa",english406,english,female,usa,False
+1359,74.0,6.0,"marsa, malta",maltese2,maltese,female,malta,False
+1360,47.0,0.0,"windsor, ontario, canada",english407,english,male,canada,False
+1361,64.0,0.0,"lynwood, california, usa",english408,english,male,usa,False
+1362,60.0,0.0,"maitland, australia",english409,english,female,australia,False
+1363,35.0,0.0,"hamilton, new zealand",english410,english,male,new zealand,False
+1364,60.0,6.0,"manila, philippines",tagalog7,tagalog,male,philippines,False
+1365,36.0,12.0,"tokyo, japan",japanese12,japanese,male,japan,False
+1366,32.0,11.0,"povazska bystrika, slovakia",slovak5,slovak,female,slovakia,False
+1367,53.0,12.0,"copenhagen, denmark",danish3,danish,female,denmark,False
+1368,30.0,15.0,"ayod, sudan",nuer1,nuer,male,sudan,False
+1369,34.0,5.0,"kampala, uganda",ganda2,ganda,male,uganda,False
+1370,42.0,13.0,"seoul, south korea",korean24,korean,male,south korea,False
+1371,26.0,0.0,"washington, district of columbia, usa",english411,english,female,usa,False
+1372,31.0,0.0,"washington, district of columbia, usa",english412,english,female,usa,False
+1373,20.0,0.0,"manchester, england, uk",english413,english,female,uk,False
+1374,30.0,0.0,"woonsocket, rhode island, usa",english414,english,female,usa,False
+1375,32.0,0.0,"woonsocket, rhode island, usa",english415,english,male,usa,False
+1376,18.0,14.0,"porto alegre, brazil",portuguese34,portuguese,male,brazil,False
+1377,34.0,0.0,"sydney, australia",english416,english,male,australia,False
+1378,37.0,12.0,"ghasreshirin, iran",farsi13,farsi,male,iran,False
+1379,23.0,17.0,"luhansk, ukraine",ukrainian8,ukrainian,male,ukraine,False
+1380,20.0,0.0,"cardiff, wales, uk",english417,english,female,uk,False
+1381,28.0,11.0,"gunma, japan",japanese13,japanese,male,japan,False
+1382,37.0,12.0,"akashi, japan",japanese14,japanese,female,japan,False
+1383,27.0,10.0,"niedersachsen, germany",german24,german,male,germany,False
+1384,29.0,0.0,"arlington, virginia",english418,english,male,virginia,False
+1385,27.0,0.0,"youngstown, ohio, usa",english419,english,male,usa,False
+1386,34.0,12.0,"anseong, kyong gi, south korea",korean25,korean,female,south korea,False
+1387,21.0,0.0,"auckland, new zealand",english420,english,male,new zealand,False
+1388,38.0,0.0,"landstuhl, germany",english421,english,male,germany,False
+1389,22.0,9.0,"sao paulo, brazil",portuguese35,portuguese,female,brazil,False
+1390,31.0,0.0,"rochester, new york, usa",english422,english,male,usa,False
+1391,56.0,16.0,"jiddah, saudi arabia",arabic35,arabic,male,saudi arabia,False
+1392,36.0,6.0,"jiddah, saudi arabia",arabic36,arabic,male,saudi arabia,False
+1393,18.0,16.0,"jiddah, saudi arabia",arabic37,arabic,male,saudi arabia,False
+1394,19.0,9.0,"shady grove, maryland, usa",arabic38,arabic,female,usa,False
+1395,24.0,0.0,"baltimore, maryland, usa",english423,english,female,usa,False
+1396,49.0,14.0,"la paz, bolivia",spanish82,spanish,male,bolivia,False
+1397,48.0,14.0,"la paz, bolivia",spanish83,spanish,male,bolivia,False
+1398,19.0,4.0,"buenos aires, argentina",spanish84,spanish,female,argentina,False
+1399,44.0,6.0,"buenos aires, argentina",spanish85,spanish,female,argentina,False
+1400,23.0,4.0,"buenos aires, argentina",spanish86,spanish,male,argentina,False
+1401,55.0,9.0,"la paz, bolivia",spanish87,spanish,male,bolivia,False
+1402,53.0,25.0,"la paz, bolivia",spanish88,spanish,male,bolivia,False
+1403,45.0,11.0,"prishtina, kosovo",albanian7,albanian,female,kosovo,False
+1404,43.0,9.0,"prishtina, kosovo",albanian8,albanian,female,kosovo,False
+1405,22.0,5.0,"jiddah, saudi arabia",arabic39,arabic,male,saudi arabia,False
+1406,23.0,6.0,"milan, italy",italian24,italian,female,italy,False
+1407,19.0,15.0,"vladivostok, russia",russian34,russian,male,russia,False
+1408,43.0,5.0,"kaltungo, gombe, nigeria",hausa9,hausa,male,nigeria,False
+1409,75.0,0.0,"danville, virginia, usa",english424,english,male,usa,False
+1410,31.0,0.0,"danville, virginia, usa",english425,english,male,usa,False
+1411,30.0,0.0,"florence, south carolina, usa",english426,english,female,usa,False
+1412,68.0,0.0,"hanover, pennsylvania, usa",english427,english,female,usa,False
+1413,55.0,0.0,"kingstree, south carolina, usa",english428,english,female,usa,False
+1414,21.0,11.0,"barcelona, spain",catalan4,catalan,female,spain,False
+1415,37.0,3.0,"athens, greece",greek8,greek,male,greece,False
+1416,19.0,0.0,"philadelphia, pennsylvania, usa",english429,english,female,usa,False
+1417,30.0,12.0,"changsha, hunan, china",xiang2,xiang,male,china,False
+1418,23.0,6.0,"athens, greece",greek9,greek,female,greece,False
+1419,23.0,0.0,"melbourne, australia",english430,english,female,australia,False
+1420,19.0,13.0,"jiddah, saudi arabia",arabic40,arabic,male,saudi arabia,False
+1421,25.0,7.0,"riyadh, saudi arabia",arabic41,arabic,male,saudi arabia,False
+1422,21.0,13.0,"jiddah, saudi arabia",arabic42,arabic,male,saudi arabia,False
+1423,23.0,0.0,"green bay, wisconsin, usa",english431,english,female,usa,False
+1424,22.0,8.0,"montreal, quebec, canada",french38,french,male,canada,False
+1425,22.0,13.0,"monterrey, mexico",spanish89,spanish,male,mexico,False
+1426,29.0,8.0,"beirut, lebanon",arabic43,arabic,female,lebanon,False
+1427,28.0,13.0,"pezenas, france",french39,french,male,france,False
+1428,22.0,0.0,"dublin, ireland",english432,english,female,ireland,False
+1429,44.0,13.5,"rouen, france",french40,french,female,france,False
+1430,32.0,0.0,"gladwin, michigan, usa",english433,english,female,usa,False
+1431,23.0,3.0,"caracas, venezuela",spanish90,spanish,female,venezuela,False
+1432,19.0,6.0,"cape town, south africa",afrikaans5,afrikaans,male,south africa,False
+1433,20.0,7.0,"caracas, venezuela",spanish91,spanish,female,venezuela,False
+1434,21.0,11.0,"aarhus, denmark",danish4,danish,female,denmark,False
+1435,54.0,9.0,"cardenas, cuba",spanish92,spanish,male,cuba,False
+1436,29.0,18.0,"santa rosa, honduras",spanish93,spanish,female,honduras,False
+1437,20.0,4.0,"chandigarh, india",hindi11,hindi,male,india,False
+1438,39.0,15.0,"uberlandia, brazil",portuguese36,portuguese,female,brazil,False
+1439,19.0,6.0,"bogota, colombia",spanish94,spanish,male,colombia,False
+1440,25.0,4.0,"allahabad, india",hindi12,hindi,female,india,False
+1441,23.0,7.0,"malmo, sweden",swedish12,swedish,male,sweden,False
+1442,20.0,6.0,"harare, zimbabwe",shona2,shona,female,zimbabwe,False
+1443,21.0,11.0,"geislingen, germany",german25,german,female,germany,False
+1444,31.0,21.0,"juarez, mexico",spanish95,spanish,female,mexico,False
+1445,28.0,10.0,"umea, sweden",swedish13,swedish,female,sweden,False
+1446,30.0,9.0,"sofia, bulgaria",bulgarian12,bulgarian,female,bulgaria,False
+1447,45.0,15.0,"shanghai, china",mandarin28,mandarin,male,china,False
+1448,43.0,28.0,"solotvino, ukraine",romanian18,romanian,female,ukraine,False
+1449,29.0,12.0,"arequipa, peru",spanish96,spanish,female,peru,False
+1450,52.0,19.0,"bogota, colombia",spanish97,spanish,female,colombia,False
+1451,34.0,29.0,"veracruz, mexico",spanish98,spanish,male,mexico,False
+1452,77.0,24.0,"stuttgart, germany",german26,german,female,germany,False
+1453,33.0,13.0,"krakow, poland",polish17,polish,female,poland,False
+1454,43.0,26.0,"sao paulo, brazil",portuguese37,portuguese,female,brazil,False
+1455,29.0,7.0,"jiddah, saudi arabia",arabic44,arabic,female,saudi arabia,False
+1456,32.0,12.0,"fort collins, colorado, usa",arabic45,arabic,female,usa,False
+1457,28.0,13.0,"jiddah, saudi arabia",arabic46,arabic,male,saudi arabia,False
+1458,39.0,16.0,"jiddah, saudi arabia",arabic47,arabic,male,saudi arabia,False
+1459,29.0,12.0,"mecca, saudi arabia",arabic48,arabic,male,saudi arabia,False
+1460,26.0,8.0,"medina, saudi arabia",arabic49,arabic,male,saudi arabia,False
+1461,36.0,22.0,"jiddah, saudi arabia",arabic50,arabic,male,saudi arabia,False
+1462,21.0,14.0,"sint-niklaas, belgium",dutch30,dutch,female,belgium,False
+1463,23.0,13.0,"antwerp, belgium",dutch31,dutch,female,belgium,False
+1464,21.0,14.0,"brasschaat, belgium",dutch32,dutch,male,belgium,False
+1465,21.0,10.0,"visaginas, lithuania",lithuanian6,lithuanian,female,lithuania,False
+1466,22.0,9.0,"mechelen, belgium",dutch33,dutch,female,belgium,False
+1467,27.0,16.0,"dresden, germany",russian35,russian,male,germany,False
+1468,22.0,14.0,"bornem, belgium",dutch34,dutch,female,belgium,False
+1469,24.0,0.0,"kansas city, kansas, usa",english434,english,male,usa,False
+1470,25.0,15.0,"rio de janeiro, brazil",portuguese38,portuguese,male,brazil,False
+1471,20.0,0.0,"palm springs, california, usa",english435,english,female,usa,False
+1472,21.0,14.0,"turnhout, belgium",vlaams2,vlaams,female,belgium,False
+1473,21.0,13.0,"mortsel, belgium",dutch35,dutch,female,belgium,False
+1474,24.0,12.0,"la massana, andorra",french41,french,male,andorra,False
+1475,19.0,0.0,"freeport, the bahamas",english436,english,female,the bahamas,False
+1476,21.0,12.0,"turnhout, belgium",dutch36,dutch,female,belgium,False
+1477,21.0,0.0,"cleveland, ohio, usa",english437,english,male,usa,False
+1478,22.0,14.0,"herentals, belgium",vlaams3,vlaams,female,belgium,False
+1479,21.0,11.0,"antwerp, belgium",dutch37,dutch,female,belgium,False
+1480,18.0,3.0,"hong kong, china",cantonese20,cantonese,male,china,False
+1481,21.0,12.0,"beveren, belgium",dutch38,dutch,female,belgium,False
+1482,22.0,10.0,"hardinxveld-giessendam, netherlands",dutch39,dutch,female,netherlands,False
+1483,18.0,5.0,"bialystok, poland",polish18,polish,male,poland,False
+1484,25.0,9.0,"dordrecht, netherlands",dutch40,dutch,male,netherlands,False
+1486,23.0,12.0,"jiddah, saudi arabia",arabic51,arabic,male,saudi arabia,False
+1487,21.0,9.0,"jiddah, saudi arabia",arabic52,arabic,female,saudi arabia,False
+1488,30.0,6.0,"bangkok, thailand",thai10,thai,male,thailand,False
+1489,49.0,11.0,"siracusa, sicily, italy",italian26,italian,male,italy,False
+1490,24.0,4.0,"lanzhou, gansu, china",mandarin29,mandarin,male,china,False
+1491,27.0,13.0,"taipei, taiwan",mandarin30,mandarin,male,taiwan,False
+1492,20.0,0.0,"houston, texas, usa",english438,english,female,usa,False
+1493,18.0,0.0,"richmond, british columbia, canada",english439,english,female,canada,False
+1494,23.0,10.0,"bielefeld, germany",german27,german,male,germany,False
+1495,39.0,9.0,"chisapani, nepal",nepali5,nepali,male,nepal,False
+1496,45.0,12.0,"kediri, java, indonesia",indonesian7,indonesian,female,indonesia,False
+1497,43.0,6.0,"seremban, negeri sembilan, malaysia",malay3,malay,female,malaysia,False
+1498,39.0,16.0,"ouarzazat, morocco",amazigh2,amazigh,male,morocco,False
+1499,24.0,6.0,"bhadrapur, nepal",nepali6,nepali,male,nepal,False
+1500,21.0,3.0,"pasay, philippines",filipino2,filipino,female,philippines,False
+1501,22.0,11.0,"ostrava, czech republic",czech7,czech,female,czech republic,False
+1502,22.0,0.0,"glasgow, scotland, uk",english440,english,female,uk,False
+1503,21.0,8.0,"kuala lumpur, malaysia",malay4,malay,female,malaysia,False
+1504,40.0,4.0,"hyderabad, india",gujarati7,gujarati,female,india,False
+1505,31.0,10.0,"tehran, iran",armenian7,armenian,male,iran,False
+1506,20.0,4.0,"lima, peru",spanish99,spanish,female,peru,False
+1507,23.0,21.0,"seoul, south korea",korean26,korean,male,south korea,False
+1508,30.0,26.0,"iquitos, peru",spanish100,spanish,female,peru,False
+1509,22.0,20.0,"kinshasa, democratic republic of congo",french42,french,female,democratic republic of congo,False
+1510,21.0,5.0,"abu dhabi, united arab emirates",urdu8,urdu,female,united arab emirates,False
+1511,24.0,7.0,"accra, ghana",fanti2,fanti,female,ghana,False
+1512,20.0,9.0,"chirpan, bulgaria",bulgarian13,bulgarian,male,bulgaria,False
+1513,19.0,7.0,"chitwan, nepal",nepali7,nepali,male,nepal,False
+1514,20.0,5.0,"pokhara, nepal",nepali8,nepali,male,nepal,False
+1515,31.0,12.0,"addis ababa, ethiopia",amharic14,amharic,male,ethiopia,False
+1516,23.0,6.0,"addis ababa, ethiopia",amharic15,amharic,male,ethiopia,False
+1517,41.0,13.0,"deventer, netherlands",dutch41,dutch,male,netherlands,False
+1518,25.0,20.0,"moscow, russia",russian36,russian,male,russia,False
+1519,26.0,13.0,"wenzhou, zhejiang, china",mandarin31,mandarin,female,china,False
+1520,30.0,20.0,"zaporizhzhya, ukraine",ukrainian9,ukrainian,male,ukraine,False
+1521,45.0,12.0,"osaka, japan",japanese15,japanese,male,japan,False
+1522,36.0,13.0,"changsha, hunan, china",xiang3,xiang,male,china,False
+1523,31.0,10.0,"st. petersburg, russia",russian37,russian,male,russia,False
+1524,19.0,0.0,"oquawka, illinois, usa",english441,english,female,usa,False
+1525,19.0,10.0,"vienna, austria",german28,german,female,austria,False
+1526,36.0,17.0,"rabat, morocco",arabic53,arabic,male,morocco,False
+1527,23.0,12.0,"taipei, taiwan",mandarin32,mandarin,female,taiwan,False
+1528,23.0,0.0,"salisbury mills, new york, usa",english442,english,male,usa,False
+1529,24.0,9.0,"can tho, vietnam",vietnamese12,vietnamese,female,vietnam,False
+1530,31.0,0.0,"fort collins, colorado, usa",english443,english,male,usa,False
+1531,24.0,0.0,"anniston, alabama, usa",english444,english,male,usa,False
+1532,60.0,0.0,"san francisco, california, usa",english445,english,male,usa,False
+1533,23.0,0.0,"moorhead, minnesota, usa",english446,english,female,usa,False
+1534,21.0,0.0,"hartford, connecticut, usa",english447,english,male,usa,False
+1535,22.0,11.0,"paris, france",french43,french,male,france,False
+1536,20.0,0.0,"isle of arran, scotland, uk",english448,english,male,uk,False
+1537,25.0,3.0,"clark field, philippines",japanese16,japanese,female,philippines,False
+1538,27.0,0.0,"barton, vermont, usa",english449,english,male,usa,False
+1539,20.0,5.0,"alexandria, virginia, usa",urdu9,urdu,female,usa,False
+1541,25.0,6.0,"beijing, china",mandarin33,mandarin,male,china,False
+1542,22.0,11.0,"belgrade, serbia",serbian18,serbian,male,serbia,False
+1543,33.0,10.0,"milan, italy",italian27,italian,female,italy,False
+1544,26.0,0.0,"windsor, uk",english450,english,male,uk,False
+1545,20.0,12.0,"la chaux-de-fonds, switzerland",french44,french,female,switzerland,False
+1546,44.0,0.0,"hazlehurst, georgia, usa",english451,english,male,usa,False
+1547,24.0,0.0,"newcastle, australia",english452,english,male,australia,False
+1548,21.0,0.0,"chicago, illinois, usa",english453,english,female,usa,False
+1549,24.0,7.0,"belchatow, poland",polish19,polish,male,poland,False
+1550,19.0,0.0,"raleigh, north carolina, usa",english454,english,female,usa,False
+1551,36.0,8.0,"schiedam, netherlands",dutch42,dutch,male,netherlands,False
+1552,29.0,0.0,"washington, dc, usa",english455,english,female,usa,False
+1553,26.0,8.0,"sao paulo, brazil",portuguese39,portuguese,female,brazil,False
+1554,37.0,0.0,"lancashire, leyland, uk",english456,english,female,uk,False
+1555,43.0,0.0,"syracuse, new york, usa",english457,english,male,usa,False
+1556,21.0,7.0,"rijeka, croatia",croatian7,croatian,female,croatia,False
+1557,19.0,8.0,"chisinau, moldova",romanian19,romanian,male,moldova,False
+1558,18.0,4.0,"hong kong, china",cantonese21,cantonese,female,china,False
+1559,22.0,0.0,"reno, nevada, usa",english458,english,female,usa,False
+1560,19.0,0.0,"charlotte, north carolina, usa",english459,english,male,usa,False
+1561,19.0,0.0,"rutland, england, uk",english460,english,female,uk,False
+1562,23.0,6.0,"hanoi, vietnam",vietnamese13,vietnamese,male,vietnam,False
+1563,44.0,0.0,"poughkeepsie, new york, usa",english461,english,female,usa,False
+1564,20.0,0.0,"paducah, kentucky, usa",english462,english,male,usa,False
+1565,22.0,7.0,"baghdad, iraq",arabic54,arabic,male,iraq,False
+1566,20.0,3.0,"karachi, pakistan",urdu10,urdu,male,pakistan,False
+1567,22.0,8.0,"montreal, quebec, canada",french45,french,male,canada,False
+1568,29.0,7.0,"yangon, myanmar",burmese2,burmese,male,myanmar,False
+1569,70.0,33.0,"beirut, lebanon",arabic55,arabic,male,lebanon,False
+1570,32.0,26.0,"kars, turkey",turkish25,turkish,male,turkey,False
+1571,53.0,0.0,"brooklyn, new york, usa",english463,english,female,usa,False
+1572,52.0,6.0,"bethesda, maryland, usa",farsi14,farsi,female,usa,False
+1573,49.0,8.0,"egvad, denmark",danish5,danish,female,denmark,False
+1574,39.0,19.0,"la union, el salvador",spanish101,spanish,female,el salvador,False
+1575,31.0,26.0,"cochabamba, bolivia",spanish102,spanish,male,bolivia,False
+1576,20.0,6.0,"karachi, pakistan",urdu11,urdu,male,pakistan,False
+1577,19.0,8.0,"alborg, denmark",danish6,danish,male,denmark,False
+1578,31.0,13.0,"shi jia zhuang, hebei, china",mandarin34,mandarin,female,china,False
+1579,27.0,12.0,"yantai, shandong, china",mandarin35,mandarin,female,china,False
+1580,32.0,10.0,"beijing, china",mandarin36,mandarin,female,china,False
+1581,32.0,12.0,"huhot, nei meng gu, china",mandarin37,mandarin,female,china,False
+1582,33.0,12.0,"changsha, hunan, china",mandarin38,mandarin,female,china,False
+1583,24.0,12.0,"tie ling, liaoning, china",mandarin39,mandarin,female,china,False
+1584,46.0,15.0,"san miguel, el salvador",spanish103,spanish,male,el salvador,False
+1585,19.0,11.0,"skopje, macedonia",macedonian5,macedonian,female,macedonia,False
+1586,19.0,9.0,"skopje, macedonia",macedonian6,macedonian,male,macedonia,False
+1587,19.0,10.0,"skopje, macedonia",macedonian7,macedonian,female,macedonia,False
+1588,20.0,8.0,"skopje, macedonia",macedonian8,macedonian,male,macedonia,False
+1589,19.0,10.0,"skopje, macedonia",macedonian9,macedonian,female,macedonia,False
+1590,20.0,10.0,"skopje, macedonia",macedonian10,macedonian,female,macedonia,False
+1591,20.0,8.0,"skopje, macedonia",macedonian11,macedonian,female,macedonia,False
+1592,20.0,10.0,"skopje, macedonia",macedonian12,macedonian,female,macedonia,False
+1593,20.0,8.0,"skopje, macedonia",macedonian13,macedonian,female,macedonia,False
+1594,20.0,9.0,"skopje, macedonia",macedonian14,macedonian,female,macedonia,False
+1595,20.0,10.0,"skopje, macedonia",macedonian15,macedonian,female,macedonia,False
+1596,20.0,5.0,"skopje, macedonia",macedonian16,macedonian,female,macedonia,False
+1597,24.0,6.0,"skopje, macedonia",macedonian17,macedonian,male,macedonia,False
+1598,20.0,4.0,"tehran, iran",farsi15,farsi,male,iran,False
+1599,34.0,19.0,"bucharest, romania",romanian20,romanian,female,romania,False
+1600,28.0,20.0,"san miguel, el salvador",spanish104,spanish,female,el salvador,False
+1601,20.0,5.0,"skopje, macedonia",macedonian18,macedonian,female,macedonia,False
+1602,22.0,10.0,"skopje, macedonia",macedonian19,macedonian,male,macedonia,False
+1603,19.0,10.0,"skopje, macedonia",macedonian20,macedonian,female,macedonia,False
+1604,19.0,12.0,"skopje, macedonia",macedonian21,macedonian,female,macedonia,False
+1605,21.0,8.0,"skopje, macedonia",macedonian22,macedonian,female,macedonia,False
+1606,20.0,11.0,"skopje, macedonia",macedonian23,macedonian,female,macedonia,False
+1607,20.0,7.0,"skopje, macedonia",macedonian24,macedonian,female,macedonia,False
+1608,20.0,9.0,"skopje, macedonia",macedonian25,macedonian,female,macedonia,False
+1609,47.0,25.0,"kampong speu, cambodia",khmer5,khmer,male,cambodia,False
+1610,44.0,13.0,"nara, japan",japanese17,japanese,female,japan,False
+1611,46.0,30.0,"sofia, bulgaria",bulgarian14,bulgarian,male,bulgaria,False
+1612,49.0,5.0,"ropar, punjab, india",punjabi5,punjabi,male,india,False
+1613,41.0,10.0,"jerez de la frontera, spain",spanish105,spanish,female,spain,False
+1614,28.0,12.0,"chengdu, sichuan, china",mandarin40,mandarin,male,china,False
+1615,34.0,13.0,"songyuan, jilin, china",mandarin41,mandarin,female,china,False
+1616,47.0,16.0,"yanbian, jilin, china",mandarin42,mandarin,female,china,False
+1617,24.0,15.0,"datong, shanxi, china",mandarin43,mandarin,female,china,False
+1618,27.0,0.0,"ottawa, ontario, canada",english464,english,male,canada,False
+1619,53.0,12.0,"coburg, germany",german29,german,female,germany,False
+1620,58.0,14.0,"nicosia, cyprus",greek10,greek,male,cyprus,False
+1621,21.0,5.0,"lima, peru",spanish106,spanish,male,peru,False
+1622,36.0,14.0,"san salvador, el salvador",spanish107,spanish,male,el salvador,False
+1623,54.0,38.0,"abadan, iran",farsi16,farsi,female,iran,False
+1624,51.0,14.0,"haenam, south korea",korean27,korean,male,south korea,False
+1625,53.0,4.0,"gdansk, poland",polish20,polish,female,poland,False
+1626,52.0,13.0,"kyoto, japan",japanese18,japanese,female,japan,False
+1627,62.0,7.0,"cabanatuan city, philippines",tagalog8,tagalog,female,philippines,False
+1628,19.0,4.0,"islamabad, pakistan",urdu12,urdu,female,pakistan,False
+1629,36.0,24.0,"medellin, colombia",spanish108,spanish,male,colombia,False
+1630,21.0,16.0,"hangzhou, zhejiang, china",mandarin44,mandarin,male,china,False
+1631,42.0,12.0,"beijing, china",mandarin45,mandarin,female,china,False
+1632,72.0,40.0,"pingxiang, jiangxi, china",gan1,gan,male,china,False
+1633,43.0,13.0,"jaipur, india",hindi13,hindi,female,india,False
+1634,21.0,3.0,"athens, greece",greek11,greek,female,greece,False
+1635,20.0,0.0,"aylesbury, buckinghamshire, uk",english465,english,male,uk,False
+1636,43.0,9.0,"jilin city, jilin, china",mandarin46,mandarin,female,china,False
+1637,18.0,0.0,"portland, maine, usa",english466,english,male,usa,False
+1638,50.0,12.0,"ronse, belgium",vlaams4,vlaams,female,belgium,False
+1639,23.0,1.0,"pozzuoli, italy",english467,english,male,italy,False
+1640,30.0,0.0,"myrtle beach, south carolina, usa",english468,english,male,usa,False
+1641,22.0,0.0,"knoxville, tennessee, usa",english469,english,male,usa,False
+1642,21.0,0.0,"leighton buzzard, uk",english470,english,male,uk,False
+1643,22.0,10.0,"chatenay malabry, france",french46,french,male,france,False
+1644,28.0,8.0,"beijing, china",mandarin47,mandarin,female,china,False
+1645,37.0,12.0,"pingdingshan, henan, china",mandarin48,mandarin,male,china,False
+1646,30.0,12.0,"taizhou, zhejiang, china",wu1,wu,female,china,False
+1647,58.0,3.0,"colombo, sri lanka",tamil4,tamil,female,sri lanka,False
+1648,26.0,0.0,"calgary, alberta, canada",english471,english,female,canada,False
+1649,26.0,0.0,"rota, spain",english472,english,male,spain,False
+1650,20.0,0.0,"nottingham, uk",english473,english,male,uk,False
+1651,30.0,10.0,"kolobrzeg, poland",polish21,polish,male,poland,False
+1652,19.0,11.0,"koszalin, poland",polish22,polish,male,poland,False
+1653,21.0,8.0,"lobez, poland",polish23,polish,male,poland,False
+1654,20.0,10.0,"koszalin, poland",polish24,polish,female,poland,False
+1655,72.0,13.0,"pei kang, taiwan",hakka1,hakka,female,taiwan,False
+1656,33.0,0.0,"rochester, minnesota, usa",english474,english,female,usa,False
+1657,29.0,0.0,"ogden, utah, usa",english475,english,female,usa,False
+1658,64.0,0.0,"manchester, new hampshire, usa",english476,english,female,usa,False
+1659,31.0,0.0,"san diego, california, usa",english477,english,female,usa,False
+1660,21.0,16.0,"maracay, venezuela",spanish109,spanish,male,venezuela,False
+1661,19.0,0.0,"sydney, nova scotia, canada",english478,english,male,canada,False
+1662,66.0,12.0,"landerneau, brittany, france",french47,french,female,france,False
+1663,62.0,13.0,"seoul, south korea",korean28,korean,female,south korea,False
+1664,64.0,0.0,"new york, new york, usa",english479,english,female,usa,False
+1665,58.0,0.0,"winston-salem, north carolina, usa",english480,english,male,usa,False
+1666,88.0,0.0,"stringtown, oklahoma, usa",english481,english,female,usa,False
+1667,74.0,0.0,"yeadon, pennsylvania, usa",english482,english,female,usa,False
+1668,19.0,0.0,"boston, massachusetts, usa",english483,english,male,usa,False
+1669,20.0,4.0,"auburn, australia",khmer6,khmer,female,australia,False
+1670,19.0,3.0,"kuala lumpur, malaysia",malay5,malay,male,malaysia,False
+1671,20.0,11.0,"koszalin, poland",polish25,polish,male,poland,False
+1672,24.0,0.0,"dublin, ireland",english484,english,male,ireland,False
+1673,18.0,13.0,"bang na, thailand",thai11,thai,male,thailand,False
+1674,20.0,0.0,"cromwell, connecticut, usa",english485,english,male,usa,False
+1677,43.0,12.0,"ain defla, algeria",arabic56,arabic,male,algeria,False
+1678,27.0,7.0,"ahmedabad, india",gujarati8,gujarati,female,india,False
+1679,25.0,6.0,"rome, italy",italian28,italian,male,italy,False
+1680,20.0,18.0,"caracas, venezuela",spanish110,spanish,male,venezuela,False
+1681,32.0,8.0,"radstadt, austria",german30,german,female,austria,False
+1682,25.0,4.0,"sylhet, bangladesh",bengali12,bengali,female,bangladesh,False
+1683,53.0,0.0,"corentyne, guyana",english486,english,female,guyana,False
+1684,57.0,13.0,"naha, japan",japanese19,japanese,female,japan,False
+1685,21.0,10.0,"datteln, germany",german31,german,female,germany,False
+1686,21.0,8.0,"trieste, italy",italian29,italian,female,italy,False
+1687,19.0,8.0,"masan, south korea",korean29,korean,female,south korea,False
+1688,22.0,0.0,"london, uk",english487,english,female,uk,False
+1689,55.0,33.0,"santiago, chile",spanish111,spanish,male,chile,False
+1690,49.0,14.0,"seoul, south korea",korean30,korean,female,south korea,False
+1691,36.0,6.0,"lagos, nigeria",ibibio3,ibibio,male,nigeria,False
+1692,35.0,0.0,"irvine, scotland, uk",english488,english,female,uk,False
+1693,25.0,15.0,"la paz, bolivia",spanish112,spanish,male,bolivia,False
+1694,46.0,0.0,"kingston, jamaica",english489,english,female,jamaica,False
+1695,19.0,8.0,"cochabamba, bolivia",spanish113,spanish,male,bolivia,False
+1696,18.0,7.0,"seoul, south korea",korean31,korean,female,south korea,False
+1697,53.0,12.0,"new delhi, india",hindi14,hindi,male,india,False
+1698,51.0,20.0,"ho chi minh city, vietnam",vietnamese14,vietnamese,male,vietnam,False
+1699,28.0,17.0,"beirut, lebanon",arabic57,arabic,female,lebanon,False
+1700,34.0,9.0,"baghdad, iraq",arabic58,arabic,male,iraq,False
+1701,19.0,3.0,"douala, cameroon",french48,french,female,cameroon,False
+1702,55.0,9.0,"irbid, jordan",arabic59,arabic,male,jordan,False
+1703,49.0,29.0,"urumqi, xin jiang, china",uyghur3,uyghur,female,china,False
+1704,45.0,22.0,"sivas, turkey",turkish26,turkish,male,turkey,False
+1705,21.0,11.0,"rotterdam, netherlands",dutch43,dutch,male,netherlands,False
+1706,22.0,6.0,"tirana, albania",albanian9,albanian,female,albania,False
+1707,29.0,12.0,"niedersachsen, germany",german32,german,female,germany,False
+1708,84.0,18.0,"gomel, belarus",russian38,russian,male,belarus,False
+1709,18.0,0.0,"auckland, new zealand",english490,english,male,new zealand,False
+1710,50.0,35.0,"yerevan, armenia",armenian8,armenian,female,armenia,False
+1711,60.0,14.0,"cairo, egypt",arabic60,arabic,male,egypt,False
+1712,24.0,4.0,"bethlehem, pennsylvania, usa",greek12,greek,male,usa,False
+1713,79.0,0.0,"westmoreland, jamaica",english491,english,female,jamaica,False
+1714,39.0,17.0,"paktia, afghanistan",pashto8,pashto,male,afghanistan,False
+1715,35.0,28.0,"seoul, south korea",korean32,korean,female,south korea,False
+1716,22.0,0.0,"omaha, nebraska, usa",english492,english,female,usa,False
+1717,22.0,8.0,"copenhagen, denmark",danish7,danish,male,denmark,False
+1718,20.0,0.0,"miami, florida, usa",english493,english,male,usa,False
+1719,27.5,0.0,"findlay, ohio, usa",english494,english,male,usa,False
+1720,21.0,0.0,"kirkland, washington, usa",english495,english,male,usa,False
+1721,33.0,8.0,"bangkok, thailand",thai12,thai,male,thailand,False
+1722,30.0,13.0,"seongnam, south korea",korean33,korean,female,south korea,False
+1723,36.0,5.0,"coimbatore, tamil nadu, india",tamil5,tamil,female,india,False
+1724,20.0,0.0,"london, england, uk",english496,english,male,uk,False
+1725,23.0,4.0,"petah-tiqwa, israel",hebrew9,hebrew,male,israel,False
+1726,22.0,0.0,"cleveland, ohio, usa",english497,english,male,usa,False
+1727,27.0,0.0,"prince george, british columbia, canada",english498,english,male,canada,False
+1728,21.0,0.0,"st. paul, minnesota, usa",english499,english,female,usa,False
+1729,39.0,12.0,"paris, france",french49,french,male,france,False
+1730,18.0,7.0,"istanbul, turkey",turkish27,turkish,female,turkey,False
+1731,55.0,39.0,"sulaymaniyah, iraq",kurdish8,kurdish,female,iraq,False
+1732,22.0,8.0,"seville, spain",spanish114,spanish,female,spain,False
+1733,38.0,0.0,"albury, new south wales, australia",english500,english,male,australia,False
+1734,64.0,0.0,"pittsburgh, pennsylvania, usa",english501,english,female,usa,False
+1735,30.0,0.0,"farmington hills, michigan, usa",english502,english,female,usa,False
+1736,21.0,10.0,"shanghai, china",mandarin49,mandarin,male,china,False
+1737,19.0,16.0,"bytow, poland",polish26,polish,male,poland,False
+1738,19.0,6.0,"koszalin, poland",polish27,polish,male,poland,False
+1739,29.0,0.0,"benin city, nigeria",english503,english,female,nigeria,False
+1740,21.0,12.0,"antwerp, belgium",dutch44,dutch,female,belgium,False
+1741,23.0,11.0,"bologna, italy",italian30,italian,male,italy,False
+1742,22.0,2.0,"sint niklaas, belgium",dutch45,dutch,male,belgium,False
+1743,22.0,12.0,"hulshout, belgium",dutch46,dutch,female,belgium,False
+1744,58.0,8.0,"la paz, bolivia",spanish115,spanish,female,bolivia,False
+1745,20.0,10.0,"koszalin, poland",polish28,polish,female,poland,False
+1746,28.0,11.0,"sunds, denmark",danish8,danish,female,denmark,False
+1747,37.0,6.0,"bogota, colombia",spanish116,spanish,male,colombia,False
+1748,20.0,11.0,"sianow, poland",polish29,polish,male,poland,False
+1749,21.0,9.0,"koszalin, poland",polish30,polish,female,poland,False
+1750,25.0,5.0,"brooklyn, new york, usa",russian39,russian,female,usa,False
+1751,67.0,14.0,"paris, france",french50,french,female,france,False
+1752,23.0,9.0,"vetlanda, sweden",swedish14,swedish,male,sweden,False
+1753,20.0,7.0,"manama, bahrain",arabic61,arabic,male,bahrain,False
+1754,59.0,13.0,"kabul, afghanistan",dari4,dari,male,afghanistan,False
+1755,24.0,10.0,"balkanabat, turkmenistan",turkmen1,turkmen,male,turkmenistan,False
+1756,69.0,5.0,"dangriga, belize",garifuna1,garifuna,female,belize,False
+1757,51.0,23.0,"tela atlantida, honduras",garifuna2,garifuna,male,honduras,False
+1758,25.0,5.0,"lahore, pakistan",punjabi6,punjabi,male,pakistan,False
+1759,22.0,5.0,"lahore, pakistan",punjabi7,punjabi,male,pakistan,False
+1760,52.0,4.0,"margibi, liberia",kru1,kru,female,liberia,False
+1761,36.0,10.0,"baglung, nepal",nepali9,nepali,male,nepal,False
+1762,28.0,3.0,"dublin, ireland",irish1,irish,male,ireland,False
+1763,49.0,30.0,"almaty, kazakhstan",kazakh3,kazakh,female,kazakhstan,False
+1764,48.0,7.0,"manila, philippines",tagalog9,tagalog,male,philippines,False
+1765,18.0,5.0,"liege, wallonia, belgium",french51,french,male,belgium,False
+1766,57.0,40.0,"sulaymaniyah, iraq",kurdish9,kurdish,male,iraq,False
+1767,37.0,30.0,"sulaymaniyah, iraq",kurdish10,kurdish,male,iraq,False
+1768,19.0,18.0,"ad dammam, saudi arabia",arabic62,arabic,male,saudi arabia,False
+1769,28.0,10.0,"bani walid, libya",arabic63,arabic,female,libya,False
+1770,23.0,3.0,"katmandu, nepal",nepali10,nepali,female,nepal,False
+1772,24.0,4.0,"istanbul, turkey",turkish28,turkish,female,turkey,False
+1773,23.0,0.0,"london, england, uk",portuguese40,portuguese,male,uk,False
+1774,23.0,8.0,"bishkek, kyrgyzstan",russian40,russian,female,kyrgyzstan,False
+1775,32.0,14.0,"jakarta, indonesia",indonesian8,indonesian,male,indonesia,False
+1776,22.0,9.0,"tallinn, estonia",estonian3,estonian,male,estonia,False
+1777,23.0,6.0,"riyadh, saudi arabia",arabic64,arabic,male,saudi arabia,False
+1778,32.0,10.0,"samail, oman",arabic65,arabic,female,oman,False
+1779,22.0,6.0,"tema, ghana",twi4,twi,female,ghana,False
+1780,19.0,3.5,"bangalore, india",malayalam3,malayalam,female,india,False
+1781,27.0,5.0,"willemstad, curacao",papiamentu1,papiamentu,female,curacao,False
+1782,44.0,13.0,"jilandhar, punjab, india",punjabi8,punjabi,male,india,False
+1783,23.0,10.0,"willemstad, curacao",papiamentu2,papiamentu,male,curacao,False
+1784,50.0,14.0,"medina, saudi arabia",arabic66,arabic,male,saudi arabia,False
+1785,43.0,22.0,"nasriah, iraq",arabic67,arabic,male,iraq,False
+1786,25.0,0.0,"west palm beach, florida, usa",english504,english,male,usa,False
+1787,25.0,13.0,"dakar, senegal",wolof6,wolof,male,senegal,False
+1788,25.0,9.0,"hsinchu, taiwan",mandarin50,mandarin,male,taiwan,False
+1790,23.0,4.0,"nairobi, kenya",kikuyu4,kikuyu,female,kenya,False
+1791,31.0,16.0,"baku, azerbaijan",azerbaijani3,azerbaijani,male,azerbaijan,False
+1792,25.0,10.0,"tianjin, hebei, china",mandarin51,mandarin,male,china,False
+1793,26.0,6.0,"shaoxing, zhejiang, china",mandarin52,mandarin,female,china,False
+1794,23.0,1.0,"new delhi, india",hindi15,hindi,female,india,False
+1795,22.0,4.0,"lahore, pakistan",urdu13,urdu,female,pakistan,False
+1796,36.0,5.0,"accra, ghana",ga5,ga,male,ghana,False
+1797,46.0,12.0,"madrid, spain",spanish117,spanish,male,spain,False
+1798,50.0,0.0,"beirut, lebanon",english505,english,female,lebanon,False
+1799,30.0,0.0,"new orleans, louisiana, usa",english506,english,female,usa,False
+1800,21.0,0.0,"accra, ghana",english507,english,male,ghana,False
+1801,20.0,0.0,"winfield, illinois, usa",english508,english,female,usa,False
+1802,44.0,0.0,"coudersport, pennsylvania, usa",english509,english,female,usa,False
+1803,66.0,0.0,"philadelphia, pennsylvania, usa",english510,english,female,usa,False
+1804,23.0,6.0,"vlore, albania",greek13,greek,female,albania,False
+1805,20.0,6.0,"london, uk",arabic68,arabic,male,uk,False
+1806,48.0,13.0,"monterrey, mexico",spanish118,spanish,female,mexico,False
+1807,40.0,11.0,"madrid, spain",spanish119,spanish,female,spain,False
+1808,21.0,11.0,"ankara, turkey",turkish29,turkish,female,turkey,False
+1809,29.0,15.0,"ho chi minh city, vietnam",vietnamese15,vietnamese,male,vietnam,False
+1810,55.0,15.0,"kerma, sudan",arabic69,arabic,female,sudan,False
+1811,28.0,28.0,"darhan, mongolia",mongolian7,mongolian,female,mongolia,False
+1812,39.0,6.0,"manila, philippines",tagalog10,tagalog,female,philippines,False
+1813,56.0,11.0,"lisbon, portugal",french52,french,female,portugal,False
+1814,20.0,11.0,"seoul, south korea",korean34,korean,female,south korea,False
+1815,48.0,12.0,"kwangju, south korea",korean35,korean,male,south korea,False
+1816,22.0,3.0,"lancaster, pennsylvania, usa",greek14,greek,female,usa,False
+1817,38.0,13.0,"ningbo, zhejiang, china",mandarin53,mandarin,female,china,False
+1818,31.0,0.0,"montgomery, alabama, usa",english511,english,female,usa,False
+1819,54.0,0.0,"salina, kansas, usa",english512,english,female,usa,False
+1820,56.0,18.0,"kabul, afghanistan",pashto9,pashto,male,afghanistan,False
+1821,30.0,12.0,"lome, togo",ife1,ife,male,togo,False
+1822,21.0,7.0,"pizen, czech republic",czech8,czech,female,czech republic,False
+1823,25.0,2.0,"bogota, colombia",spanish120,spanish,female,colombia,False
+1824,22.0,12.0,"stokholm, sweden",swedish15,swedish,male,sweden,False
+1825,33.0,10.0,"dhaka, bangladesh",bengali13,bengali,female,bangladesh,False
+1826,34.0,21.0,"pasaquina, el salvador",spanish121,spanish,male,el salvador,False
+1827,47.0,16.0,"casablanca, morocco",arabic70,arabic,male,morocco,False
+1828,29.0,21.0,"kuwait city, kuwait",arabic71,arabic,female,kuwait,False
+1829,69.0,7.0,"nakhon si thammarat, thailand",thai13,thai,female,thailand,False
+1830,19.0,10.0,"creteil, france",french53,french,female,france,False
+1831,26.0,10.0,"toluca, mexico",spanish122,spanish,female,mexico,False
+1832,20.0,11.0,"baghdad, iraq",arabic72,arabic,female,iraq,False
+1833,21.0,14.0,"yokosuka, japan",japanese20,japanese,male,japan,False
+1834,57.0,14.0,"ilbague, colombia",spanish123,spanish,female,colombia,False
+1835,22.0,5.0,"santa cruz, bolivia",spanish124,spanish,male,bolivia,False
+1836,39.0,11.0,"goteborg, sweden",swedish16,swedish,female,sweden,False
+1837,59.0,11.0,"manila, philippines",tagalog11,tagalog,female,philippines,False
+1838,51.0,12.0,"taegu, south korea",korean36,korean,female,south korea,False
+1839,81.0,8.0,"jerusalem, israel",greek15,greek,female,israel,False
+1840,23.0,9.0,"lima, peru",spanish125,spanish,male,peru,False
+1841,47.0,7.0,"nazareth, israel",arabic73,arabic,female,israel,False
+1842,25.0,5.0,"jining, inner mongolia, china",mongolian8,mongolian,male,china,False
+1843,27.0,14.0,"seoul, south korea",korean37,korean,female,south korea,False
+1844,30.0,10.0,"nizhni novgorod, russia",russian41,russian,female,russia,False
+1845,19.0,5.0,"riga, latvia",latvian3,latvian,female,latvia,False
+1846,25.0,8.0,"vichy, france",french54,french,female,france,False
+1847,53.0,13.0,"tokyo, japan",japanese21,japanese,female,japan,False
+1848,25.0,10.0,"inchon, south korea",korean38,korean,male,south korea,False
+1849,22.0,10.0,"mexico city, mexico",portuguese41,portuguese,male,mexico,False
+1850,52.0,17.0,"long xuyen, vietnam",vietnamese16,vietnamese,male,vietnam,False
+1851,33.0,5.0,"legaspi, philippines",tagalog12,tagalog,female,philippines,False
+1852,25.0,7.0,"lvivska oblast, ukraine",ukrainian10,ukrainian,female,ukraine,False
+1853,54.0,5.0,"colon, panama",spanish126,spanish,female,panama,False
+1854,36.0,11.0,"werder, ethiopia",amharic16,amharic,male,ethiopia,False
+1855,37.0,7.0,"asmara, eritrea",tigrigna7,tigrigna,female,eritrea,False
+1856,52.0,0.0,"bocas del toro, panama",english513,english,female,panama,False
+1857,18.0,3.0,"dubai, united arab emirates",malayalam4,malayalam,female,united arab emirates,False
+1858,27.0,16.0,"gorgan, iran",farsi17,farsi,female,iran,False
+1859,22.0,10.0,"varna, bulgaria",bulgarian15,bulgarian,male,bulgaria,False
+1860,34.0,19.0,"san salvador, el salvador",spanish127,spanish,male,el salvador,False
+1861,20.0,8.0,"farjestaden, sweden",swedish17,swedish,female,sweden,False
+1862,55.0,14.0,"pusan, south korea",korean39,korean,male,south korea,False
+1863,46.0,5.0,"accra, ghana",fanti3,fanti,female,ghana,False
+1864,65.0,35.0,"taipei, taiwan",taiwanese7,taiwanese,female,taiwan,False
+1865,24.0,20.0,"katmandu, nepal",nepali11,nepali,female,nepal,False
+1867,28.0,9.0,"paide, estonia",estonian4,estonian,female,estonia,False
+1868,56.0,32.0,"kabul, afghanistan",dari5,dari,female,afghanistan,False
+1869,30.0,7.0,"lima, peru",spanish128,spanish,female,peru,False
+1870,18.0,4.0,"alexandria, egypt",arabic74,arabic,male,egypt,False
+1871,63.0,6.0,"bamenda, cameroon",ngemba2,ngemba,female,cameroon,False
+1872,57.0,0.0,"youngstown, ohio, usa",english514,english,male,usa,False
+1873,55.0,0.0,"youngstown, ohio, usa",english515,english,female,usa,False
+1874,47.0,30.0,"havana, cuba",spanish129,spanish,female,cuba,False
+1875,32.0,0.0,"dripping springs, texas, usa",english516,english,female,usa,False
+1876,33.0,0.0,"colorado springs, colorado, usa",english517,english,male,usa,False
+1877,39.0,10.0,"stuttgart, germany",german33,german,male,germany,False
+1878,24.0,0.0,"kells, meath, ireland",english518,english,male,ireland,False
+1879,28.0,11.0,"bochum, germany",german34,german,male,germany,False
+1880,21.0,6.0,"kyustendil, bulgaria",bulgarian16,bulgarian,male,bulgaria,False
+1881,69.0,12.0,"ashiya, japan",japanese22,japanese,female,japan,False
+1882,18.0,1.0,"karachi, pakistan",english519,english,female,pakistan,False
+1883,24.0,21.0,"luanda, angola",portuguese42,portuguese,male,angola,False
+1884,47.0,0.0,"st. paul, minnesota, usa",english520,english,female,usa,False
+1885,26.0,2.0,"riyadh, saudi arabia",arabic75,arabic,female,saudi arabia,False
+1886,25.0,0.0,"bethesda, maryland, usa",english521,english,female,usa,False
+1887,22.0,0.0,"bethpage, new york, usa",english522,english,female,usa,False
+1888,18.0,0.0,"madison, wisconsin, usa",english523,english,female,usa,False
+1889,62.0,12.0,"settat, morocco",french55,french,female,morocco,False
+1890,19.0,0.0,"downers grove, illinois, usa",english524,english,male,usa,False
+1891,27.0,21.0,"guayaquil, ecuador",spanish130,spanish,male,ecuador,False
+1892,25.0,4.0,"jiddah, saudi arabia",arabic76,arabic,male,saudi arabia,False
+1893,18.0,0.0,"albion, new york, usa",english525,english,female,usa,False
+1894,18.0,4.0,"ad dammam, saudi arabia",arabic77,arabic,female,saudi arabia,False
+1895,20.0,0.0,"woodbridge, virginia, usa",english526,english,male,usa,False
+1896,19.0,5.0,"yekaterinburg, russia",mongolian9,mongolian,male,russia,False
+1897,19.0,3.0,"washington, district of columbia, usa",arabic78,arabic,female,usa,False
+1898,21.0,5.0,"douala, cameroon",french56,french,female,cameroon,False
+1899,24.0,13.0,"medina, saudi arabia",arabic79,arabic,female,saudi arabia,False
+1900,25.0,10.0,"chengdu, sichuan, china",mandarin54,mandarin,female,china,False
+1901,25.0,11.0,"najran, saudi arabia",arabic80,arabic,male,saudi arabia,False
+1902,53.0,7.0,"bago city, philippines",ilonggo1,ilonggo,female,philippines,False
+1903,56.0,25.0,"havana, cuba",spanish131,spanish,male,cuba,False
+1904,50.0,15.0,"rio piedras, puerto rico",spanish132,spanish,female,puerto rico,False
+1905,21.0,10.0,"kono, sierra leone",temne1,temne,male,sierra leone,False
+1906,21.0,9.0,"addis ababa, ethiopia",amharic17,amharic,male,ethiopia,False
+1907,25.0,0.0,"wynnewood, pennsylvania, usa",english527,english,female,usa,False
+1908,52.0,0.0,"green bay, wisconsin, usa",english528,english,female,usa,False
+1909,25.0,13.0,"loudi, hunan, china",mandarin55,mandarin,female,china,False
+1910,26.0,11.0,"baoding, hebei, china",mandarin56,mandarin,female,china,False
+1911,56.0,25.0,"siem reap, cambodia",khmer7,khmer,male,cambodia,False
+1912,55.0,18.0,"colombo, sri lanka",sinhala6,sinhala,female,sri lanka,False
+1913,19.0,5.0,"tehran, iran",farsi18,farsi,female,iran,False
+1914,22.0,17.0,"riyadh, saudi arabia",arabic81,arabic,male,saudi arabia,False
+1915,31.0,9.0,"sofia, bulgaria",bulgarian17,bulgarian,female,bulgaria,False
+1916,38.0,19.0,"cochabamba, bolivia",spanish133,spanish,male,bolivia,False
+1917,42.0,12.0,"damascus, syria",arabic82,arabic,male,syria,False
+1918,34.0,16.0,"trzebnica, poland",polish31,polish,female,poland,False
+1919,26.0,5.0,"mansehra, pakistan",pashto10,pashto,female,pakistan,False
+1920,22.0,21.0,"riyadh, saudi arabia",arabic83,arabic,male,saudi arabia,False
+1921,41.0,13.0,"la union, el salvador",spanish134,spanish,female,el salvador,False
+1922,32.0,8.0,"coronel fabriciano, minas gerais, brazil",portuguese43,portuguese,female,brazil,False
+1923,41.0,22.0,"santiago de cuba, cuba",spanish135,spanish,female,cuba,False
+1924,24.0,4.0,"moscow, russia",russian42,russian,female,russia,False
+1925,29.0,0.0,"burlington, vermont, usa",english529,english,female,usa,False
+1926,50.0,0.0,"detroit, michigan, usa",english530,english,female,usa,False
+1927,26.0,12.0,"medina, saudi arabia",arabic84,arabic,female,saudi arabia,False
+1928,29.0,0.0,"nokesville, virginia, usa",english531,english,female,usa,False
+1929,24.0,11.0,"izmir, turkey",turkish30,turkish,female,turkey,False
+1930,38.0,24.0,"rio de janeiro, brazil",portuguese44,portuguese,female,brazil,False
+1931,23.0,12.0,"dakar, senegal",french57,french,male,senegal,False
+1932,27.0,8.0,"st. petersburg, russia",russian43,russian,female,russia,False
+1933,23.0,0.0,"bristol, connecticut, usa",english532,english,female,usa,False
+1934,38.0,0.0,"fairfax, virginia, usa",english533,english,female,usa,False
+1935,48.0,7.0,"grand port, mauritius",mauritian2,mauritian,male,mauritius,False
+1936,63.0,27.0,"tehran, iran",farsi19,farsi,female,iran,False
+1937,25.0,18.0,"douala, cameroon",french58,french,female,cameroon,False
+1938,20.0,5.0,"paris, france",french59,french,female,france,False
+1939,46.0,9.0,"kauhava, finland",finnish7,finnish,female,finland,False
+1940,33.0,11.0,"ho chi minh city, vietnam",vietnamese17,vietnamese,female,vietnam,False
+1941,19.0,7.0,"salvador, brazil",portuguese45,portuguese,female,brazil,False
+1942,24.0,5.0,"kawasaki, japan",japanese23,japanese,male,japan,False
+1943,21.0,17.0,"seoul, south korea",korean40,korean,female,south korea,False
+1945,20.0,11.0,"paris, france",french60,french,female,france,False
+1946,50.0,12.0,"seoul, south korea",korean41,korean,female,south korea,False
+1947,29.0,6.0,"penza, russia",russian44,russian,female,russia,False
+1948,40.0,13.0,"tokyo, japan",japanese24,japanese,female,japan,False
+1949,49.0,8.0,"santiago, chile",spanish136,spanish,male,chile,False
+1950,26.0,3.0,"bayside, new york, usa",korean42,korean,male,usa,False
+1951,29.0,0.0,"mineola, new york, usa",english534,english,female,usa,False
+1952,20.0,13.0,"taejon, south korea",korean43,korean,male,south korea,False
+1954,76.0,7.0,"manila, philippines",tagalog13,tagalog,female,philippines,False
+1955,22.0,0.0,"plymouth, massachusetts, usa",english535,english,female,usa,False
+1956,21.0,0.0,"richmond, virginia, usa",english536,english,female,usa,False
+1957,21.0,0.0,"woodbridge, virginia, usa",english537,english,female,usa,False
+1958,20.0,0.0,"lyndhurst, virginia, usa",english538,english,female,usa,False
+1959,19.0,0.0,"orange county, california, usa",english539,english,female,usa,False
+1960,18.0,0.0,"arlington, virginia, usa",english540,english,female,usa,False
+1961,27.0,0.0,"fort lauderdale, florida, usa",english541,english,female,usa,False
+1962,60.0,0.0,"toronto, ontario, canada",english542,english,male,canada,False
+1963,24.0,14.0,"ad dammam, saudi arabia",arabic85,arabic,female,saudi arabia,False
+1964,28.0,3.0,"cairo, egypt",arabic86,arabic,male,egypt,False
+1965,65.0,11.0,"cascais, portugal",portuguese46,portuguese,male,portugal,False
+1966,25.0,5.0,"new delhi, india",hindi16,hindi,male,india,False
+1967,34.0,16.0,"taunggyi, myanmar",shan1,shan,female,myanmar,False
+1969,39.0,0.0,"vancouver, british columbia, canada",english543,english,female,canada,False
+1970,31.0,0.0,"hanover, new hampshire, usa",english544,english,male,usa,False
+1971,49.0,14.0,"inchon, south korea",korean44,korean,male,south korea,False
+1972,51.0,11.0,"ingolstadt, germany",german35,german,female,germany,False
+1973,26.0,4.0,"kolkata, india",bengali14,bengali,male,india,False
+1974,30.0,3.0,"hong kong, china",cantonese22,cantonese,female,china,False
+1975,33.0,6.0,"hong kong, china",cantonese23,cantonese,male,china,False
+1976,59.0,23.0,"naples, italy",italian31,italian,female,italy,False
+1977,42.0,1.0,"accra, ghana",ashanti1,ashanti,female,ghana,False
+1978,26.0,6.0,"katmandu, nepal",nepali12,nepali,female,nepal,False
+1979,24.0,21.0,"santa ana, el salvador",spanish137,spanish,female,el salvador,False
+1980,24.0,16.0,"san miguel, el salvador",spanish138,spanish,female,el salvador,False
+1981,50.0,38.0,"guatemala city, guatemala",spanish139,spanish,male,guatemala,False
+1982,28.0,13.0,"inchon, south korea",korean45,korean,male,south korea,False
+1983,39.0,22.0,"gospic, croatia",croatian8,croatian,male,croatia,False
+1984,49.0,14.0,"sardinia, italy",italian32,italian,male,italy,False
+1985,37.0,31.0,"cochabamba, bolivia",spanish140,spanish,female,bolivia,False
+1986,32.0,5.0,"freetown, sierra leone",mende3,mende,male,sierra leone,False
+1987,52.0,13.0,"kyoto, japan",japanese25,japanese,female,japan,False
+1988,47.0,3.0,"new delhi, india",hindi17,hindi,female,india,False
+1989,22.0,12.0,"rosario do sul, brazil",portuguese47,portuguese,female,brazil,False
+1990,20.0,12.0,"shanghai, china",mandarin57,mandarin,male,china,False
+1991,44.0,13.0,"yokosuka, japan",japanese26,japanese,female,japan,False
+1992,42.0,8.0,"lulea, sweden",swedish18,swedish,male,sweden,False
+1993,48.0,19.0,"mazare sharif, afghanistan",farsi20,farsi,female,afghanistan,False
+1994,18.0,14.0,"hamburg, germany",german36,german,female,germany,False
+1995,56.0,0.0,"tangier island, virginia, usa",english545,english,male,usa,False
+1996,43.0,0.0,"tangier island, virginia, usa",english546,english,female,usa,False
+1997,63.0,0.0,"tangier island, virginia, usa",english547,english,male,usa,False
+1998,41.0,10.0,"rawalpindi, pakistan",french61,french,female,pakistan,False
+1999,23.0,9.0,"odessa, ukraine",ukrainian11,ukrainian,female,ukraine,False
+2000,23.0,7.0,"superior, colorado, usa",mandarin58,mandarin,male,usa,False
+2001,19.0,5.0,"woodbridge, virginia, usa",twi5,twi,male,usa,False
+2002,47.0,17.0,"legaspi, philippines",tagalog14,tagalog,female,philippines,False
+2003,61.0,0.0,"dublin, ireland",english548,english,male,ireland,False
+2004,46.0,8.0,"dhaka, bangladesh",bengali15,bengali,female,bangladesh,False
+2005,49.0,10.0,"kuwait city, kuwait",arabic87,arabic,female,kuwait,False
+2007,52.0,20.0,"pakxe, laos",lao3,lao,male,laos,False
+2008,19.0,4.0,"beirut, lebanon",arabic88,arabic,female,lebanon,False
+2009,24.0,12.0,"la union, el salvador",spanish141,spanish,male,el salvador,False
+2010,19.0,11.0,"saigon, vietnam",vietnamese18,vietnamese,female,vietnam,False
+2011,50.0,12.0,"ekenas, finland",swedish19,swedish,male,finland,False
+2012,19.0,0.0,"exminister, uk",english549,english,female,uk,False
+2013,18.0,4.0,"ho chi minh city, vietnam",vietnamese19,vietnamese,female,vietnam,False
+2014,29.0,11.0,"ohrid, macedonia",macedonian26,macedonian,male,macedonia,False
+2015,21.0,21.0,"seoul, south korea",korean46,korean,female,south korea,False
+2016,59.0,8.0,"san salvador, el salvador",spanish142,spanish,female,el salvador,False
+2017,20.0,2.0,"addis ababa, ethiopia",amharic18,amharic,female,ethiopia,False
+2018,73.0,15.0,"budapest, hungary",hungarian9,hungarian,male,hungary,False
+2019,20.0,6.0,"kunming, yunnan, china",mandarin59,mandarin,female,china,False
+2020,78.0,50.0,"bitonto, italy",italian33,italian,female,italy,False
+2021,25.0,5.0,"katmandu, nepal",nepali13,nepali,female,nepal,False
+2022,35.0,19.0,"baghdad, iraq",arabic89,arabic,female,iraq,False
+2023,47.0,2.0,"ibadan, nigeria",yoruba5,yoruba,female,nigeria,False
+2024,20.0,10.0,"razlog, bulgaria",bulgarian18,bulgarian,male,bulgaria,False
+2025,20.0,5.0,"kabul, afghanistan",farsi21,farsi,male,afghanistan,False
+2026,45.0,6.0,"oviedo, spain",spanish143,spanish,male,spain,False
+2027,68.0,14.0,"st. petersburg, russia",russian45,russian,female,russia,False
+2028,82.0,0.0,"fredericksburg, virginia, usa",english550,english,male,usa,False
+2029,81.0,0.0,"king george, virginia, usa",english551,english,female,usa,False
+2030,21.0,20.0,"paris, france",french62,french,female,france,False
+2031,26.0,3.0,"freetown, sierra leone",krio6,krio,female,sierra leone,False
+2032,24.0,11.0,"diyarbakir, turkey",turkish31,turkish,male,turkey,False
+2033,24.0,11.0,"diyarbakir, turkey",turkish32,turkish,male,turkey,False
+2034,24.0,11.0,"diyarbakir, turkey",turkish33,turkish,male,turkey,False
+2035,24.0,11.0,"diyarbakir, turkey",turkish34,turkish,male,turkey,False
+2036,23.0,12.0,"tripoli, libya",arabic90,arabic,female,libya,False
+2037,20.0,5.0,"tehran, iran",farsi22,farsi,female,iran,False
+2038,21.0,10.0,"islamabad, pakistan",urdu14,urdu,male,pakistan,False
+2039,19.0,11.0,"kot kapura, india",punjabi9,punjabi,male,india,False
+2040,22.0,11.0,"ludhiana, india",punjabi10,punjabi,male,india,False
+2041,19.0,9.0,"surat, india",gujarati9,gujarati,male,india,False
+2042,46.0,25.0,"haiphong, vietnam",vietnamese20,vietnamese,female,vietnam,False
+2043,23.0,0.0,"bethesda, maryland, usa",english552,english,female,usa,False
+2044,35.0,7.0,"louangphabang, laos",hmong1,hmong,male,laos,False
+2045,47.0,11.5,"long tieng, laos",hmong2,hmong,male,laos,False
+2046,21.0,0.0,"nashville, tennessee, usa",english553,english,male,usa,False
+2047,22.0,0.0,"hoffman estates, illinois, usa",english554,english,female,usa,False
+2048,24.0,11.0,"izmir, turkey",turkish35,turkish,female,turkey,False
+2049,90.0,0.0,"brooklyn, new york, usa",english555,english,male,usa,False
+2050,84.0,0.0,"brooklyn, new york, usa",english556,english,female,usa,False
+2051,33.0,23.0,"florencia, zacatecas, mexico",spanish144,spanish,female,mexico,False
+2052,37.0,21.0,"florencia, zacatecas, mexico",spanish145,spanish,female,mexico,False
+2053,25.0,2.0,"sharjah, united arab emirates",english557,english,female,united arab emirates,False
+2054,35.0,7.0,"asmara, eritrea",tigrigna8,tigrigna,male,eritrea,False
+2055,23.0,0.0,"queens, new york, usa",english558,english,male,usa,False
+2056,19.0,0.0,"reston, virginia, usa",english559,english,female,usa,False
+2057,25.0,18.0,"las palmas, oaxaca, mexico",spanish146,spanish,male,mexico,False
+2058,23.0,10.0,"seoul, south korea",korean47,korean,male,south korea,False
+2059,22.0,0.0,"hartford, connecticut, usa",english560,english,female,usa,False
+2060,20.0,0.0,"yorktown, virginia, usa",english561,english,female,usa,False
+2061,30.0,0.0,"florence, south carolina, usa",english562,english,female,usa,False
+2062,42.0,14.0,"torun, poland",polish32,polish,male,poland,False
+2063,24.0,5.0,"shiraz, iran",farsi23,farsi,female,iran,False
+2064,21.0,7.0,"nowa ruda, poland",polish33,polish,male,poland,False
+2065,31.0,7.0,"karlstad, sweden",swedish20,swedish,male,sweden,False
+2066,39.0,10.0,"bangkok, thailand",thai14,thai,female,thailand,False
+2067,18.0,8.0,"krinkrin, rio coco, nicaragua",miskito1,miskito,male,nicaragua,False
+2068,18.0,7.0,"bilwi, puerto cabezas, nicaragua",miskito2,miskito,female,nicaragua,False
+2069,32.0,14.0,"bilwi, puerto cabezas, nicaragua",miskito3,miskito,male,nicaragua,False
+2070,18.0,15.0,"bilwi, puerto cabezas, nicaragua",miskito4,miskito,male,nicaragua,False
+2071,18.0,7.0,"bilwi, puerto cabezas, nicaragua",miskito5,miskito,female,nicaragua,False
+2072,37.0,6.0,"mandalay, myanmar",mizo1,mizo,male,myanmar,False
+2073,24.0,6.0,"dhaka, bangladesh",bengali16,bengali,female,bangladesh,False
+2074,32.0,0.0,"manassas, virginia, usa",english563,english,male,usa,False
+2075,32.0,27.0,"seoul, south korea",korean48,korean,male,south korea,False
+2076,47.0,6.0,"bangalore, karnataka, india",tamil6,tamil,female,india,False
+2077,52.0,0.0,"casper, wyoming, usa",english564,english,male,usa,False
+2078,26.0,15.0,"puerto_cabezas, nicaragua",spanish147,spanish,male,nicaragua,False
+2079,19.0,11.0,"la ceiba, honduras",spanish148,spanish,male,honduras,False
+2080,27.0,0.0,"portland, oregon, usa",english565,english,female,usa,False
+2081,22.0,0.0,"derby, england, uk",english566,english,male,uk,False
+2082,19.0,12.0,"bilwi, puerto cabezas, nicaragua",miskito6,miskito,male,nicaragua,False
+2083,20.0,15.0,"bilwi, puerto cabezas, nicaragua",miskito7,miskito,male,nicaragua,False
+2085,48.0,12.0,"wroclaw, poland",polish34,polish,female,poland,False
+2086,57.0,12.0,"riyadh, saudi arabia",arabic91,arabic,female,saudi arabia,False
+2087,36.0,10.0,"baghdad, iraq",arabic92,arabic,male,iraq,False
+2088,18.0,12.0,"walakitang, rio coco, nicaragua",miskito8,miskito,male,nicaragua,False
+2089,40.0,38.0,"bilwi, puerto cabezas, nicaragua",miskito9,miskito,male,nicaragua,False
+2090,18.0,13.0,"kum, rio coco, nicaragua",miskito10,miskito,male,nicaragua,False
+2091,23.0,22.0,"bilwi, puerto cabezas, nicaragua",spanish149,spanish,male,nicaragua,False
+2093,18.0,11.0,"bilwi, puerto cabezas, nicaragua",miskito11,miskito,female,nicaragua,False
+2094,18.0,13.0,"bilwi, puerto cabezas, nicaragua",spanish150,spanish,male,nicaragua,False
+2096,58.0,50.0,"bilwas karma, rio coco, nicaragua",spanish151,spanish,female,nicaragua,False
+2098,22.0,7.0,"an yang, south korea",korean49,korean,female,south korea,False
+2099,21.0,16.0,"hanoi, vietnam",vietnamese21,vietnamese,male,vietnam,False
+2100,51.0,25.0,"barcelona, spain",spanish152,spanish,male,spain,False
+2101,24.0,0.0,"new york, new york, usa",english567,english,male,usa,False
+2102,28.0,8.0,"mandi bahauddin, punjab, pakistan",urdu15,urdu,male,pakistan,False
+2103,86.0,0.0,"quincy, florida, usa",english568,english,female,usa,False
+2104,24.0,0.0,"sydney, australia",english569,english,male,australia,False
+2105,24.0,7.0,"perm, russia",russian46,russian,female,russia,False
+2106,42.0,0.0,"parma, ohio, usa",english570,english,female,usa,False
+2107,26.0,6.0,"saransk, russia",russian47,russian,female,russia,False
+2108,35.0,1.0,"manila, philippines",tagalog15,tagalog,female,philippines,False
+2109,41.0,13.0,"guiyang, guizhou, china",mandarin60,mandarin,female,china,False
+2110,19.0,7.0,"khujand, tajikistan",tajiki1,tajiki,male,tajikistan,False
+2111,37.0,11.0,"ouagadougou, burkina faso",french63,french,male,burkina faso,False
+2112,27.0,10.0,"baghdad, iraq",arabic93,arabic,female,iraq,False
+2113,39.0,0.0,"washington, dc, usa",english571,english,male,usa,False
+2114,24.0,9.0,"abu dhabi, united arab emirates",arabic94,arabic,female,united arab emirates,False
+2115,37.0,11.0,"gouda, netherlands",dutch47,dutch,female,netherlands,False
+2116,33.0,16.0,"shangrao, jiangxi, china",mandarin61,mandarin,female,china,False
+2117,24.0,7.0,"shanghai, china",mandarin62,mandarin,male,china,False
+2118,21.0,10.0,"bogota, colombia",spanish153,spanish,male,colombia,False
+2119,27.0,12.0,"jiaozuo, henan, china",mandarin63,mandarin,male,china,False
+2120,31.0,26.0,"sao paulo, brazil",portuguese48,portuguese,male,brazil,False
+2121,51.0,0.0,"fort worth, texas, usa",english572,english,male,usa,False
+2122,20.0,8.0,"accra, ghana",ga6,ga,female,ghana,False
+2123,21.0,13.0,"tokyo, japan",japanese27,japanese,female,japan,False
+2124,46.0,0.0,"painesville, ohio, usa",english573,english,male,usa,False
+2125,21.0,5.0,"new delhi, india",hindi18,hindi,female,india,False
+2126,35.0,12.0,"tashkent, uzbekistan",uzbek4,uzbek,female,uzbekistan,False
+2127,30.0,4.0,"montevideo, uruguay",spanish154,spanish,male,uruguay,False
+2128,20.0,4.5,"san pedro laguna, philippines",tagalog16,tagalog,male,philippines,False
+2129,24.0,10.0,"fuzhou, fujian, china",mandarin64,mandarin,female,china,False
+2130,27.0,9.0,"lima, peru",spanish155,spanish,male,peru,False
+2131,19.0,7.0,"bangkok, thailand",thai15,thai,female,thailand,False
+2132,19.0,10.0,"tefki, ethiopia",amharic19,amharic,female,ethiopia,False
+2133,57.0,13.0,"taejon, south korea",korean50,korean,female,south korea,False
+2134,25.0,16.0,"seoul, south korea",korean51,korean,male,south korea,False
+2135,52.0,24.0,"addis ababa, ethiopia",amharic20,amharic,female,ethiopia,False
+2136,54.0,13.0,"tainan, taiwan",taiwanese8,taiwanese,female,taiwan,False
+2137,29.0,6.0,"fergana, uzbekistan",russian48,russian,female,uzbekistan,False
+2138,20.0,4.0,"kumasi, ghana",twi6,twi,male,ghana,False
+2139,19.0,6.0,"sylhet, bangladesh",bengali17,bengali,female,bangladesh,False
+2140,38.0,23.0,"prague, czech republic",czech9,czech,male,czech republic,False
+2142,65.0,8.0,"montevideo, uruguay",spanish156,spanish,female,uruguay,False
+2143,31.0,10.0,"kuwait city, kuwait",arabic95,arabic,female,kuwait,False
+2144,19.0,3.0,"mexico city, mexico",spanish157,spanish,female,mexico,False
+2145,18.0,9.0,"tampere, finland",finnish8,finnish,female,finland,False
+2146,21.0,6.0,"alexandria, virginia, usa",tagalog17,tagalog,male,usa,False
+2147,77.0,8.0,"manila, philippines",tagalog18,tagalog,female,philippines,False
+2148,54.0,37.0,"santurce, puerto rico",spanish158,spanish,female,puerto rico,False
+2149,29.0,21.0,"san salvador, el salvador",spanish159,spanish,male,el salvador,False
+2150,20.0,7.0,"bogota, colombia",spanish160,spanish,male,colombia,False
+2151,23.0,8.0,"bien hoa, vietnam",vietnamese22,vietnamese,male,vietnam,False
+2152,22.0,5.0,"karachi, pakistan",urdu16,urdu,male,pakistan,False
+2153,21.0,7.0,"riyadh, saudi arabia",arabic96,arabic,male,saudi arabia,False
+2154,19.0,4.0,"sharjah, united arab emirates",arabic97,arabic,female,united arab emirates,False
+2155,19.0,4.0,"ras al khaimah, united arab emirates",arabic98,arabic,female,united arab emirates,False
+2156,56.0,32.0,"leon, nicaragua",spanish161,spanish,female,nicaragua,False
+2157,25.0,16.0,"ad dammam, saudi arabia",arabic99,arabic,female,saudi arabia,False
+2158,40.0,12.0,"seoul, south korea",korean52,korean,male,south korea,False
+2159,40.0,10.0,"beirut, lebanon",arabic100,arabic,female,lebanon,False
+2160,21.0,10.0,"doha, qatar",arabic101,arabic,male,qatar,False
+2161,22.0,3.0,"jiddah, saudi arabia",arabic102,arabic,male,saudi arabia,False
+2162,26.0,0.0,"toronto, ontario, canada",english574,english,female,canada,False
+2163,23.0,10.0,"zhuzhou, hunan, china",xiang4,xiang,female,china,False
+2164,24.0,12.0,"shangri-la, yunnan, china",naxi1,naxi,female,china,False
+2165,24.0,0.0,"great falls, virginia, usa",english575,english,male,usa,False
+2166,18.0,6.0,"gomel, belarus",belarusan3,belarusan,male,belarus,False
+2167,63.0,0.0,"washington, dc, usa",english576,english,female,usa,False
+2168,26.0,12.0,"istanbul, turkey",turkish36,turkish,female,turkey,False
+2169,28.0,5.0,"mexico city, mexico",spanish162,spanish,male,mexico,False
+2170,38.0,0.0,"san leandro, california, usa",english577,english,female,usa,False
+2171,60.0,0.0,"salford, lancashire, uk",english578,english,male,uk,False
+2172,22.0,0.0,"adelaide, australia",english579,english,male,australia,False
+2173,20.0,5.0,"tianjin, hebei, china",mandarin65,mandarin,female,china,False
+2174,19.0,17.0,"panjakent, tajikistan",turkish37,turkish,male,tajikistan,False
+2175,19.0,12.0,"khujand, tajikistan",tajiki2,tajiki,female,tajikistan,False
+2176,19.0,10.0,"khujand, tajikistan",tajiki3,tajiki,female,tajikistan,False
