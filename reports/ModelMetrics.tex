@@ -151,24 +151,30 @@ Output 	& (32, 11)		& (32, 11)		& (32, 11)\\
 
 \subsection{Training time}
 
-Each model was set to run for 100 epochs, or until the validation loss stopped decreasing for 5 consecutive epochs. Models 1 and 3 each trained for 12 epochs, with the lowest validation loss found at epoch 7. Model 2 trained for 9 epochs, with the lowest validation loss at epoch 4. 
+Each model was set to run for 100 epochs, or until the validation loss stopped decreasing for 5 consecutive epochs. 
+
+Model 1 trained for 19 epochs with lowest validation loss at epoch 15, and a final accuracy on the test dataset of 23.30\%.
+ 
+Model 2 trained for 8 epochs, with the lowest validation loss at epoch 3, and a final accuracy of 23.86\%.
+
+Model 3 trained for 11 epochs with the lowest validation loss at epoch 6, and final accuracy of 25.00\%.
 
 For Model 1, the evaluation metrics reported below are based on the model weights after epoch 7 (the best weights), whereas for Models 2 \& 3, the metrics are based on the model weights after the final training epoch.
 
 \subsection{Model evaluation}
 \subsubsection{Baseline calculations}
 
-The dataset contained many more speakers of English, Spanish and Arabic than speakers of other languages. To balance the classes for the Language Classifier, the number of speakers for these languages was downsampled to 75, which meant that each of these language classes contained 12.0773\% of the total number of speakers in the dataset. German had the fewest number of speakers (36), which comprised 5.797\% of the data. The distribution of the number of \textbf{speakers} sampled per language class is shown in blue in Figure \ref{fig:LangDistTot}. The speakers of each language were split into training, validation and testing sets, so the distribution of speakers in each data split reflects the overall distribution of speakers, as shown in the left panel of Figure \ref{fig:LangDist}.
+%The dataset contained many more speakers of English, Spanish and Arabic than speakers of other languages. To balance the classes for the Language Classifier, the number of speakers for these languages was downsampled to 75, which meant that each of these language classes contained 12.0773\% of the total number of speakers in the dataset. German had the fewest number of speakers (36), which comprised 5.797\% of the data. The distribution of the number of \textbf{speakers} sampled per language class is shown in blue in Figure \ref{fig:LangDistTot}. The speakers of each language were split into training, validation and testing sets, so the distribution of speakers in each data split reflects the overall distribution of speakers, as shown in the left panel of Figure \ref{fig:LangDist}.
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=6in]{LangDistPercentSpSeg.png}
+\includegraphics[width=4in]{LangDistPercentSpSeg.png}
 \caption{Distribution of Speakers and Segments by Language}
 \label{fig:LangDistTot}
 \end{center}
 \end{figure}
 
-After the speakers were assigned to the data splits, the audio files for all speakers were segmented, and the segments in the training and validation splits were augmented with noise. Since the number of segments per speaker was dependent on the length of the original audio file, which was not determined before the speakers were split, the number of segments per language and per data split were not identical to the distribution of the speakers. While the distribution of speakers and segments for most of the languages remains similar (compare the heights of the blue and orange bars in Figure \ref{fig:LangDistTot}), the distribution of Arabic and English segments changed dramatically. While there were equal numbers of Arabic and English speakers (75 per language, or 12.07\% each), there were 380 Arabic segments and 138 English segments. Thus, the Arabic segments represented 15.741508\% of the segments, while the English segments represented only 5.716653\% of segments. Furthermore, as shown in the right panel of Figure \ref{fig:LangDist}, the English segments comprised 9.9196\% of the testing data, which is roughly double their distribution in the training and validation sets, which were 5.0360\% and 4.6875\%, respectively.
+%After the speakers were assigned to the data splits, the audio files for all speakers were segmented, and the segments in the training and validation splits were augmented with noise. Since the number of segments per speaker was dependent on the length of the original audio file, which was not determined before the speakers were split, the number of segments per language and per data split were not identical to the distribution of the speakers. While the distribution of speakers and segments for most of the languages remains similar (compare the heights of the blue and orange bars in Figure \ref{fig:LangDistTot}), the distribution of Arabic and English segments changed dramatically. While there were equal numbers of Arabic and English speakers (75 per language, or 12.07\% each), there were 380 Arabic segments and 138 English segments. Thus, the Arabic segments represented 15.741508\% of the segments, while the English segments represented only 5.716653\% of segments. Furthermore, as shown in the right panel of Figure \ref{fig:LangDist}, the English segments comprised 9.9196\% of the testing data, which is roughly double their distribution in the training and validation sets, which were 5.0360\% and 4.6875\%, respectively.
 
 \begin{figure}[h]
 \begin{center}
@@ -179,25 +185,26 @@ After the speakers were assigned to the data splits, the audio files for all spe
 \end{figure}
 
 \subsection{Model Metrics}
-Arabic has the greatest number of segments in the dataset, with 15.7\% of the segments. The smallest language class was German, with 125 segments (5.178128\%). A naive classifier that always predicted the majority class (Arabic) would have an accuracy of 15.7\%.  All three of the models improved upon this baseline accuracy rate, as shown in the second row of Table \ref{tab:LangMetricsSum}. Based on the metrics presented in Table \ref{tab:LangMetricsSum}, Model 3 is the best performing model in terms of loss, accuracy, and F1 score (all versions).
+%Arabic has the greatest number of segments in the dataset, with 15.7\% of the segments. The smallest language class was German, with 125 segments (5.178128\%). A naive classifier that always predicted the majority class (Arabic) would have an accuracy of 15.7\%.  All three of the models improved upon this baseline accuracy rate, as shown in the second row of Table \ref{tab:LangMetricsSum}. Based on the metrics presented in Table \ref{tab:LangMetricsSum}, Model 3 is the best performing model in terms of loss, accuracy, and F1 score (all versions).
 
 \begin{table}[h]
 \begin{center}
-\caption{Language Classifiers - Metrics summary}
+\caption{Language Classifiers - Metrics summary 2}
 \begin{tabular}{l c c c}
-& 	Model 1 & Model 2 & Model 3\\ \hline
-loss	&2.300652266 & 2.353183508 & 2.283754587 \\
-accuracy& 0.178977266 & 0.23011364 &  0.241477266\\
-precision & 1 & 0.460317463 & 0.649999976\\
-recall & 0.002840909 & 0.082386367 & 0.082386367\\
-F1 score micro & 0.178977273 & 0.230113636  & 0.241477273\\
-F1 score macro & 0.084855919 & 0.169606263 & 0.171586068 \\
-F1 score weighted & 0.122333655 & 0.193686198 & 0.202591296 \\
+		&Language 1	&Language 2	&Language 3 \\ \hline
+Loss		&2.25485		&2.323		&2.20684 \\
+Accuracy	&0.232955	&0.238636	&0.25\\
+Precision	&0.625		&0.5			&0.605263\\
+Recall	&0.0142045	&0.0738636	&0.0653 \\  \hline
+F1 micro	&0.232955	&0.238636	&0.25\\
+F1 macro	&0.16999		&0.195512	&0.191103\\
+F1 weighted	&0.20067	&0.228178	&0.224565\\
 \end{tabular}
-\label{tab:LangMetricsSum}
+\label{tab:LangMetricsSum2} 
 \end{center}
 \end{table} 
 
+% This is all old, needs to be updated
 The confusion matrix for the Model 3 predictions is shown in Table \ref{tab:LangConfMat}. Not surprisingly, the class with the highest correct predictions was the majority class, Arabic, at 28. Mandarin and Dutch also had relatively high correct predictions at 18 and 17, respectively. German, the smallest class, and Russian showed no correct predictions, while Turkish and Portuguese each had a single correct prediction.
 
 Behind Arabic, Mandarin and Spanish contributed about the same number of segments to each of the training sets (12.344656\% and12.676056 \%, respectively). While there were more predictions for Mandarin (73) than Spanish (27), and more correctly classified Mandarin samples (18) than Spanish (6), the precision rates for the two classes was similar at .25 for Mandarin and .22 for Spanish.
@@ -224,6 +231,85 @@ Span vs port.
 \begin{center}
 \caption{Confusion matrix for Model 3 predictions. The bold numbers on the diagonal represent correct predictions.}
 \begin{tabular}{l | c c c c c c c c c c c || c}
+lang			&R &A &T &K &G &D &S &F &E &P &M & Segments\\ \hline
+Russian		&\textbf{0}  &2  &1  &4  &0  &1  &7  &4  &1  &1  &7 &28\\
+Arabic		&0 &\textbf{24}  &0  &4  &1  &7  &2  &2  &4  &0 &11 &55\\
+Turkish		&0  &1  &\textbf{1}  &4  &0  &3  &4  &0   &2  &1  &5 &21\\
+Korean		&1 &10  &0  &\textbf{6}  &0  &3  &2  &2  &4  &2  &1 &31\\
+German		&0  &0  &0  &1  &\textbf{0}  &0  &5  &1  &5  &2  &1 &15\\
+Dutch		&0  &4  &0  &0  &0 &\textbf{12} & 3  &1  &3  &1  &1 &25\\
+Spanish		&1  &2  &0  &6  &2  &1 &\textbf{12}  &3  &8  &0  &7 &42\\
+French		&1  &3  &0  &4  &1  &2 &10 & \textbf{5}  &1  &1  &4 &32\\
+English		&0  &1  &0  &3  &0  &5  &2  &2 &\textbf{13}  &0  &4 &30\\
+Portuguese	&0  &3  &0  &3  &1  &0  &7  &5  &3  &\textbf{0}  &6 &28\\
+Mandarin		&0  &2 & 0  &8  &2  &4  &9  &1  &2  &2 &\textbf{15} &45\\ \hline
+Total			&3 &52 &2 &43 &7 &38 &63 &26 &46 &10 &62 &\textbf{352}\\
+
+\end{tabular}
+\label{tab:LangConfMat}
+\end{center}
+\end{table}
+
+\subsubsection{Classification report}
+
+\begin{table}
+\begin{center}
+\caption{Metrics (precision, recall and F1 score) by language class - new}
+\begin{tabular}{l c c c c}
+Language  &precision &recall	&f1-score	&support \\ \hline
+Russian	&0.00	&0.00	&0.00	&28\\
+Arabic	&0.46	&0.44	&0.45	&55\\     
+Turkish	&0.50	&0.05	&0.09	&21\\      
+Korean	&0.14	&0.19 	&0.16	&31\\      
+German	&0.00	&0.00	&0.00	&15\\       
+Dutch	&0.32	&0.48	&0.38	&25\\   
+Spanish	&0.19	&0.29	&0.23	&42\\      
+Rrench	&0.19	&0.16	&0.17	&32\\    
+English	&0.28	&0.43	&0.34	&30\\  
+Portuguese&0.00	&0.00	&0.00	&28\\    
+Mandarin	&0.24	&0.33	&0.28	&45\\ \hline
+      
+accuracy		&		&		&0.25	&352\\
+macro avg		& 0.21	&0.22	&0.19	&352\\
+weighted avg	& 0.23	&0.25	&0.22	&352\\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+Model metrics for all models
+
+15.11\% of segments were Arabic - majority class in segment data.
+
+Next was Spanish as 12.167, then Mandarin at 11.84, French as 9.82, and English at 9.5.
+
+English has 12\% of speakers, but only 9.5\% of segments. (Not too surprising, given speaking rate for L2 tends to be slower).
+
+\end{document}
+
+Groupby language, sum
+Sorted in descending order by \% segments
+
+L	Language	Seg	Sp	\%_sp		\%_seg		\%_sp_data	\%_seg_data
+A	Arabic	380	75	12.077295	15.109344	36.129857	46.537869
+S	Spanish	306	75	12.077295	12.166998	36.129857	35.816711
+M	Mandarin	298	65	10.466989	11.848907		31.420528	36.227442
+F	French	247	63	10.144928	9.821074		30.498599	28.884452
+E	English	239	75	12.077295	9.502982		36.129857	28.463836
+K	Korean	237	52	8.373591		9.423459		25.156360	27.267382
+R	Russian	195	48	7.729469		7.753479		23.090713	23.331666
+P	Portugues	184	48	7.729469		7.316103		23.090713	21.695100
+D	Dutch	164	47	7.568438		6.520875		22.801695	20.038110
+T	Turkish	140	37	5.958132		5.566600		18.092367	16.974590
+G	German	125	36	5.797101		4.970179		17.459455	14.762841
+
+
+Accuracy keeps increasing; future work add more layers, add complexity to model.
+
+\begin{table}
+\begin{center}
+\caption{Confusion matrix for Model 3 predictions. The bold numbers on the diagonal represent correct predictions.}
+\begin{tabular}{l | c c c c c c c c c c c || c}
 
 lang   & R &A &T &K &G &D &S &F &E &P &M & Segments\\ \hline
 Russian   & \textbf{0} &6 &3 &1 &0 &3 &0 &2 &1 &4 & 8 & 28\\ % russian
@@ -245,11 +331,10 @@ Total & 3 & 80 & 9 & 8  & 6 & 61 & 27 & 27 & 32 & 26  & 73 &  352
 \end{center}
 \end{table}
 
-Classification report
 
 \begin{table}
 \begin{center}
-\caption{Metrics (precision, recall and F1 score) by language class}
+\caption{Metrics (precision, recall and F1 score) by language class -old}
 \begin{tabular}{l c c c c}
 language  &   precision &   recall  &f1-score &  support \\ \hline
 
@@ -272,13 +357,3 @@ Weighted avg    &   0.20    &  0.24     & 0.20     &  352\\ \hline
 \end{center}
 \end{table}
 
-
-
-Model metrics for all models
-
-15.7\% of segments were Arabic - majority class in segment data.
-
-\end{document}
-
-
-Accuracy keeps increasing; future work add more layers, add complexity to model.
