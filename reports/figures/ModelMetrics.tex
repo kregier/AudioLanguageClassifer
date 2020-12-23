@@ -13,8 +13,8 @@
 \large{Kirsten Regier}
 \end{center}
 
-\section{Gender classifier}
-\subsection{Model structure}
+\section{Gender Classifier}
+\subsection{Model Architecture}
 
 Two different models were trained and evaluated for the gender classifier. The structure of each model is shown in Table \ref{tab:GenModels}. 
 
@@ -129,7 +129,7 @@ The models differ in the number of nodes and the number of hidden layers. Each h
 \caption{Structure of the language classifier models. Model 1 has one hidden layer with 12 nodes, Model 2 has one hidden layer with 128 nodes, and Model 3 has two hidden layers with 128 and 64 nodes, respectively.}
 \begin{tabular}{l | c |c  | c |}
 
-Layer  & Model 1 & Model 2 & Model 3\\
+Layer  & Language 1 & Language 2 & Language 3\\
 \hline
 
 Input 	& (32, 10, 128)& (32, 10, 128) & (32, 10, 128) \\ \hline
@@ -272,10 +272,7 @@ For example, Portuguese samples were misclassified as French 5 times and Spanish
 %Port as Spanish 7, French 5; Mandarin 6
 %Mandarin as Korean 8, Spanish 9
 
-%Germanic
-%English vs Dutch - 3 D as E, 5 E as D
-%Eng vs German - 0 E as G, 5 G as E
-%Dutch vs German - 0 D as G, 0 G as D
+
 
 \end{document}
 % - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - - 
@@ -290,34 +287,33 @@ F	French	247	63	10.144928	9.821074		30.498599	28.884452
 E	English	239	75	12.077295	9.502982		36.129857	28.463836
 K	Korean	237	52	8.373591		9.423459		25.156360	27.267382
 R	Russian	195	48	7.729469		7.753479		23.090713	23.331666
-P	Portugues	184	48	7.729469		7.316103		23.090713	21.695100
+P	Portuguese	184	48	7.729469		7.316103		23.090713	21.695100
 D	Dutch	164	47	7.568438		6.520875		22.801695	20.038110
 T	Turkish	140	37	5.958132		5.566600		18.092367	16.974590
 G	German	125	36	5.797101		4.970179		17.459455	14.762841
 
 \begin{table}
 \begin{center}
-\caption{Confusion matrix for Model 2 predictions.}
+\caption{Confusion matrix for Model 2 predictions.The bold numbers on the diagonal represent correct predictions.}
 \begin{tabular}{l | c c c c c c c c c c c || c}
-lang			&R &A &T &K &G &D &S &F &E &P &M & Segments\\ \hline
+Language			&R &A &T &K &G &D &S &F &E &P &M & Segments\\ \hline
 
-Russian	 &1	&2	&2	&0	&3	&0	&4	&4	&1	&3	&8	& \\
-Arabic	&0	& 26	&  0	&  0	&  2	&  6	&  4	&  0	&  3	&  1	& 13	& \\
-Turkish	&1	&  2	&  2	&  2	&  1	&  4	&  4	&  1	&  1	&  1	&  2	&\\
-Korean	& 5	&  4 	& 2	&  4	&  0	&  3	&  4	&  1	&  1	&  3	&  4	& \\
-German	&1	&  0	&  0	&  0	&  0	&  1	&  3	&  2	&  4	&  3	&  1	& \\
-Dutch	&1	&  1	& 1	&  0	&  1	& 12	&  1	&  1	&  3	 & 2	&  2	& \\
-Spanish	&3	&  1	&  3	&  0	&  4	&  2	&  6	&  2	& 10	&  2	&  9	& \\
-French	& 2	&  4	&  1	&  2	&  1	&  1	&  9	&  3	&  3	&  2	&  4	& \\
-English	& 1	&  1	&  0	&  1	&  0	&  3	 & 2	&  0	& 15	&  0	&  7	& \\
-Portugue	& 7	&  3	&  1	&  3	&  1	&  1	&  1	&  2	&  4	&  1	&  4	& \\
-Mandarin	& 1	&  0	&  3	&  5	&  1	&  5	&  9	&  3	&  3	&  1	& 14	& \\  \hline
-Total		&23	& 44 & 15 &17 & 14 & 38  & 47 & 19 & 48 & 19 & 68 & 352 \\
+Russian	& \textbf{1}	&2	& 2	& 0	& 3	& 0	& 4	& 4	& 1	& 3	& 8	& 28\\
+Arabic	& 0	& \textbf{26}	&  0	&  0	&  2	&  6	&  4	&  0	& 3	& 1	& 13	& 55\\
+Turkish	& 1	&  2	&  \textbf{2}	&  2	&  1	&  4	&  4	&  1	& 1	& 1	&  2	& 21\\
+Korean	& 5	&  4 	& 2	& \textbf{4}	&  0	&  3	&  4	&  1	& 1	& 3	&  4	& 31\\
+German	& 1	&  0	&  0	&  0	& \textbf{0}	&  1	&  3	&  2	& 4	& 3	&  1	& 15\\
+Dutch	& 1	&  1	& 1	&  0	&  1	& \textbf{12}	& 1	&  1	& 3	 & 2	&  2	& 25\\
+Spanish	& 3	&  1	&  3	&  0	&  4	&  2	&  \textbf{6}	&  2	& 10	& 2	&  9	& 42\\
+French	& 2	&  4	&  1	&  2	&  1	&  1	&  9	&  \textbf{3}	& 3	& 2	&  4	& 32\\
+English	& 1	&  1	&  0	&  1	&  0	&  3	 & 2	&  0	& \textbf{15}	& 0	&  7	& 30\\
+Portuguese	& 7	&  3	&  1	&  3	&  1	&  1	&  1	&  2	&  4 &  \textbf{1}	&  4	& 28\\
+Mandarin	& 1	&  0	&  3	&  5	&  1	&  5	&  9	&  3	&  3	&  1	& \textbf{14}	& 45\\  \hline
+Total Predictions	&23	& 44 & 15 &17 & 14 & 38  & 47 & 19 & 48 & 19 & 68 & 352 \\
 \end{tabular}
 \label{tab:LangConfMatMod2}
 \end{center}
 \end{table}
-
 \begin{table}
 \begin{center}
 \caption{Metrics (precision, recall and F1 score) by language class - Model 3}
