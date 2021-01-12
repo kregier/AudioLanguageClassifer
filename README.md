@@ -13,11 +13,11 @@ The audio speech data came from the Speech Accent Archive, collected by Weinberg
 ## Exploratory Data Analysis
 After processing, the final dataset included roughly equal numbers of male and female speakers, as shown here.
 
-![Distribution of Gender across all speakers.](/figures/GenderDistAll.png)
+![Distribution of Gender across all speakers.](/reports/figures/GenderDistAll.png)
 
 After processing, the data contained speakers from 199 native languages, 78 of which were represented by a single speakers. English was the native language most represented, with 579 speakers. After English, the ten most represented languages were selected for use in the Language Classifier. The number of speakers from these languages varied from 36 to 162, as shown in Figure 3.
 
-![Count of speakers in the 10 languages with most speakers in the dataset (excluding English).](/figures/TopLangCount.png)
+![Count of speakers in the 10 languages with most speakers in the dataset (excluding English).](/reports/figures/TopLangCount.png)
 
 ## Audio file processing
 
@@ -27,15 +27,15 @@ Given the length of the reading passage, the audio files for most speakers were 
 
 Since the original audio files differed in length between speakers, the number of segments per speakers was not consistent. As shown below, the audio file from a native English speaker was just over 20 seconds long, as was divided into two segments. The file from a native Arabic speaker, by contrast, was over 40 seconds long, and was divided into four segments. Each segment was saved as a separate .wav file.
 
-![Waveforms of audio for speakers English11 and Arabic24. Dashed red lines show 10s segments that will be saved upon segmentation.](/figures/Waveforms.png)
+![Waveforms of audio for speakers English11 and Arabic24. Dashed red lines show 10s segments that will be saved upon segmentation.](/reports/figures/Waveforms.png)
 
 Once the original audio files had been segmented and saved, the segments were augmented by adding randomly generated, low-level 'noise', as shown below. The addition of noise should improve models robustness, since the model will learn to focus on salient acoustic features, while ignoring the noise. The noisy segments and the original segments were saved in separate files, thus doubling the number of files available for model training.
 
-![Waveforms of original (left) and noise augmented (right) segments from speaker English11. The low-level, random noise is most noticeable when comparing portions where the original waveform has little sound (e.g. 0-0.25 s, 4.25-4.75 s).](/figures/OrigNoise.png)
+![Waveforms of original (left) and noise augmented (right) segments from speaker English11. The low-level, random noise is most noticeable when comparing portions where the original waveform has little sound (e.g. 0-0.25 s, 4.25-4.75 s).](/reports/figures/OrigNoise.png)
 
 Internally, the VGGish model converts the audio files to a Mel spectrogram, which is then run through the convolutional layers to produce the feature embedding. An example of a Mel spectrogram is provided in the right panel of the figure below.
 
-![Waveform (left) and Mel spectrogram (right) of a segment from speaker English11. The VGGish model converts audio input files to a Mel spectrogram, which is then fed through its convolutional layers.](/figures/English11MelSpec.png)
+![Waveform (left) and Mel spectrogram (right) of a segment from speaker English11. The VGGish model converts audio input files to a Mel spectrogram, which is then fed through its convolutional layers.](/reports/figures/English11MelSpec.png)
 
 # Gender Classifier
 The goal of the Gender Classifier is to predict speaker gender (female and male, coded as 0 and 1, respectively) from the audio input. All of the speakers from the Speech Accent Archive were used for the Gender Classifier. First, the speakers were split into training, validation and testing sets.  Next, the audio files for each dataset were segmented. Then, the segments in the training and validation datasets were augmented with noise. Since there was not a consistent number of segments per speaker, and since the testing file were not augmented with noise, the distribution of speakers and segments in the training and testing sets differed. Most notably, while there were fewer speakers in the validation set than the testing set, once the files were segmented and augmented, there were more segments in the validation set. However, the distribution of male and female speakers/segments remained fairly consistent among the datasets.
